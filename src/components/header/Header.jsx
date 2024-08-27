@@ -40,7 +40,7 @@ export default function Header(messages) {
 			animate={hidden ? 'hidden' : 'visible'}
 			transition={{ duration: 0.3, ease: 'easeInOut' }}
 			className={
-				'fixed top-0 w-full bg-transparent text-white z-50 md:px-10 xl:px-28  flex justify-between items-center h-16'
+				'fixed top-0 w-full bg-transparent text-white z-50 md:px-10 xl:px-28  flex justify-between items-center h-16 xl:h-24'
 			}
 		>
 			<Link

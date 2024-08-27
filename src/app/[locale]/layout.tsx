@@ -4,6 +4,7 @@ import './globals.css'
 import { unstable_setRequestLocale } from 'next-intl/server'
 import { Suspense } from 'react'
 import HeaderWrapper from '@/components/header/HeaderWrapper'
+import Footer from '@/components/footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,10 +30,13 @@ export default function LocaleLayout({
 	unstable_setRequestLocale(locale)
 	return (
 		<html lang={locale}>
-			<body>
+			<body className="relative pt-16 xl:pt-24 pb-[76px] xl:pb-[300px]">
 				<Suspense fallback="Loading...">
 					<HeaderWrapper />
-					<main>{children}</main>
+					<main className="pt-8 xl:pt-20 pb-16 xl:pb-32">
+						{children}
+					</main>
+					<Footer />
 				</Suspense>
 			</body>
 		</html>

@@ -5,7 +5,7 @@ export default function HomePage({ title, children }) {
 	const [count, setCount] = useState(0)
 	return (
 		<div>
-			<h1 className="h-[12000px]">{title}</h1>
+			{/* <h1 className="h-[12000px]"></h1> */}
 			{children}
 		</div>
 	)
