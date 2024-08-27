@@ -8,7 +8,10 @@
 		"ro": "Romanian"
 	},
 	"Navigation": {
-		"home": "Home",
-		"map": "Map"
+		"ourTeam": "OUR TEAM",
+		"ourPillars": "OUR PILLARS",
+		"ourProducts": "OUR PRODUCTS",
+		"ourProjects": "OUR PROJECTS",
+		"contact": "CONTACT"
 	}
 }
