@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { unstable_setRequestLocale } from 'next-intl/server'
+import { Suspense } from 'react'
 import HeaderWrapper from '@/components/header/HeaderWrapper'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -29,8 +30,10 @@ export default function LocaleLayout({
 	return (
 		<html lang={locale}>
 			<body>
-				<HeaderWrapper />
-				<main>{children}</main>
+				<Suspense fallback="Loading...">
+					<HeaderWrapper />
+					<main>{children}</main>
+				</Suspense>
 			</body>
 		</html>
 	)
