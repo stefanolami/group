@@ -1,0 +1,14 @@
+{
+	"Index": {
+		"title": "Hello world!",
+		"hero": "Hello Hero!"
+	},
+	"LocaleSwitcher": {
+		"en": "English",
+		"ro": "Romanian"
+	},
+	"Navigation": {
+		"home": "Home",
+		"map": "Map"
+	}
+}
