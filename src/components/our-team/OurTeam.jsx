@@ -1,3 +1,5 @@
+import { Link } from '@/navigation'
+
 export default function OurTeam() {
 	return (
 		<div className="w-[85%] xl:w-[75%] mx-auto">
@@ -21,14 +23,30 @@ export default function OurTeam() {
 				</p>
 			</div>
 			<div className="grid grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-5">
-				<div className="bg-primary-light w-full aspect-[6/9]"></div>
-				<div className="bg-primary-light w-full aspect-[6/9]"></div>
-				<div className="bg-primary-light w-full aspect-[6/9]"></div>
-				<div className="bg-primary-light w-full aspect-[6/9]"></div>
-				<div className="bg-primary-light w-full aspect-[6/9]"></div>
-				<div className="bg-primary-light w-full aspect-[6/9]"></div>
-				<div className="bg-primary-light w-full aspect-[6/9]"></div>
-				<div className="bg-primary-light w-full aspect-[6/9]"></div>
+				<Link href="/our-team/glenn-cezanne">
+					<div className="bg-primary-light w-full aspect-[6/9]"></div>
+				</Link>
+				<Link href="/our-team/glenn-cezanne">
+					<div className="bg-primary-light w-full aspect-[6/9]"></div>
+				</Link>
+				<Link href="/our-team/glenn-cezanne">
+					<div className="bg-primary-light w-full aspect-[6/9]"></div>
+				</Link>
+				<Link href="/our-team/glenn-cezanne">
+					<div className="bg-primary-light w-full aspect-[6/9]"></div>
+				</Link>
+				<Link href="/our-team/glenn-cezanne">
+					<div className="bg-primary-light w-full aspect-[6/9]"></div>
+				</Link>
+				<Link href="/our-team/glenn-cezanne">
+					<div className="bg-primary-light w-full aspect-[6/9]"></div>
+				</Link>
+				<Link href="/our-team/glenn-cezanne">
+					<div className="bg-primary-light w-full aspect-[6/9]"></div>
+				</Link>
+				<Link href="/our-team/glenn-cezanne">
+					<div className="bg-primary-light w-full aspect-[6/9]"></div>
+				</Link>
 			</div>
 		</div>
 	)
