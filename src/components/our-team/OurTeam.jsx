@@ -3,17 +3,17 @@ import { Link } from '@/navigation'
 export default function OurTeam() {
 	return (
 		<div className="w-[85%] xl:w-[75%] mx-auto">
-			<h1 className="text-xl xl:text-[36px] text-center text-black mb-6 xl:mb-10">
+			<h1 className="font-unna font-bold text-xl xl:text-[36px] text-center text-black mb-6 xl:mb-10">
 				OUR TEAM
 			</h1>
-			<div className="w-[90%] mx-auto mb-6 xl:mb-16">
-				<p className="text-[10px] xl:text-xl text-[#FF0000] mb-4 xl:mb-0 text-center">
+			<div className="w-[90%] mx-auto mb-6 xl:mb-16 text-[10px] xl:text-xl text-[#FF0000] text-center font-jose">
+				<p className="mb-4 xl:mb-0">
 					A strategic communications and public affairs agency which
 					brings together a Europe-wide network of experts in
 					government relations, legal affairs, association management,
 					EU funding, and reputation management.
 				</p>
-				<p className="text-[10px] xl:text-xl text-[#FF0000] text-center">
+				<p className="">
 					The select network includes former political
 					decision-makers, Commission officials, association Directors
 					and multinational CEOs, as well as award-winning lawyers.

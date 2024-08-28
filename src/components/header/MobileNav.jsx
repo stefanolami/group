@@ -17,7 +17,7 @@ export default function MobileNav({ messages }) {
 	}, [active])
 
 	return (
-		<div className="md:hidden flex flex-row gap-3">
+		<div className="md:hidden flex flex-row gap-3 font-unna">
 			<MobileLocaleSwitcher />
 			<MotionConfig
 				transition={{

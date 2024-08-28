@@ -5,7 +5,7 @@ import DesktopLocaleSwitcher from './DesktopLocaleSwitcher'
 export default function DesktopNav({ messages, changed }) {
 	/* const links = ['about', 'prices', 'deals', 'gallery', 'contacts'] */
 	return (
-		<div className="hidden md:flex flex-row justify-between items-center gap-12 h-full">
+		<div className="hidden md:flex flex-row justify-between items-center gap-12 h-full font-unna">
 			<nav className="grid grid-cols-5 text-center uppercase h-full *:px-4 text-base">
 				{/* {links.map((link) => {
 					return (

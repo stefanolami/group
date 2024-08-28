@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @layer utilities {
-	* {
-		@apply font-jose;
-	}
 	.text-balance {
 		text-wrap: balance;
 	}
+}
+
+@layer components {
 }
