@@ -1,3 +1,5 @@
+import TeamMember from '@/components/our-team/TeamMember'
+
 export default function TeamMemberPage({ params }) {
-	return <div>Team Member: {params.name}</div>
+	return <TeamMember name={params.name} />
 }
