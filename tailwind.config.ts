@@ -17,6 +17,10 @@ const config: Config = {
 				primary: '#4F5648',
 				'primary-light': '#86907E',
 			},
+			fontFamily: {
+				jose: ['var(--font-jose)'],
+				unna: ['var(--font-unna)'],
+			},
 		},
 	},
 	plugins: [],
