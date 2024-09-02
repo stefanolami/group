@@ -4,6 +4,7 @@ import { Link } from '../../navigation'
 import { useState } from 'react'
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion'
 import { cn } from '@/utils/cn'
+import Image from 'next/image'
 
 import DesktopNav from './DesktopNav'
 import MobileNav from './MobileNav'
@@ -40,14 +41,20 @@ export default function Header(messages) {
 			animate={hidden ? 'hidden' : 'visible'}
 			transition={{ duration: 0.3, ease: 'easeInOut' }}
 			className={
-				'fixed top-0 w-full bg-transparent text-white z-50 md:px-10 xl:px-28  flex justify-between items-center h-16 xl:h-24'
+				'fixed top-0 w-full bg-transparent text-white z-50 px-6 md:px-10 xl:px-28 flex justify-between items-center h-16 xl:h-24'
 			}
 		>
 			<Link
-				className="pl-6 md:pl-0 md:py-4 xl:py-7"
+				className="pl-6 md:pl-0 md:py-4 xl:py-7 w-[124px] xl:w-[231px] h-[30px] xl:h-[46px] relative xl:scale-75"
 				href="/"
 			>
-				T&P
+				<Image
+					src="/tplogo.png"
+					/* width={91}
+					height={22} */
+					alt="T&P Logo"
+					fill
+				/>
 			</Link>
 
 			<DesktopNav messages={navTrans} />

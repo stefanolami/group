@@ -82,7 +82,7 @@ export default function MobileLocaleSwitcher() {
 	}
 
 	return (
-		<div className="md:hidden flex items-center justify-center text-xs">
+		<div className="md:hidden flex items-center justify-center text-xs scale-90">
 			<motion.div
 				animate={open ? 'open' : 'closed'}
 				className="relative"

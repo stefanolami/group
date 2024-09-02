@@ -17,7 +17,7 @@ export default function MobileNav({ messages }) {
 	}, [active])
 
 	return (
-		<div className="md:hidden flex flex-row gap-3 font-unna">
+		<div className="md:hidden flex flex-row font-unna">
 			<MobileLocaleSwitcher />
 			<MotionConfig
 				transition={{
@@ -28,7 +28,7 @@ export default function MobileNav({ messages }) {
 				<motion.button
 					initial={false}
 					onClick={() => setActive((pv) => !pv)}
-					className="relative h-10 w-10 rounded-full z-50 bg-primary-light"
+					className="relative h-10 w-10 ml-3 rounded-full z-50 bg-primary-light scale-90"
 					animate={active ? 'open' : 'closed'}
 				>
 					<motion.span
