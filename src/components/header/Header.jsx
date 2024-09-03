@@ -34,7 +34,7 @@ export default function Header(messages) {
 				},
 				hidden: {
 					y: '-100%',
-					backgroundColor: '#FFFFFF00',
+					/* backgroundColor: '#FFFFFF00', */
 					color: '#fff',
 				},
 			}}

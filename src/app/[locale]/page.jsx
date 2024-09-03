@@ -20,7 +20,7 @@ export default function Home({ params: { locale } }) {
 	const t = useTranslations('Index')
 	return (
 		<>
-			<HomePage title={t('title')}></HomePage>
+			<Hero></Hero>
 		</>
 	)
 }
