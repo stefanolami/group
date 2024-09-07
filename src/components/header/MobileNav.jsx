@@ -114,16 +114,30 @@ export default function MobileNav({ messages }) {
 							>
 								{messages.ourTeam}
 							</Link>
-							<Link href="/our-pillars">
+							<Link
+								onClick={() => setActive(false)}
+								href="/our-pillars"
+							>
 								{messages.ourPillars}
 							</Link>
-							<Link href="/our-products">
+							<Link
+								onClick={() => setActive(false)}
+								href="/our-products"
+							>
 								{messages.ourProducts}
 							</Link>
-							<Link href="/our-projects">
+							<Link
+								onClick={() => setActive(false)}
+								href="/our-projects"
+							>
 								{messages.ourProjects}
 							</Link>
-							<Link href="/contact">{messages.contact}</Link>
+							<Link
+								onClick={() => setActive(false)}
+								href="/contact"
+							>
+								{messages.contact}
+							</Link>
 						</nav>
 					</motion.div>
 				</motion.div>

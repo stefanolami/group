@@ -23,16 +23,15 @@ export default function Footer() {
 						>
 							<Link
 								href=""
-								className=""
+								className="w-full h-full"
 							>
-								<Image
+								{/* eslint-disable */}
+								<img
 									src={icon}
 									alt="Social Media Icon"
-									/* width={16}
-									height={16} */
-									fill
-									layout=""
-								/>
+									className="w-full h-full"
+								></img>
+								{/* eslint-enable */}
 							</Link>
 						</li>
 					)
