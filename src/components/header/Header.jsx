@@ -35,6 +35,10 @@ export default function Header(messages) {
 			setStyle({ background: '#FFF', color: '#4F5648' })
 			setIcon('/logos/group-logo-green.png')
 			setInverted(true)
+		} else {
+			setStyle({ background: '#4F5648', color: '#FFF' })
+			setIcon('/logos/group-logo.png')
+			setInverted(false)
 		}
 	}, [path])
 
