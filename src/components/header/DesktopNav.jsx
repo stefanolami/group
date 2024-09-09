@@ -5,7 +5,7 @@ export default function DesktopNav({ messages, inverted }) {
 	return (
 		<div
 			id="desktop-nav"
-			className="hidden md:flex flex-row justify-between items-center gap-12 h-full font-unna"
+			className="hidden md:flex flex-row justify-between items-center gap-12 h-full font-unna font-bold"
 		>
 			<nav className="grid grid-cols-5 text-center uppercase h-full *:px-4 text-base">
 				<Link
