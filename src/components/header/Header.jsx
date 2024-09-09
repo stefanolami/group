@@ -1,10 +1,11 @@
 'use client'
 
 import { Link } from '../../navigation'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion'
 import { cn } from '@/utils/cn'
 import Image from 'next/image'
+import { usePathname } from '../../navigation'
 
 import DesktopNav from './DesktopNav'
 import MobileNav from './MobileNav'
@@ -13,7 +14,12 @@ export default function Header(messages) {
 	const navTrans = messages?.messages?.Navigation
 	const { scrollY } = useScroll()
 
+	const path = usePathname()
+
 	const [hidden, setHidden] = useState(false)
+	const [inverted, setInverted] = useState(false)
+	const [style, setStyle] = useState({ background: '#4F5648', color: '#FFF' })
+	const [icon, setIcon] = useState('/logos/group-logo.png')
 
 	useMotionValueEvent(scrollY, 'change', (latest) => {
 		const previous = scrollY.getPrevious()
@@ -24,13 +30,21 @@ export default function Header(messages) {
 		}
 	})
 
+	useEffect(() => {
+		if (path == '/our-pillars') {
+			setStyle({ background: '#FFF', color: '#4F5648' })
+			setIcon('/logos/group-logo-green.png')
+			setInverted(true)
+		}
+	}, [path])
+
 	return (
 		<motion.div
 			variants={{
 				visible: {
 					y: 0,
-					backgroundColor: '#4F5648',
-					color: '#fff',
+					backgroundColor: style.background,
+					color: style.color,
 				},
 				hidden: {
 					y: '-100%',
@@ -49,14 +63,17 @@ export default function Header(messages) {
 				href="/"
 			>
 				<Image
-					src="/logos/group-logo.png"
+					src={icon}
 					alt="T&P Logo"
 					fill
 					sizes="(max-width: 640px) 40vw, 25vw"
 				/>
 			</Link>
 
-			<DesktopNav messages={navTrans} />
+			<DesktopNav
+				inverted={inverted}
+				messages={navTrans}
+			/>
 
 			<MobileNav messages={navTrans} />
 		</motion.div>

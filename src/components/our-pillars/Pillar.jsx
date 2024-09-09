@@ -24,7 +24,6 @@ export default function Pillar({ position, card, scrollYProgress }) {
 			style={{
 				y: position === pillars.length ? undefined : y,
 				background: card.primary,
-				color: card.secondary,
 			}}
 		>
 			<div className="relative mx-auto xl:mx-0 w-[65%] xl:w-1/4 aspect-[385/267] mb-16 mt-40 xl:mt-0 xl:mb-40">
@@ -36,7 +35,10 @@ export default function Pillar({ position, card, scrollYProgress }) {
 				/>
 			</div>
 			<div className="mx-auto xl:mx-0 w-[90%] xl:w-1/3">
-				<p className="font-jose text-xs xl:text-xl text-justify">
+				<p
+					style={{ color: card.tertiary }}
+					className="font-jose text-xs xl:text-xl text-justify"
+				>
 					{card.text}
 				</p>
 				<Link
