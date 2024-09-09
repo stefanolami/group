@@ -49,11 +49,10 @@ export default function Header(messages) {
 				href="/"
 			>
 				<Image
-					src="/tplogo.png"
-					/* width={91}
-					height={22} */
+					src="/logos/group-logo.png"
 					alt="T&P Logo"
 					fill
+					sizes="(max-width: 640px) 40vw, 25vw"
 				/>
 			</Link>
 

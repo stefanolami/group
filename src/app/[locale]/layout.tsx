@@ -31,7 +31,7 @@ export default function LocaleLayout({
 			lang={locale}
 			className={`${jose.variable} ${unna.variable}`}
 		>
-			<body className="relative pt-16 xl:pt-24 pb-[76px] xl:pb-[300px]">
+			<body className="relative pt-16 xl:pt-24 pb-[85px] xl:pb-[280px]">
 				<Suspense fallback="Loading...">
 					<HeaderWrapper />
 					<main className="pt-8 xl:pt-20 pb-16 xl:pb-32">
