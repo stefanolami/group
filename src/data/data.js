@@ -1,7 +1,7 @@
 export const pillars = [
 	{
 		id: 'consulting',
-		icon: '/mono/consulting-mono.png',
+		icon: '/mono/pillars/consulting-mono.png',
 		primary: '#354B83',
 		secondary: '#FFFFFF',
 		tertiary: '#FFFFFF',
@@ -9,7 +9,7 @@ export const pillars = [
 	},
 	{
 		id: 'funding',
-		icon: '/funding.png',
+		icon: '/pillars/funding.png',
 		primary: '#FFFFFF',
 		secondary: '#00A4D5',
 		tertiary: '#1D4967',
@@ -17,7 +17,7 @@ export const pillars = [
 	},
 	{
 		id: 'marketing',
-		icon: '/mono/marketing-mono.png',
+		icon: '/mono/pillars/marketing-mono.png',
 		primary: '#AA337F',
 		secondary: '#FFFFFF',
 		tertiary: '#FFFFFF',
@@ -25,7 +25,7 @@ export const pillars = [
 	},
 	{
 		id: 'production',
-		icon: '/production.png',
+		icon: '/pillars/production.png',
 		primary: '#FFFFFF',
 		secondary: '#DF8946',
 		tertiary: '#4A2C2O',
@@ -33,7 +33,7 @@ export const pillars = [
 	},
 	{
 		id: 'institute',
-		icon: '/mono/institute-mono.png',
+		icon: '/mono/pillars/institute-mono.png',
 		primary: '#6D9544',
 		secondary: '#FFFFFF',
 		tertiary: '#FFFFFF',
@@ -46,5 +46,56 @@ export const pillars = [
 		secondary: '#0F2CCA',
 		tertiary: '#2A2A2A',
 		text: 'Coworking spaces, dedicated to provide unparalleled solutions tailored to our clients’ diverse needs. Our versatile facilities cater to provide the perfect setting for corporate events, networking mixers, workshops, and flexible office solutions tailored to individual preferences.',
+	},
+]
+
+export const products = [
+	{
+		id: 'ecity',
+		icon: '/logos/products/ecity.png',
+		background: '#EAEAEA',
+		primary: '#012DD3',
+		text: [
+			"E-City is not just an e-mobility hub; it's a dynamic ecosystem designed to catalyze innovation, collaboration, and sustainable growth.",
+			"At E-City, we're revolutionizing the way cities connect through e-mobility. Our hub serves as a dynamic environment where individuals, businesses, and communities come together to embrace sustainable transportation solutions and foster innovation.",
+			'E-City is a vibrant community space. We function within office spaces which provide meeting areas, shared and private offices and collaborative workspaces, accessible to you, where like-minded individuals can gather, exchange ideas, and form partnerships.',
+			'E-City also hosts comprehensive training programs and educational resources for individuals and businesses alike developed by industry experts. E-City is built around a community of professionals that serve the whole ecosystem for sustainable electrification and sustainable transportation system.',
+		],
+	},
+	{
+		id: 'ecity',
+		icon: '/logos/products/ecity.png',
+		background: '#EAEAEA',
+		primary: '#012DD3',
+		text: [
+			"E-City is not just an e-mobility hub; it's a dynamic ecosystem designed to catalyze innovation, collaboration, and sustainable growth.",
+			"At E-City, we're revolutionizing the way cities connect through e-mobility. Our hub serves as a dynamic environment where individuals, businesses, and communities come together to embrace sustainable transportation solutions and foster innovation.",
+			'E-City is a vibrant community space. We function within office spaces which provide meeting areas, shared and private offices and collaborative workspaces, accessible to you, where like-minded individuals can gather, exchange ideas, and form partnerships.',
+			'E-City also hosts comprehensive training programs and educational resources for individuals and businesses alike developed by industry experts. E-City is built around a community of professionals that serve the whole ecosystem for sustainable electrification and sustainable transportation system.',
+		],
+	},
+	{
+		id: 'ecity',
+		icon: '/logos/products/ecity.png',
+		background: '#EAEAEA',
+		primary: '#012DD3',
+		text: [
+			"E-City is not just an e-mobility hub; it's a dynamic ecosystem designed to catalyze innovation, collaboration, and sustainable growth.",
+			"At E-City, we're revolutionizing the way cities connect through e-mobility. Our hub serves as a dynamic environment where individuals, businesses, and communities come together to embrace sustainable transportation solutions and foster innovation.",
+			'E-City is a vibrant community space. We function within office spaces which provide meeting areas, shared and private offices and collaborative workspaces, accessible to you, where like-minded individuals can gather, exchange ideas, and form partnerships.',
+			'E-City also hosts comprehensive training programs and educational resources for individuals and businesses alike developed by industry experts. E-City is built around a community of professionals that serve the whole ecosystem for sustainable electrification and sustainable transportation system.',
+		],
+	},
+	{
+		id: 'ecity',
+		icon: '/logos/products/ecity.png',
+		background: '#EAEAEA',
+		primary: '#012DD3',
+		text: [
+			"E-City is not just an e-mobility hub; it's a dynamic ecosystem designed to catalyze innovation, collaboration, and sustainable growth.",
+			"At E-City, we're revolutionizing the way cities connect through e-mobility. Our hub serves as a dynamic environment where individuals, businesses, and communities come together to embrace sustainable transportation solutions and foster innovation.",
+			'E-City is a vibrant community space. We function within office spaces which provide meeting areas, shared and private offices and collaborative workspaces, accessible to you, where like-minded individuals can gather, exchange ideas, and form partnerships.',
+			'E-City also hosts comprehensive training programs and educational resources for individuals and businesses alike developed by industry experts. E-City is built around a community of professionals that serve the whole ecosystem for sustainable electrification and sustainable transportation system.',
+		],
 	},
 ]
