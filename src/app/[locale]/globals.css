@@ -18,12 +18,3 @@
 
 @layer components {
 }
-
-/* #hero {
-	height: calc(100vh - 96px);
-}
- */
-
-.pillar {
-	height: calc(100vh);
-}
