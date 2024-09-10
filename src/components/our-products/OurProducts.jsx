@@ -14,6 +14,7 @@ export default function OurProducts() {
 	})
 	let cardHeight
 	useEffect(() => {
+		//eslint-disable-next-line
 		cardHeight = window.innerHeight
 	})
 	return (
