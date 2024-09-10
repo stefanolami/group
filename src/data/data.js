@@ -65,7 +65,7 @@ export const products = [
 	{
 		id: 'ecity',
 		icon: '/logos/products/ecity.png',
-		background: '#EAEAEA',
+		background: '#FFFFFF',
 		primary: '#012DD3',
 		text: [
 			"E-City is not just an e-mobility hub; it's a dynamic ecosystem designed to catalyze innovation, collaboration, and sustainable growth.",
@@ -89,7 +89,7 @@ export const products = [
 	{
 		id: 'ecity',
 		icon: '/logos/products/ecity.png',
-		background: '#EAEAEA',
+		background: '#FFFFFF',
 		primary: '#012DD3',
 		text: [
 			"E-City is not just an e-mobility hub; it's a dynamic ecosystem designed to catalyze innovation, collaboration, and sustainable growth.",

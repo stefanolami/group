@@ -2,11 +2,11 @@
 
 import { useScroll, motion, useTransform } from 'framer-motion'
 import React, { useRef, useEffect } from 'react'
-import Pillar from './Pillar'
+import Product from './Product'
 
-import { pillars } from '../../data/data'
+import { products } from '../../data/data'
 
-export default function OurPillars() {
+export default function OurProducts() {
 	const ref = useRef(null)
 	const { scrollYProgress } = useScroll({
 		target: ref,
@@ -23,10 +23,10 @@ export default function OurPillars() {
 				ref={ref}
 				className="relative -mt-8 "
 			>
-				{pillars.map((pillar, index) => (
-					<Pillar
-						key={pillar.id}
-						card={pillar}
+				{products.map((product, index) => (
+					<Product
+						key={product.id}
+						card={product}
 						position={index + 1}
 						scrollYProgress={scrollYProgress}
 						cardHeight={cardHeight}

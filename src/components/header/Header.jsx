@@ -31,7 +31,11 @@ export default function Header(messages) {
 	})
 
 	useEffect(() => {
-		if (path == '/our-pillars') {
+		if (
+			path == '/our-pillars' ||
+			path == '/our-projects' ||
+			path == '/our-products'
+		) {
 			setStyle({ background: '#FFF', color: '#4F5648' })
 			setIcon('/logos/group-logo-green.png')
 			setInverted(true)
