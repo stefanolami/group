@@ -1,6 +1,6 @@
 'use client'
 
-import { useScroll, motion, useTransform } from 'framer-motion'
+import { useScroll } from 'framer-motion'
 import React, { useRef, useEffect } from 'react'
 import Pillar from './Pillar'
 

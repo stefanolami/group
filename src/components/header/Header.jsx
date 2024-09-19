@@ -63,7 +63,7 @@ export default function Header(messages) {
 			animate={hidden ? 'hidden' : 'visible'}
 			transition={{ duration: 0.3, ease: 'easeInOut' }}
 			className={
-				'fixed top-0 w-full bg-transparent text-white z-50 px-6 md:px-10 xl:px-28 flex justify-between items-center h-16 xl:h-24'
+				'fixed top-0 w-full bg-transparent text-white z-50 px-6 md:px-10 xl:px-[7%] flex justify-between items-center h-16 xl:h-24'
 			}
 		>
 			<Link
@@ -74,7 +74,7 @@ export default function Header(messages) {
 					src={icon}
 					alt="T&P Logo"
 					fill
-					sizes="(max-width: 640px) 40vw, 25vw"
+					sizes="(max-width: 640px) 40vw, 40vw"
 				/>
 			</Link>
 

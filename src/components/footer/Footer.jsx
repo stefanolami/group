@@ -6,10 +6,6 @@ export default function Footer() {
 		'/social-media/facebook.png',
 		'/social-media/instagram.png',
 		'/social-media/linkedin.png',
-		'/social-media/tiktok.png',
-		'/social-media/whatsapp.png',
-		'/social-media/x.png',
-		'/social-media/youtube.png',
 	]
 
 	return (
