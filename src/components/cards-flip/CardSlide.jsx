@@ -25,7 +25,7 @@ export default function CardSlide({ pillar }) {
 		>
 			<CardFront pillar={pillar} />
 			<motion.div
-				className="absolute left-0 w-full h-full z-10"
+				className="hidden xl:block absolute left-0 w-full h-full z-10"
 				variants={{
 					initial: {
 						y: '100%',

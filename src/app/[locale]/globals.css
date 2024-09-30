@@ -10,7 +10,7 @@
 
 @layer components {
 	#home h2 {
-		@apply font-unna font-bold text-2xl xl:text-[48px] text-center mt-12 xl:mt-24 mb-6 xl:mb-16;
+		@apply font-unna font-bold text-primary text-2xl xl:text-[48px] text-center mt-10 xl:mt-20 mb-6 xl:mb-10;
 	}
 
 	#desktop-nav a {
