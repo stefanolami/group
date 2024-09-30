@@ -20,7 +20,10 @@ export default function CardFlip({ pillar }) {
 					className="flip-card-inner w-full h-full flex items-center justify-center"
 					initial={false}
 					animate={{ rotateY: isFlipped ? 180 : 360 }}
-					transition={{ duration: 0.2, animationDirection: 'normal' }}
+					transition={{
+						duration: 0.2,
+						animationDirection: 'normal',
+					}}
 				>
 					<CardFront pillar={pillar} />
 					<CardBack pillar={pillar} />
