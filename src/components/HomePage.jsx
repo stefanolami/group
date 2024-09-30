@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Link } from '@/navigation'
 import { pillars, products } from '@/data/data'
-import CardFlip from '@/components/cards-flip/CardFlip'
+import CardSlide from '@/components/cards-flip/CardSlide'
 
 export default function HomePage() {
 	return (
@@ -18,7 +18,7 @@ export default function HomePage() {
 							key={index}
 							className="relative w-full aspect-[360/288]"
 						>
-							<CardFlip pillar={pillar} />
+							<CardSlide pillar={pillar} />
 						</Link>
 					)
 				})}
