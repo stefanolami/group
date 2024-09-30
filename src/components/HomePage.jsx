@@ -13,7 +13,7 @@ export default function HomePage() {
 				{pillars.map((pillar, index) => {
 					return (
 						<Link
-							href={`/our-pillars`}
+							href={`/our-pillars?p=${pillar.id}`}
 							key={index}
 							className="relative w-[30%] xl:w-[9%] aspect-[359/244]"
 						>
