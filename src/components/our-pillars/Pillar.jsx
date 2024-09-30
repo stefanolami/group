@@ -24,7 +24,7 @@ export default function Pillar({
 				background: card.primary,
 			}}
 		>
-			<div className="relative mx-auto xl:mx-0 w-[65%] xl:w-1/4 aspect-[385/267] mb-16 mt-40 xl:mt-0 xl:mb-40">
+			<div className="relative mx-auto xl:mx-0 w-[65%] xl:w-1/4 aspect-[385/267] mb-16 mt-40 xl:mt-20 xl:mb-40">
 				<Image
 					src={`/logos${card.icon}`}
 					alt={card.id}
