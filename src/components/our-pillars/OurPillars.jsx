@@ -20,7 +20,7 @@ export default function OurPillars() {
 		//eslint-disable-next-line
 		cardHeight = window.innerHeight
 		const element = document.getElementById(p)
-		element?.scrollIntoView({ behavior: 'smooth' })
+		element?.scrollIntoView({ behavior: 'instant' })
 	})
 	return (
 		<div className="-mt-24 xl:-mt-44  xl:pt-20 -mb-16 xl:-mb-32 bg-consulting-primary">
