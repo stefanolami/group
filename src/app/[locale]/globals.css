@@ -6,7 +6,9 @@
 	.text-balance {
 		text-wrap: balance;
 	}
+}
 
+@layer components {
 	#home h2 {
 		@apply font-unna font-bold text-2xl xl:text-[48px] text-center mt-12 xl:mt-24 mb-6 xl:mb-16;
 	}
@@ -16,5 +18,23 @@
 	}
 }
 
-@layer components {
+/* FLIPPING CARDS */
+
+.flip-card {
+	perspective: 1000px;
+}
+
+.flip-card-inner {
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+	position: absolute;
+	backface-visibility: hidden;
+}
+
+.flip-card-back {
+	transform: rotateY(180deg);
 }
