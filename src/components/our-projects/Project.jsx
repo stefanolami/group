@@ -3,16 +3,16 @@
 import { motion, useTransform } from 'framer-motion'
 import React from 'react'
 import Image from 'next/image'
-import { products } from '../../data/data'
+import { projects } from '../../data/data'
 import { Link } from '@/navigation'
 
-export default function Product({
+export default function Project({
 	position,
 	card,
 	scrollYProgress,
 	cardHeight,
 }) {
-	const scaleFromPct = (position - 1) / products.length
+	const scaleFromPct = (position - 1) / projects.length
 	const y = useTransform(scrollYProgress, [scaleFromPct, 1], [0, -cardHeight])
 
 	return (
@@ -20,7 +20,7 @@ export default function Product({
 			id={card.id}
 			className="h-screen w-full sticky top-0 flex origin-top flex-col xl:flex-row items-center justify-start xl:justify-center px-4 xl:gap-20"
 			style={{
-				y: position === products.length ? undefined : y,
+				y: position === projects.length ? undefined : y,
 				background: card.background,
 			}}
 		>

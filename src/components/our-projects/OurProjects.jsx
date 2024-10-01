@@ -2,11 +2,11 @@
 
 import { useScroll } from 'framer-motion'
 import React, { useRef, useEffect } from 'react'
-import Product from './Product'
+import Project from './Project'
 
-import { products } from '../../data/data'
+import { projects } from '../../data/data'
 
-export default function OurProducts() {
+export default function OurProjects() {
 	const ref = useRef(null)
 	const { scrollYProgress } = useScroll({
 		target: ref,
@@ -24,10 +24,10 @@ export default function OurProducts() {
 				ref={ref}
 				className="relative -mt-8 "
 			>
-				{products.map((product, index) => (
-					<Product
-						key={product.id}
-						card={product}
+				{projects.map((project, index) => (
+					<Project
+						key={project.id}
+						card={project}
 						position={index + 1}
 						scrollYProgress={scrollYProgress}
 						cardHeight={cardHeight}
