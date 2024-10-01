@@ -16,7 +16,10 @@ export default function ContactForm() {
 			<h1 className="font-unna font-bold text-xl xl:text-[36px] text-primary mb-4 xl:mb-10">
 				CONTACT
 			</h1>
-			<form onSubmit={handleSubmit(onSubmit)}>
+			<form
+				className="text-sm xl:text-base"
+				onSubmit={handleSubmit(onSubmit)}
+			>
 				<div className="xl:flex flex-row items-center justify-center gap-3">
 					<input
 						type="text"

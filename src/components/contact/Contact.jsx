@@ -6,7 +6,7 @@ import ContactMap from './ContactMap'
 export default function Contact() {
 	return (
 		<div className="w-[90%] xl:w-[75%] mx-auto">
-			<div className="w-full xl:flex flex-row items-start justify-center gap-32">
+			<div className="w-full xl:flex flex-row items-start justify-center gap-32 mb-12">
 				<ContactForm />
 				<div className="w-full xl:w-[45%] mt-10 xl:mt-0">
 					<h2 className="font-unna font-bold text-lg xl:text-3xl xl:text-center text-primary mb-6">
@@ -66,6 +66,7 @@ export default function Contact() {
 					</div>
 				</div>
 			</div>
+			<ContactMap />
 		</div>
 	)
 }

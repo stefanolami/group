@@ -165,3 +165,62 @@ export const projects = [
 		],
 	}, */
 ]
+
+export const contactCountries = [
+	{
+		id: 'austria',
+		label: 'Austria',
+		city: ['Vienna'],
+		email: 'austria@groupontap.com',
+		left: '50',
+		top: '36',
+	},
+	{
+		id: 'belgium',
+		label: 'Belgium',
+		city: ['Brussels'],
+		email: 'belgium@groupontap.com',
+		left: '48',
+		top: '33',
+	},
+	{
+		id: 'brazil',
+		label: 'Brazil',
+		city: ['Rio de Janeiro', 'São Paulo', 'Brasilia'],
+		email: 'brazil@groupontap.com',
+		left: '35',
+		top: '68',
+	},
+	{
+		id: 'france',
+		label: 'France',
+		city: ['Vienna'],
+		email: 'austria@groupontap.com',
+		left: '47',
+		top: '35',
+	},
+	{
+		id: 'germany',
+		label: 'Germany',
+		city: ['Berlin', 'Frankfurt/Main'],
+		email: 'germany@groupontap.com',
+		left: '49',
+		top: '34',
+	},
+	{
+		id: 'ireland',
+		label: 'Ireland',
+		city: ['Dublin', 'Galway'],
+		email: 'ireland@groupontap.com',
+		left: '45',
+		top: '32',
+	},
+	{
+		id: 'romania',
+		label: 'Romania',
+		city: ['Bucharest', 'Cluj-Napoca', 'Ploiesti'],
+		email: 'romania@groupontap.com',
+		left: '53',
+		top: '36',
+	},
+]
