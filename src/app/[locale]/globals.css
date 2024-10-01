@@ -10,7 +10,7 @@
 
 @layer components {
 	#home h2 {
-		@apply font-unna font-bold text-2xl xl:text-[48px] text-center mt-12 xl:mt-24 mb-6 xl:mb-16;
+		@apply font-unna font-bold text-primary text-2xl xl:text-[48px] text-center mt-10 xl:mt-20 mb-6 xl:mb-10;
 	}
 
 	#desktop-nav a {
@@ -20,11 +20,11 @@
 
 /* FLIPPING CARDS */
 
-.flip-card {
+/* .flip-card {
 	perspective: 1000px;
-}
+} */
 
-.flip-card-inner {
+/* .flip-card-inner {
 	transition: transform 0.6s;
 	transform-style: preserve-3d;
 }
@@ -36,5 +36,5 @@
 }
 
 .flip-card-back {
-	transform: rotateY(180deg);
-}
+	transform: translatex(100%);
+} */
