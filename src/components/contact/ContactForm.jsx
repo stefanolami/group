@@ -2,21 +2,21 @@
 
 import { FC } from 'react'
 import { useForm } from 'react-hook-form'
-/* import { sendEmail } from '@/utils/send-email' */
+import { sendEmail } from '@/utils/send-email'
 
 export default function ContactForm() {
 	const { register, handleSubmit } = useForm()
 
-	/* const onSubmit = (data) => {
+	const onSubmit = (data) => {
 		sendEmail(data)
-	} */
+	}
 
 	return (
 		<div className="w-full">
 			<h1 className="font-unna font-bold text-xl xl:text-[36px] text-primary mb-4 xl:mb-10">
 				CONTACT
 			</h1>
-			<form /* onSubmit={handleSubmit(onSubmit)} */>
+			<form onSubmit={handleSubmit(onSubmit)}>
 				<div className="xl:flex flex-row items-center justify-center gap-3">
 					<input
 						type="text"
