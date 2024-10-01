@@ -28,13 +28,13 @@ export default function CardSlide({ element }) {
 				className="hidden xl:block absolute left-0 w-full h-full z-10"
 				variants={{
 					initial: {
-						y: '100%',
+						y: '101%',
 					},
 					slide: {
 						y: 0,
 					},
 					exit: {
-						y: 144,
+						y: '-100%',
 					},
 				}}
 				transition={{

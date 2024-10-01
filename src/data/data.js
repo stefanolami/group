@@ -59,7 +59,7 @@ export const pillars = [
 	},
 	{
 		id: 'spaces',
-		icon: '/grid/spaces.png',
+		icon: '/grid/pillars/spaces.png',
 		grid: '/logos/grid/pillars/spaces',
 		primary: '#FFFFFF',
 		secondary: '#0F2CCA',
@@ -154,7 +154,7 @@ export const projects = [
 			'A (for now) temporary constellation that focuses on addressing the following questions: (1) What tools can we apply at Time&Place to help with our internal infrastructure and for servicing clients? (2) What can we offer clients as a service for them to integrate AI? Powered by humans, and a bit of AI. ',
 		],
 	},
-	{
+	/* {
 		id: 'bin',
 		icon: '/logos/grid/projects/bin.png',
 		grid: '/logos/grid/projects/bin',
@@ -163,5 +163,5 @@ export const projects = [
 		text: [
 			'BIN@ is an informal international network of academic and industry partners engaged in supporting the creation of a sustainable forum for sharing good practices and opportunities in innovation. In 2025, Brussels with the support of Time&Place Group will host the two-day mid-term event.',
 		],
-	},
+	}, */
 ]
