@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Link } from '@/navigation'
-import { pillars, products } from '@/data/data'
+import { pillars, products, projects } from '@/data/data'
 import CardSlide from '@/components/cards-flip/CardSlide'
 
 export default function HomePage() {
@@ -30,32 +30,39 @@ export default function HomePage() {
 							key={index}
 							className="relative w-full aspect-[360/288]"
 						>
-							<CardSlide pillar={pillar} />
+							<CardSlide element={pillar} />
 						</Link>
 					)
 				})}
 			</div>
 			<h2>OUR PRODUCTS</h2>
-			<div className="bg-grey w-full py-[10%] xl:py-20 flex flex-row flex-wrap justify-center items-center gap-x-[12%] gap-y-8 xl:gap-[7%]">
+			<div className="w-full grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-3 xl:gap-6">
 				{products.map((product, index) => {
 					return (
 						<Link
-							href={`/our-products`}
+							href={`/our-products?p=${product.id}`}
 							key={index}
-							className="relative w-[30%] xl:w-[10%] aspect-[473/210]"
+							className="relative w-full aspect-[360/288]"
 						>
-							<Image
-								src={product.icon}
-								alt="Product Logo"
-								fill
-								sizes="(max-width: 640px) 50vw, 15vw"
-							/>
+							<CardSlide element={product} />
 						</Link>
 					)
 				})}
 			</div>
 			<h2>OUR PROJECTS</h2>
-			<div className="bg-grey w-full h-80"></div>
+			<div className="w-full grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-3 xl:gap-6">
+				{projects.map((project, index) => {
+					return (
+						<Link
+							href={`/our-projects?p=${project.id}`}
+							key={index}
+							className="relative w-full aspect-[360/288]"
+						>
+							<CardSlide element={project} />
+						</Link>
+					)
+				})}
+			</div>
 		</div>
 	)
 }

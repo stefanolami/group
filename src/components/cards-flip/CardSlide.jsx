@@ -5,7 +5,7 @@ import { motion, useAnimationControls } from 'framer-motion'
 import CardFront from './CardFront'
 import CardBack from './CardBack'
 
-export default function CardSlide({ pillar }) {
+export default function CardSlide({ element }) {
 	const controls = useAnimationControls()
 
 	const handleHover = () => {
@@ -23,7 +23,7 @@ export default function CardSlide({ pillar }) {
 			onHoverStart={handleHover}
 			onHoverEnd={endHover}
 		>
-			<CardFront pillar={pillar} />
+			<CardFront element={element} />
 			<motion.div
 				className="hidden xl:block absolute left-0 w-full h-full z-10"
 				variants={{
@@ -44,7 +44,7 @@ export default function CardSlide({ pillar }) {
 				initial="initial"
 				animate={controls}
 			>
-				<CardBack pillar={pillar} />
+				<CardBack element={element} />
 			</motion.div>
 		</motion.div>
 	)
