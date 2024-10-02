@@ -27,7 +27,7 @@ export default function HomePage() {
 						<Link
 							href={`/our-pillars?p=${pillar.id}`}
 							key={index}
-							className="relative w-full aspect-[371/254]"
+							className="relative w-full aspect-[360/288]"
 						>
 							<CardSlide element={pillar} />
 						</Link>
