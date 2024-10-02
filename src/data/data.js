@@ -194,8 +194,8 @@ export const contactCountries = [
 	{
 		id: 'france',
 		label: 'France',
-		city: ['Vienna'],
-		email: 'austria@groupontap.com',
+		city: ['Paris', 'Bordeaux'],
+		email: 'france@groupontap.com',
 		left: '47',
 		top: '35',
 	},
