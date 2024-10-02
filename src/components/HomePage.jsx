@@ -7,7 +7,7 @@ export default function HomePage() {
 	return (
 		<div
 			id="home"
-			className=" w-full xl:w-3/4 max-w-[1250px] mx-auto"
+			className="mb-16 xl:mb-24 w-full xl:w-3/4 max-w-[1250px] mx-auto"
 		>
 			<div className="mt-6 xl:mt-16 relative mx-auto w-3/4 xl:w-[45%] aspect-[550/160]">
 				<Image

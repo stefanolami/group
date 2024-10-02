@@ -47,7 +47,7 @@ export default function Header(messages) {
 			variants={{
 				visible: {
 					y: 0,
-					backgroundColor: style.background,
+					/* backgroundColor: style.background, */
 					color: style.color,
 				},
 				hidden: {

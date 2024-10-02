@@ -23,21 +23,23 @@ export default function OurPillars() {
 		element?.scrollIntoView({ behavior: 'instant' })
 	})
 	return (
-		<div className="-mt-24 xl:-mt-44  xl:pt-20 -mb-16 xl:-mb-32 bg-consulting-primary">
-			<div className="hidden xl:block w-full h-10 bg-consulting-primary" />
-			<div
-				ref={ref}
-				className="relative -mt-8 "
-			>
-				{pillars.map((pillar, index) => (
-					<Pillar
-						key={pillar.id}
-						card={pillar}
-						position={index + 1}
-						scrollYProgress={scrollYProgress}
-						cardHeight={cardHeight}
-					/>
-				))}
+		<div className="pt-8 xl:pt-20 pb-16 xl:pb-32">
+			<div className="-mt-24 xl:-mt-44  xl:pt-20 -mb-16 xl:-mb-32 bg-consulting-primary">
+				<div className="hidden xl:block w-full h-10 bg-consulting-primary" />
+				<div
+					ref={ref}
+					className="relative -mt-8 "
+				>
+					{pillars.map((pillar, index) => (
+						<Pillar
+							key={pillar.id}
+							card={pillar}
+							position={index + 1}
+							scrollYProgress={scrollYProgress}
+							cardHeight={cardHeight}
+						/>
+					))}
+				</div>
 			</div>
 		</div>
 	)

@@ -6,7 +6,7 @@ import ContactMapDesktop from './ContactMapDesktop'
 
 export default function Contact() {
 	return (
-		<div className="w-[90%] xl:w-[75%] mx-auto">
+		<div className="w-[90%] xl:w-[75%] mx-auto pt-8 xl:pt-20 pb-16 xl:pb-32 ">
 			<div className="w-full xl:flex flex-row items-start justify-center gap-32 mb-12 xl:mb-24">
 				<ContactForm />
 				<div className="w-full xl:w-[45%] mt-10 xl:mt-0">

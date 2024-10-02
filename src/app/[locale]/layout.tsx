@@ -34,9 +34,7 @@ export default function LocaleLayout({
 			<body className="relative pt-16 xl:pt-24 pb-[85px] xl:pb-[280px]">
 				<Suspense fallback="Loading...">
 					<HeaderWrapper />
-					<main className="pt-8 xl:pt-20 pb-16 xl:pb-32">
-						{children}
-					</main>
+					<main className="">{children}</main>
 					<Footer />
 				</Suspense>
 			</body>

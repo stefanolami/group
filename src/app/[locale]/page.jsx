@@ -21,6 +21,7 @@ export default function Home({ params: { locale } }) {
 	return (
 		<>
 			<Hero />
+			{/* <div className="w-full h-screen"></div> */}
 			<HomePage />
 		</>
 	)
