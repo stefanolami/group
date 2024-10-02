@@ -28,6 +28,13 @@ export default function Header(messages) {
 		} else {
 			setHidden(false)
 		}
+		if (path === '/') {
+			if (scrollY.get() > 650) {
+				setStyle({ background: '#4F5648', color: '#FFF' })
+			} else {
+				setStyle({ background: 'transparent', color: '#FFF' })
+			}
+		}
 	})
 
 	useEffect(() => {
@@ -47,7 +54,7 @@ export default function Header(messages) {
 			variants={{
 				visible: {
 					y: 0,
-					/* backgroundColor: style.background, */
+					backgroundColor: style.background,
 					color: style.color,
 				},
 				hidden: {
@@ -59,7 +66,7 @@ export default function Header(messages) {
 			animate={hidden ? 'hidden' : 'visible'}
 			transition={{ duration: 0.3, ease: 'easeInOut' }}
 			className={
-				'fixed top-0 w-full bg-transparent text-white z-50 px-6 md:px-10 xl:px-[7%] flex justify-between items-center h-16 xl:h-24'
+				'fixed top-0 w-full text-white z-50 px-6 md:px-10 xl:px-[7%] flex justify-between items-center h-16 xl:h-24'
 			}
 		>
 			<Link
