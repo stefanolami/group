@@ -47,13 +47,13 @@ export default function Footer() {
 					TERMS AND CONDITIONS
 				</Link>
 				<Link
-					href="privacy-policy"
+					href="/privacy-policy"
 					className="font-unna text-center px-4 xl:px-16"
 				>
 					PRIVACY POLICY
 				</Link>
 			</nav>
-			<span className="block font-jose italic text-[8px] xl:text-base text-center mb-1 xl:mb-5">
+			<span className="block font-jose text-[8px] xl:text-base text-center mb-1 xl:mb-5">
 				© 2024 Time&Place Group. All rights reserved.
 			</span>
 		</div>

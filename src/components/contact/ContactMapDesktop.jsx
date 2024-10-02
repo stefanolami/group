@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import { contactCountries } from '@/data/data'
+import Loading from '@/components/Loading'
 
 const pin = '/pin.png'
 const map = '/map.png'
@@ -25,7 +26,7 @@ export default function ContactMapDesktop() {
 			</h1>
 			<div className="w-full grid grid-cols-[1fr_2fr]">
 				<div className="w-2/3 mx-auto mt-16">
-					{countryData && (
+					{countryData ? (
 						<div className="flex flex-col items-center justify-center gap-5 font-jose text-primary">
 							<span className="font-bold uppercase xl:text-lg">
 								{countryData.label}
@@ -45,6 +46,8 @@ export default function ContactMapDesktop() {
 								{countryData.email}
 							</span>
 						</div>
+					) : (
+						<Loading />
 					)}
 				</div>
 				<div className="relative w-full aspect-[2/1]">

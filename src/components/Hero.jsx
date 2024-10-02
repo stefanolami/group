@@ -7,7 +7,7 @@ export default function Hero() {
 			className="bg-primary h-svh xl:h-screen -mt-16 xl:-mt-24 flex flex-col justify-end"
 		>
 			<div className="w-full bg-primary h-40 xl:h-8"></div>
-			<div className="relative w-full aspect-[40/16]">
+			<div className="relative w-full aspect-[54/16]">
 				<Image
 					src={'/hero/hero.png'}
 					alt="hero illustration"
@@ -16,10 +16,10 @@ export default function Hero() {
 					className="z-10"
 				/>
 			</div>
-			<h1 className="text-white text-balance font-unna text-[40px] mt-16 ml-6 xl:hidden z-20">
+			<h1 className="text-white text-balance font-unna text-[30px] mt-20 mb-6 ml-6 xl:hidden z-20">
 				Right TIME. <br></br>Right PLACE. <br></br>Your IMPACT.
 			</h1>
-			<h1 className="hidden xl:block text-white font-unna text-[36px] text-center mb-2 z-20">
+			<h1 className="hidden xl:block text-white font-unna text-[36px] text-center mb-[2%] mt-[2%] z-20">
 				Right TIME. Right PLACE. Your IMPACT.
 			</h1>
 		</div>

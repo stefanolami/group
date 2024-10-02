@@ -3,7 +3,6 @@
 import { Link } from '../../navigation'
 import { useState, useEffect } from 'react'
 import { motion, useScroll, useMotionValueEvent } from 'framer-motion'
-import { cn } from '@/utils/cn'
 import Image from 'next/image'
 import { usePathname } from '../../navigation'
 
@@ -27,13 +26,6 @@ export default function Header(messages) {
 			setHidden(true)
 		} else {
 			setHidden(false)
-		}
-		if (path === '/') {
-			if (scrollY.get() > 650) {
-				setStyle({ background: '#4F5648', color: '#FFF' })
-			} else {
-				setStyle({ background: 'transparent', color: '#FFF' })
-			}
 		}
 	})
 

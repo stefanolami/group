@@ -20,7 +20,7 @@ export default function TeamMember({ name }) {
 				</div>
 				<div className="bg-primary-light w-1/4 aspect-[6/9]"></div>
 			</div>
-			<div className="font-jose text-xs xl:text-lg text-justify mb-2 xl:mb-6">
+			<div className="font-jose text-xs xl:text-lg text-justify mb-8 xl:mb-20">
 				{member.introduction.map((element, index) => (
 					<p
 						className="mb-4 xl:mb-6"
