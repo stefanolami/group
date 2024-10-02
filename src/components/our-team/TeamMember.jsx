@@ -9,7 +9,7 @@ export default function TeamMember({ name }) {
 		<div className="w-[90%] xl:w-[70%] mx-auto">
 			<div className="w-full flex flex-row items-start justify-between mb-8">
 				<div className="mt-4 xl:mt-8">
-					<h2 className="font-unna font-bold text-base xl:text-[48px] mb-4 xl:mb-8 uppercase">
+					<h2 className="font-unna font-bold text-xl xl:text-[40px] mb-4 xl:mb-8 uppercase">
 						{member.name}
 					</h2>
 					<ul className="font-jose text-[10px] xl:text-lg italic">

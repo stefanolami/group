@@ -7,7 +7,7 @@ import { contactCountries } from '@/data/data'
 const pin = '/pin.png'
 const map = '/map.png'
 
-export default function ContactMap() {
+export default function ContactMapMobile() {
 	const [selectedCountry, setSelectedCountry] = useState('austria')
 	const [countryData, setCountryData] = useState(null)
 
@@ -19,12 +19,12 @@ export default function ContactMap() {
 	}, [selectedCountry])
 
 	return (
-		<div className="w-full">
+		<div className="w-full xl:hidden">
 			<h1 className="font-unna font-bold text-xl xl:text-[36px] text-primary mb-4 xl:mb-10">
 				OUR OFFICES, YOUR ACCESS
 			</h1>
-			<div className="xl:hidden w-full">
-				<div className="relative w-full aspect-[14587/7514]">
+			<div className="w-full">
+				<div className="relative w-full aspect-[2/1]">
 					<Image
 						src={map}
 						alt="map"
@@ -33,12 +33,16 @@ export default function ContactMap() {
 					/>
 					{countryData && (
 						<Image
+							style={{
+								left: `${countryData.left}%`,
+								top: `${countryData.top}%`,
+							}}
 							src={pin}
 							alt={`${countryData.id} pin`}
 							width={7}
 							height={7}
 							sizes="5vw"
-							className={`absolute z-20 left-[${countryData.left}%] top-[${countryData.top}%]`}
+							className="absolute z-20"
 						/>
 					)}
 				</div>
