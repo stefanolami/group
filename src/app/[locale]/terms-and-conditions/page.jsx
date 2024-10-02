@@ -27,8 +27,8 @@ export default function TermsPage({ params: { locale } }) {
 					Welcome to the website of Time&amp;Place Group
 					(&quot;Company,&quot; &quot;we,&quot; &quot;our,&quot; or
 					&quot;us&quot;). By accessing or using our website, located
-					at [website URL] (the &quot;Site&quot;), you agree to be
-					bound by these Terms &amp; Conditions (the
+					at www.groupontap.com (the &quot;Site&quot;), you agree to
+					be bound by these Terms &amp; Conditions (the
 					&quot;Terms&quot;). Please read these Terms carefully before
 					using the Site. If you do not agree to these Terms, you
 					should not access or use the Site.

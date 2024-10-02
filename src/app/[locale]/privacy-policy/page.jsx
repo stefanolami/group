@@ -30,7 +30,7 @@ export default function PrivacyPolicyPage({ params: { locale } }) {
 					&quot;GDPR&quot;) and relevant Belgian data protection laws.
 					This Privacy Policy explains how we collect, use, disclose,
 					and safeguard your personal data when you visit our website
-					[website URL] (the &quot;Site&quot;) or engage with our
+					www.groupontap.com (the &quot;Site&quot;) or engage with our
 					consulting services. Please read this policy carefully to
 					understand our practices regarding your personal data.
 				</p>
