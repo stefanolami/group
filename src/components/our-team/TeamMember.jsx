@@ -6,7 +6,7 @@ export default function TeamMember({ name }) {
 	console.log(member)
 
 	return (
-		<div className="w-[90%] xl:w-[70%] mx-auto">
+		<div className="w-[90%] xl:w-[70%] mx-auto pt-8 xl:pt-20 pb-16 xl:pb-32 ">
 			<div className="w-full flex flex-row items-start justify-between mb-8">
 				<div className="mt-4 xl:mt-8">
 					<h2 className="font-unna font-bold text-xl xl:text-[40px] mb-4 xl:mb-8 uppercase">

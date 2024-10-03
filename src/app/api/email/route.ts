@@ -3,7 +3,7 @@ import nodemailer from 'nodemailer'
 import Mail from 'nodemailer/lib/mailer'
 
 export async function POST(request: NextRequest) {
-	const { email, name, message } = await request.json()
+	const { email, name, subject, message } = await request.json()
 
 	const transport = nodemailer.createTransport({
 		/* service: 'Zoho', */
@@ -21,7 +21,7 @@ export async function POST(request: NextRequest) {
 		from: process.env.MY_EMAIL,
 		to: process.env.MY_EMAIL,
 		// cc: email, (uncomment this line if you want to send a copy to the sender)
-		subject: `Message from ${name} (${email})`,
+		subject: `Group Contact Form - ${subject} - from ${name} (${email})`,
 		text: message,
 	}
 
@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
 		new Promise<string>((resolve, reject) => {
 			transport.sendMail(mailOptions, function (err) {
 				if (!err) {
-					resolve('Email sent')
+					resolve('Message sent')
 				} else {
 					reject(err.message)
 				}
@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
 
 	try {
 		await sendMailPromise()
-		return NextResponse.json({ message: 'Email sent' })
+		return NextResponse.json({ message: 'Message sent' })
 	} catch (err) {
 		console.log(err)
 		return NextResponse.json({ error: err })

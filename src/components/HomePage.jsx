@@ -7,7 +7,7 @@ export default function HomePage() {
 	return (
 		<div
 			id="home"
-			className="mb-16 xl:mb-24 w-full xl:w-3/4 max-w-[1250px] mx-auto"
+			className="pb-16 xl:pb-32 w-full xl:w-3/4 max-w-[1250px] mx-auto"
 		>
 			<div className="mt-6 xl:mt-16 relative mx-auto w-3/4 xl:w-[45%] aspect-[550/160]">
 				<Image
@@ -41,7 +41,7 @@ export default function HomePage() {
 						<Link
 							href={`/our-products?p=${product.id}`}
 							key={index}
-							className="relative w-full aspect-[371/254]"
+							className="relative w-full aspect-[360/288]"
 						>
 							<CardSlide element={product} />
 						</Link>
@@ -55,7 +55,7 @@ export default function HomePage() {
 						<Link
 							href={`/our-projects?p=${project.id}`}
 							key={index}
-							className="relative w-full aspect-[371/254]"
+							className="relative w-full aspect-[360/288]"
 						>
 							<CardSlide element={project} />
 						</Link>
