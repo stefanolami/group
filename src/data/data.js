@@ -59,7 +59,7 @@ export const pillars = [
 	},
 	{
 		id: 'spaces',
-		icon: '/grid/pillars/spaces.png',
+		icon: '/pillars/spaces.png',
 		grid: '/logos/grid/pillars/spaces',
 		primary: '#FFFFFF',
 		secondary: '#0F2CCA',

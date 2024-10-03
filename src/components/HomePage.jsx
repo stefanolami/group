@@ -21,7 +21,7 @@ export default function HomePage() {
 				approach to impacting decision-making and making decisions.
 			</p>
 			<h2>OUR PILLARS</h2>
-			<div className="w-full px-[10%] py-2 xl:px-0 xl:py-0 bg-grey xl:bg-white grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-3 xl:gap-6">
+			<div className="w-full px-[10%] py-2 xl:px-0 xl:py-0 bg-white grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-3 xl:gap-6">
 				{pillars.map((pillar, index) => {
 					return (
 						<Link
@@ -35,7 +35,7 @@ export default function HomePage() {
 				})}
 			</div>
 			<h2>OUR PRODUCTS</h2>
-			<div className="w-full px-[10%] py-2 xl:px-0 xl:py-0 bg-grey xl:bg-white grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-3 xl:gap-6">
+			<div className="w-full px-[10%] py-2 xl:px-0 xl:py-0 bg-white grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-3 xl:gap-6">
 				{products.map((product, index) => {
 					return (
 						<Link
@@ -49,7 +49,7 @@ export default function HomePage() {
 				})}
 			</div>
 			<h2>OUR PROJECTS</h2>
-			<div className="w-full xl:w-2/3 px-[10%] py-2 xl:px-0 xl:py-0 bg-grey xl:bg-white mx-auto grid grid-cols-2 xl:grid-cols-2 gap-3 xl:gap-6">
+			<div className="w-full xl:w-2/3 px-[10%] py-2 xl:px-0 xl:py-0 bg-white mx-auto grid grid-cols-2 xl:grid-cols-2 gap-3 xl:gap-6">
 				{projects.map((project, index) => {
 					return (
 						<Link
