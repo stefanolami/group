@@ -1,5 +1,6 @@
 import Endorsement from './Endorsement'
 import team from '@/data/team'
+import Image from 'next/image'
 
 export default function TeamMember({ name }) {
 	const member = Object.values(team).find((member) => member.path === name)
@@ -8,7 +9,7 @@ export default function TeamMember({ name }) {
 	return (
 		<div className="w-[90%] xl:w-[70%] mx-auto pt-8 xl:pt-20 pb-16 xl:pb-32 ">
 			<div className="w-full flex flex-row items-start justify-between mb-8">
-				<div className="mt-4 xl:mt-8">
+				<div className=" xl:mt-8">
 					<h2 className="font-unna font-bold text-xl xl:text-[40px] mb-4 xl:mb-8 uppercase">
 						{member.name}
 					</h2>
@@ -18,7 +19,14 @@ export default function TeamMember({ name }) {
 						))}
 					</ul>
 				</div>
-				<div className="bg-primary-light w-1/4 aspect-[6/9]"></div>
+				<div className="w-1/4 aspect-[265/390] relative">
+					<Image
+						alt={`${member.name} Picture`}
+						src={member.img}
+						fill
+						sizes="(max-width: 640px) 50vw, 20vw"
+					/>
+				</div>
 			</div>
 			<div className="font-jose text-xs xl:text-lg text-justify mb-8 xl:mb-20">
 				{member.introduction.map((element, index) => (
