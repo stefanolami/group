@@ -18,7 +18,7 @@ export default function MobileNav({ messages }) {
 
 	return (
 		<div className="md:hidden flex flex-row font-unna">
-			<MobileLocaleSwitcher />
+			{/* <MobileLocaleSwitcher /> */}
 			<MotionConfig
 				transition={{
 					duration: 0.4,

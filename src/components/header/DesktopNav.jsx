@@ -60,7 +60,7 @@ export default function DesktopNav({ messages, inverted }) {
 					{messages.contact}
 				</Link>
 			</nav>
-			<DesktopLocaleSwitcher />
+			{/* <DesktopLocaleSwitcher /> */}
 		</div>
 	)
 }

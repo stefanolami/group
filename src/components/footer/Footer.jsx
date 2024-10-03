@@ -9,8 +9,8 @@ export default function Footer() {
 	]
 
 	return (
-		<div className="w-full bg-primary h-[85px] xl:h-[280px] py-1 absolute bottom-0 flex flex-col items-center justify-between text-white">
-			<ul className="flex flex-row justify-center items-center gap-2 xl:gap-8 mt-2 xl:mt-12 mb-1">
+		<div className="w-full bg-primary h-[85px] xl:h-[200px] py-1 absolute bottom-0 flex flex-col items-center justify-between text-white">
+			<ul className="flex flex-row justify-center items-center gap-2 xl:gap-8 mt-2 xl:mt-8 mb-1">
 				{socialMediaIcons.map((icon, index) => {
 					return (
 						<li
@@ -53,7 +53,7 @@ export default function Footer() {
 					PRIVACY POLICY
 				</Link>
 			</nav>
-			<span className="block font-jose text-[8px] xl:text-base text-center mb-1 xl:mb-5">
+			<span className="block font-jose text-[8px] xl:text-base text-center mb-1 xl:mb-3">
 				© 2024 Time&Place Group. All rights reserved.
 			</span>
 		</div>
