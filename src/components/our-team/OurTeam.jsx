@@ -14,7 +14,7 @@ export default function OurTeam() {
 					<Link
 						href={`/our-team/${member.path}`}
 						key={index}
-						className="w-full aspect-[265/390] relative border-primary shadow-md hover:shadow-2xl"
+						className="w-full aspect-[265/390] relative border-primary shadow-md hover:shadow-2xl group"
 					>
 						<Image
 							alt={`${member.name} Picture`}
@@ -22,7 +22,7 @@ export default function OurTeam() {
 							fill
 							sizes="(max-width: 640px) 50vw, 20vw"
 						/>
-						<div className="w-full h-[20%] absolute bottom-0 bg-primary z-20 text-white font-jose font-bold text-xs xl:text-lg text-center flex items-center flex-col justify-center">
+						<div className="w-full h-[20%] absolute bottom-0 bg-primary group-hover:bg-primary-light z-20 text-white font-jose font-bold text-xs xl:text-lg text-center flex items-center flex-col justify-center">
 							<span>{member.imgName}</span>
 							<span>title</span>
 						</div>
