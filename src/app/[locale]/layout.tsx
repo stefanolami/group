@@ -80,6 +80,34 @@ export default function LocaleLayout({
 					name="theme-color"
 					content="#ffffff"
 				/>
+				<meta
+					property="og:title"
+					content="Time&Place Group"
+				/>
+				<meta
+					property="og:description"
+					content="Right TIME. Right PLACE. Your IMPACT."
+				/>
+				<meta
+					property="og:image"
+					content="/android-chrome-144x144.png"
+				/>
+				<meta
+					property="og:image:width"
+					content="144"
+				/>
+				<meta
+					property="og:image:height"
+					content="144"
+				/>
+				<meta
+					property="og:url"
+					content="https://www.groupontap.com"
+				/>
+				<meta
+					property="og:type"
+					content="website"
+				/>
 			</Head>
 			<body className="relative pt-16 xl:pt-24 pb-[85px] xl:pb-[200px] min-h-screen">
 				<Suspense fallback={<Loading />}>
