@@ -3,6 +3,7 @@ const team = {
 		name: 'Glenn Cezanne',
 		path: 'glenn-cezanne',
 		img: '/team/glenn.png',
+		imgName: 'Glenn Cezanne',
 		titles: [
 			'Founder & CEO – Time&Place Group',
 			'Founder & Managing Director – Time&Place Consulting',
@@ -81,6 +82,7 @@ const team = {
 		name: 'Kjeld B. Olesen',
 		path: 'kjeld-olesen',
 		img: '/team/kjeld.png',
+		imgName: 'Kjeld B. Olesen',
 		titles: ['Co-Founder & Project Manager - Time&Place Funding'],
 		contact: {
 			email: 'kjeld@fundingontap.com',
@@ -145,6 +147,7 @@ const team = {
 		name: 'Corina Cătălina Gheorgheza',
 		path: 'corina-gheorgheza',
 		img: '/team/corina.png',
+		imgName: 'Corina Gheorgheza',
 		titles: [
 			'CPO – Time&Place Group',
 			'Programme Developer – Time&Place Institute',
