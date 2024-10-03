@@ -1,12 +1,10 @@
-'use client'
+import NotFound from '@/components/NotFound'
 
-export default function NotFound() {
+export default function NotFoundPage() {
 	return (
 		<html>
 			<body>
-				<h1 className="text-center pt-28 text-2xl">
-					404 - Page not found
-				</h1>
+				<NotFound />
 			</body>
 		</html>
 	)

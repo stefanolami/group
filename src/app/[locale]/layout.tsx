@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { jose, unna } from '@/app/fonts'
-import './globals.css'
+import '../globals.css'
 import { unstable_setRequestLocale } from 'next-intl/server'
 import { Suspense } from 'react'
 import HeaderWrapper from '@/components/header/HeaderWrapper'

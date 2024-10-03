@@ -16,6 +16,10 @@
 	#desktop-nav a {
 		@apply hover:scale-110 flex items-center justify-center;
 	}
+
+	.not-found-text {
+		@apply;
+	}
 }
 
 /* #hero {
