@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
 import { jose, unna } from '@/app/fonts'
-import '../globals.css'
 import { unstable_setRequestLocale } from 'next-intl/server'
 import { Suspense } from 'react'
 import HeaderWrapper from '@/components/header/HeaderWrapper'
@@ -13,7 +12,7 @@ export const metadata: Metadata = {
 }
 
 // Can be imported from a shared config
-const locales = ['ro', 'en']
+const locales = ['en']
 
 export function generateStaticParams() {
 	return locales.map((locale) => ({ locale }))
