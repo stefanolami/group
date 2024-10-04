@@ -22,8 +22,8 @@ export default function OurTeam() {
 							fill
 							sizes="(max-width: 640px) 50vw, 20vw"
 						/>
-						<div className="w-full h-[20%] absolute bottom-0 bg-primary group-hover:bg-primary-light z-20 text-white font-jose font-bold text-xs xl:text-lg text-center flex items-center flex-col justify-center">
-							<span>{member.imgName}</span>
+						<div className="w-full h-[20%] absolute bottom-0 bg-primary group-hover:bg-primary-light z-20 text-white font-jose text-xs xl:text-lg text-center flex items-center flex-col justify-center">
+							<span className="font-bold">{member.imgName}</span>
 							<span>{member.imgTitle}</span>
 						</div>
 					</Link>
