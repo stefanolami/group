@@ -48,7 +48,7 @@ export default function TeamMember({ name }) {
 			{member.paragraphs.map((paragraph, index) => (
 				<div
 					key={index}
-					className=" mt-8 xl:mt-20"
+					className=" mt-8 xl:mt-16"
 				>
 					<h3 className="font-unna font-bold text-xl xl:text-3xl mb-4 xl:mb-6">
 						{paragraph.title}
