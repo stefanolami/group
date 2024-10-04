@@ -12,6 +12,11 @@ export const metadata: Metadata = {
 		siteName: 'T&P Group',
 		images: [
 			{
+				url: 'https://group-sage.vercel.app/android-chrome-1024x1024.png', // Must be an absolute URL
+				width: 1024,
+				height: 1024,
+			},
+			{
 				url: 'https://group-sage.vercel.app/android-chrome-512x512.png', // Must be an absolute URL
 				width: 512,
 				height: 512,
