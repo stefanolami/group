@@ -98,6 +98,14 @@ export default function LocaleLayout({
 					content="/icon.svg"
 				/>
 				<meta
+					property="og:image:width"
+					content="512"
+				/>
+				<meta
+					property="og:image:height"
+					content="512"
+				/>
+				<meta
 					property="og:url"
 					content="https://www.groupontap.com"
 				/>
