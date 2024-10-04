@@ -13,7 +13,7 @@ const team = {
 			email: 'corina@groupontap.com',
 		},
 		introduction: [
-			'With a career focused on creative industries, Corina Cătălina Gheorgheza started more than 16 years ago in the beauty industry, where she worked as a Brand Manager for Romania and the Balkans, spearheading an exclusive product line at Sephora Romania. Her portfolio includes collaborations with entities such as UNTOLD Group,, a company that organizes the largest music festivals in Eastern Europe and Middle East, as well as Remember Enescu Foundation, Edurights4Girls – Equal Access to Education, and in the cinematic domain as event coordinator for the movie “Beside Me” - directed by Tedy Necula.',
+			'With a career focused on creative industries, Corina Cătălina Gheorgheza started more than 16 years ago in the beauty industry, where she worked as a Brand Manager for Romania and the Balkans, spearheading an exclusive product line at Sephora Romania. Her portfolio includes collaborations with entities such as UNTOLD Group, a company that organizes the largest music festivals in Eastern Europe and Middle East, as well as Remember Enescu Foundation, Edurights4Girls – Equal Access to Education, and in the cinematic domain as event coordinator for the movie “Beside Me” - directed by Tedy Necula.',
 			'Corina stands as a co-founder of a pioneering initiative in Behavioral Analysis and Criminal Profiling, in collaboration with the Romanian Behavioral Analysis Unit under the umbrella of the General Inspectorate of the Romanian Police.',
 			'Certified as a trainer, project manager, behavioral analyst, criminal & psychological profiler, and clinical psychologist, she offers a blend of expertise to her clients. ',
 			"Currently serving as the Chief People Officer for Time&Place Group, Corina is responsible for overseeing the organisation's human resources and talent functions, providing a bridge between the workforce and executive decision-making. She is also involved in project management, controlling, and profiling. Additionally, Corina is also Programme Developer of Time&Place Institute, where she leads the development of course curriculums and manages the growth of this key pillar within the Group.",
@@ -34,7 +34,9 @@ const team = {
 				],
 				endorsement: {
 					content: [
-						"“Corina brought a wealth of expertise to the table, demonstrating a deep understanding of effective communication strategies. She skillfully crafted messages that resonated with our target audience, ensuring our project's objectives were effectively conveyed and understood. Her proactive approach and attention to detail were invaluable assets to our team.”",
+						"“Corina brought a wealth of expertise to the table, demonstrating a deep understanding of effective communication strategies. She skillfully crafted messages that resonated with our target audience, ensuring our project's objectives were effectively conveyed and understood.",
+						"Her proactive approach and attention to detail were invaluable assets to our team. Corina took the initiative to identify opportunities for improvement and implement innovative communication solutions, which significantly enhanced our project's visibility and impact. ",
+						'It was a pleasure having Corina in our team. She brings enthusiasm, creativity, and a collaborative spirit to every task, inspiring those around her to strive for excellence.” ',
 					],
 					name: 'Alexandra Bălșeanu',
 					title: 'President, GO-AHEAD Association',
@@ -67,7 +69,9 @@ const team = {
 				],
 				endorsement: {
 					content: [
-						'“Mrs. Corina Cătălina Gheorgheza has been collaborating with the Remember Enescu Cultural Foundation for over five years, handling the communication and promotion of our artistic events on social media platforms. Throughout this collaboration, I have had the pleasure of witnessing her high level of professionalism, promptness, dedication, and deep involvement.”',
+						'“Mrs. Corina Cătălina Gheorgheza has been collaborating with the Remember Enescu Cultural Foundation for over five years, handling the communication and promotion of our artistic events on social media platforms.',
+						'Throughout this collaboration, I have had the pleasure of witnessing her high level of professionalism, promptness, dedication, and deep involvement.',
+						'I wholeheartedly recommend Mrs. Corina Cătălina Gheorgheza for any collaboration or project.”',
 					],
 					name: 'Mihaela Tomescu',
 					title: 'President, Remember Enescu Cultural Foundation',
