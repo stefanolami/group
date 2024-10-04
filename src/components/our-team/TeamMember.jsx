@@ -37,6 +37,13 @@ export default function TeamMember({ name }) {
 						{element}
 					</p>
 				))}
+				{member.introductionEndorsement && (
+					<div>
+						<Endorsement
+							endorsement={member.introductionEndorsement}
+						/>
+					</div>
+				)}
 			</div>
 			{member.paragraphs.map((paragraph, index) => (
 				<div key={index}>

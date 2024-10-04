@@ -156,9 +156,19 @@ const team = {
 			email: 'corina@groupontap.com',
 		},
 		introduction: [
-			'With a career focused on creative industries, Corina Cătălina Gheorgheza started more than 16 years ago in the beauty industry, where she worked as a Brand Manager for Romania and the Balkans, spearheading an exclusive product line at Sephora Romania. Her portfolio includes collaborations with entities such as UNTOLD Group, Remember Enescu Foundation, Edurights4Girls – Equal Access to Education, and in the cinematic domain as event coordinator for the movie “Beside Me” - directed by Tedy Necula.',
+			'With a career focused on creative industries, Corina Cătălina Gheorgheza started more than 16 years ago in the beauty industry, where she worked as a Brand Manager for Romania and the Balkans, spearheading an exclusive product line at Sephora Romania. Her portfolio includes collaborations with entities such as UNTOLD Group,, a company that organizes the largest music festivals in Eastern Europe and Middle East, as well as Remember Enescu Foundation, Edurights4Girls – Equal Access to Education, and in the cinematic domain as event coordinator for the movie “Beside Me” - directed by Tedy Necula.',
 			'Corina stands as a co-founder of a pioneering initiative in Behavioral Analysis and Criminal Profiling, in collaboration with the Romanian Behavioral Analysis Unit under the umbrella of the General Inspectorate of the Romanian Police.',
+			'Certified as a trainer, project manager, behavioral analyst, criminal & psychological profiler, and clinical psychologist, she offers a blend of expertise to her clients. ',
+			"Currently serving as the Chief People Officer for Time&Place Group, Corina is responsible for overseeing the organisation's human resources and talent functions, providing a bridge between the workforce and executive decision-making. She is also involved in project management, controlling, and profiling. Additionally, Corina is also Programme Developer of Time&Place Institute, where she leads the development of course curriculums and manages the growth of this key pillar within the Group.",
 		],
+		introductionEndorsement: {
+			content: [
+				'“Mrs. Corina Gheorgheza stood out through her intelligence, sustained work capacity and strong motivation in settling rigorousness, methodical approach of science applied in uncertain forensic situations, calm handling of any issues and changes occurring in legal cases.',
+				'During the scientific activities in which she participated, I noticed that her professionalism and interest have contributed to the fast settlement of forensic psychology.”',
+			],
+			name: 'Phd. Psih. Chief Comm. Dorin Dumitran',
+			title: 'General Inspectorate of Romanian Police, Criminal Investigation Directorate – Behavioral Analysis Unit ',
+		},
 		paragraphs: [
 			{
 				title: 'Chief People Officer',
