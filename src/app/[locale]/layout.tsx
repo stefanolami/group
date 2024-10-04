@@ -28,6 +28,34 @@ export default function LocaleLayout({
 			className={`${jose.variable} ${unna.variable}`}
 		>
 			<Head>
+				<meta
+					property="og:title"
+					content="Time&Place Group"
+				/>
+				<meta
+					property="og:description"
+					content="The best time and place management solutions."
+				/>
+				<meta
+					property="og:image"
+					content="/android-chrome-512x512.png"
+				/>
+				<meta
+					property="og:image:width"
+					content="512"
+				/>
+				<meta
+					property="og:image:height"
+					content="512"
+				/>
+				<meta
+					property="og:url"
+					content="https://yourwebsite.com"
+				/>
+				<meta
+					property="og:type"
+					content="website"
+				/>
 				<link
 					rel="apple-touch-icon"
 					sizes="180x180"

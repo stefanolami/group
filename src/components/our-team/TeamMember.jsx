@@ -28,7 +28,7 @@ export default function TeamMember({ name }) {
 					/>
 				</div>
 			</div>
-			<div className="font-jose text-xs xl:text-lg text-justify mb-8 xl:mb-20">
+			<div className="font-jose text-xs xl:text-lg text-justify">
 				{member.introduction.map((element, index) => (
 					<p
 						className="mb-4 xl:mb-6"
@@ -46,7 +46,10 @@ export default function TeamMember({ name }) {
 				)}
 			</div>
 			{member.paragraphs.map((paragraph, index) => (
-				<div key={index}>
+				<div
+					key={index}
+					className=" mt-8 xl:mt-20"
+				>
 					<h3 className="font-unna font-bold text-xl xl:text-3xl mb-4 xl:mb-6">
 						{paragraph.title}
 					</h3>

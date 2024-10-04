@@ -1,6 +1,6 @@
 export default function Endorsement({ endorsement }) {
 	return (
-		<div className="w-screen xl:w-full -ml-[5vw] xl:ml-0 mb-8 xl:mb-20 bg-primary-light p-6 xl:px-16 xl:py-8 flex flex-col justify-between items-center overflow text-white">
+		<div className="w-screen xl:w-full -ml-[5vw] xl:ml-0 bg-primary-light p-6 xl:px-16 xl:py-8 flex flex-col justify-between items-center overflow text-white">
 			<div className="font-jose text-xs italic xl:text-xl text-justify mb-4">
 				{endorsement.content.map((element, index) => (
 					<p
