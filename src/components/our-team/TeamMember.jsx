@@ -63,6 +63,13 @@ export default function TeamMember({ name }) {
 							</p>
 						))}
 					</div>
+					{paragraph.list && (
+						<ul className="font-jose text-xs xl:text-lg mb-2 xl:mb-4 text-justify list-disc pl-6">
+							{paragraph.list.map((element, index) => (
+								<li key={index}>{element}</li>
+							))}
+						</ul>
+					)}
 					{paragraph.endorsement && (
 						<div>
 							<Endorsement endorsement={paragraph.endorsement} />
@@ -70,6 +77,11 @@ export default function TeamMember({ name }) {
 					)}
 				</div>
 			))}
+			{member.path === 'kjeld-olesen' && (
+				<p className="mb-4 xl:mb-6 font-jose text-xs xl:text-lg ">
+					Kjeld speaks Danish, English, and French.
+				</p>
+			)}
 			<div className="mt-10">
 				<h3 className="font-unna font-bold text-xl xl:text-3xl xl:mb-2">
 					Contact
