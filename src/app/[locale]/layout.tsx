@@ -29,13 +29,8 @@ export default function LocaleLayout({
 		>
 			<Head>
 				<link
-					rel="icon"
-					type="svg"
-					href="/icon.svg"
-				/>
-				<link
 					rel="apple-touch-icon"
-					sizes="144x144"
+					sizes="180x180"
 					href="/apple-touch-icon.png"
 				/>
 				<link
@@ -43,24 +38,6 @@ export default function LocaleLayout({
 					type="image/png"
 					sizes="32x32"
 					href="/favicon-32x32.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="48x48"
-					href="/favicon-48x48.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="96x96"
-					href="/favicon-96x96.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="144x144"
-					href="/favicon-144x144.png"
 				/>
 				<link
 					rel="icon"
@@ -84,34 +61,6 @@ export default function LocaleLayout({
 				<meta
 					name="theme-color"
 					content="#ffffff"
-				/>
-				<meta
-					property="og:title"
-					content="Time&Place Group"
-				/>
-				<meta
-					property="og:description"
-					content="Right TIME. Right PLACE. Your IMPACT."
-				/>
-				<meta
-					property="og:image"
-					content="/favicon.ico"
-				/>
-				<meta
-					property="og:image:width"
-					content="512"
-				/>
-				<meta
-					property="og:image:height"
-					content="512"
-				/>
-				<meta
-					property="og:url"
-					content="https://www.groupontap.com"
-				/>
-				<meta
-					property="og:type"
-					content="website"
 				/>
 			</Head>
 			<body className="relative pt-16 xl:pt-24 pb-[85px] xl:pb-[200px] min-h-screen">
