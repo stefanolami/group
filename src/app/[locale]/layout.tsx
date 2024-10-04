@@ -95,7 +95,7 @@ export default function LocaleLayout({
 				/>
 				<meta
 					property="og:image"
-					content="/favicon-512x512.png"
+					content="/favicon.ico"
 				/>
 				<meta
 					property="og:image:width"
