@@ -24,7 +24,7 @@ export default function OurTeam() {
 						/>
 						<div className="w-full h-[20%] absolute bottom-0 bg-primary group-hover:bg-primary-light z-20 text-white font-jose font-bold text-xs xl:text-lg text-center flex items-center flex-col justify-center">
 							<span>{member.imgName}</span>
-							<span>title</span>
+							<span>{member.imgTitle}</span>
 						</div>
 					</Link>
 				))}

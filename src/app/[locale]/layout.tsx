@@ -29,6 +29,11 @@ export default function LocaleLayout({
 		>
 			<Head>
 				<link
+					rel="icon"
+					type="svg"
+					href="/icon.svg"
+				/>
+				<link
 					rel="apple-touch-icon"
 					sizes="144x144"
 					href="/apple-touch-icon.png"
@@ -90,15 +95,7 @@ export default function LocaleLayout({
 				/>
 				<meta
 					property="og:image"
-					content="/android-chrome-144x144.png"
-				/>
-				<meta
-					property="og:image:width"
-					content="144"
-				/>
-				<meta
-					property="og:image:height"
-					content="144"
+					content="/icon.svg"
 				/>
 				<meta
 					property="og:url"
