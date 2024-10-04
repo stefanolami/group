@@ -1,9 +1,31 @@
 import './globals.css'
 import { Metadata } from 'next'
+import Head from 'next/head'
 
 export const metadata: Metadata = {
 	title: 'T&P Group',
 	description: 'Time&Place Group',
+	openGraph: {
+		title: 'T&P Group',
+		description: 'Right TIME. Right PLACE. Your IMPACT.',
+		url: 'https://group-sage.vercel.app',
+		siteName: 'T&P Group',
+		images: [
+			{
+				url: 'https://group-sage.vercel.app/android-chrome-512x512.png', // Must be an absolute URL
+				width: 512,
+				height: 512,
+			},
+			{
+				url: 'https://group-sage.vercel.app/android-chrome-192x192.png', // Must be an absolute URL
+				width: 192,
+				height: 192,
+				alt: 'My custom alt',
+			},
+		],
+		locale: 'en_US',
+		type: 'website',
+	},
 }
 
 export default function RootLayout({

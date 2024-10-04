@@ -27,7 +27,7 @@ export default function LocaleLayout({
 			lang={locale}
 			className={`${jose.variable} ${unna.variable}`}
 		>
-			<Head>
+			{/* <Head>
 				<meta
 					property="og:title"
 					content="Time&Place Group"
@@ -90,7 +90,7 @@ export default function LocaleLayout({
 					name="theme-color"
 					content="#ffffff"
 				/>
-			</Head>
+			</Head> */}
 			<body className="relative pt-16 xl:pt-24 pb-[85px] xl:pb-[200px] min-h-screen">
 				<Suspense fallback={<Loading />}>
 					<HeaderWrapper />
