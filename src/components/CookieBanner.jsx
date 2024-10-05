@@ -31,8 +31,8 @@ export default function CookieBanner() {
 	}
 
 	return (
-		<div className="fixed bottom-3 left-3 right-3 bg-white text-black p-4 rounded-md shadow-xl z-40">
-			<div className="container mx-auto flex justify-between items-center font-jose text-primary text-sm xl:text-lg">
+		<div className="fixed bottom-0 z-40 w-full">
+			<div className="container mb-3 bg-grey p-4 rounded-md shadow-xl w-[95%] xl:w-[98%] mx-auto flex justify-between items-center font-jose text-primary text-sm xl:text-lg">
 				<p>
 					We use cookies to ensure you get the best experience on our
 					website. Learn more here:
