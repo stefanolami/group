@@ -1,81 +1,74 @@
 const team = {
-	corina: {
-		name: 'Corina Cătălina Gheorgheza',
-		path: 'corina-gheorgheza',
-		img: '/team/corina.png',
-		imgName: 'Corina Gheorgheza',
-		imgTitle: 'CPO',
-		titles: [
-			'CPO – Time&Place Group',
-			'Programme Developer – Time&Place Institute',
-		],
+	cristina: {
+		name: 'Cristina Andriuc',
+		path: 'cristina-andriuc',
+		img: '/team/cristina.png',
+		imgName: 'Cristina Andriuc',
+		imgTitle: 'Graphic Designer',
+		titles: ['Graphic Designer – Time&Place Group'],
 		contact: {
-			email: 'corina@groupontap.com',
+			email: 'andriuc@groupontap.com ',
 		},
 		introduction: [
-			'With a career focused on creative industries, Corina Cătălina Gheorgheza started more than 16 years ago in the beauty industry, where she worked as a Brand Manager for Romania and the Balkans, spearheading an exclusive product line at Sephora Romania. Her portfolio includes collaborations with entities such as UNTOLD Group, a company that organizes the largest music festivals in Eastern Europe and Middle East, as well as Remember Enescu Foundation, Edurights4Girls – Equal Access to Education, and in the cinematic domain as event coordinator for the movie “Beside Me” - directed by Tedy Necula.',
-			'Corina stands as a co-founder of a pioneering initiative in Behavioral Analysis and Criminal Profiling, in collaboration with the Romanian Behavioral Analysis Unit under the umbrella of the General Inspectorate of the Romanian Police.',
-			'Certified as a trainer, project manager, behavioral analyst, criminal & psychological profiler, and clinical psychologist, she offers a blend of expertise to her clients. ',
-			"Currently serving as the Chief People Officer for Time&Place Group, Corina is responsible for overseeing the organisation's human resources and talent functions, providing a bridge between the workforce and executive decision-making. She is also involved in project management, controlling, and profiling. Additionally, Corina is also Programme Developer of Time&Place Institute, where she leads the development of course curriculums and manages the growth of this key pillar within the Group.",
+			'Cristina has built a solid career in the field of design, accumulating extensive experience over 12 years. After completing her studies, she began her career in graphic design, where she worked for 2 years, exploring various aspects of this creative field and gaining a deep understanding of design elements and the creative process.',
 		],
 		introductionEndorsement: {
 			content: [
-				'“Mrs. Corina Gheorgheza stood out through her intelligence, sustained work capacity and strong motivation in settling rigorousness, methodical approach of science applied in uncertain forensic situations, calm handling of any issues and changes occurring in legal cases.',
-				'During the scientific activities in which she participated, I noticed that her professionalism and interest have contributed to the fast settlement of forensic psychology.”',
+				"“Through Cristina's eyes, the Runners Club events are just like in reality... full of life, dynamic, connected with the runners.”",
 			],
-			name: 'Phd. Psih. Chief Comm. Dorin Dumitran',
-			title: 'General Inspectorate of Romanian Police, Criminal Investigation Directorate – Behavioral Analysis Unit ',
+			name: 'Horatiu Morar',
+			title: 'President, Association CS Runners Club',
 		},
 		paragraphs: [
 			{
-				title: 'Chief People Officer',
+				title: 'Product development from prototype to series',
 				content: [
-					'As the Chief People Officer of Time&Place Group, Corina is responsible for leading the organization’s people strategy, ensuring that the company attracts, develops, and retains top talent. She focuses on creating a supportive and inclusive workplace culture that fosters employee management and well-being. Corina works closely with leadership to align human resources initiatives with the company’s strategic objectives, managing areas such as recruitment, training and development, performance management, and employee relations.',
+					'Cristina specialised as well in product design within the lighting industry. For 5 years, she brought a fresh and innovative perspective, contributing to the development and launch of successful products on the market. Her experience in this field allowed her to improve her technical skills and to understand aspects such as functionality, ergonomics, and aesthetics in a deeper way.',
 				],
 				endorsement: {
 					content: [
-						"“Corina brought a wealth of expertise to the table, demonstrating a deep understanding of effective communication strategies. She skillfully crafted messages that resonated with our target audience, ensuring our project's objectives were effectively conveyed and understood.",
-						"Her proactive approach and attention to detail were invaluable assets to our team. Corina took the initiative to identify opportunities for improvement and implement innovative communication solutions, which significantly enhanced our project's visibility and impact. ",
-						'It was a pleasure having Corina in our team. She brings enthusiasm, creativity, and a collaborative spirit to every task, inspiring those around her to strive for excellence.” ',
+						'“Working with Cristina is the perfect Art Director, that perfect experience for a PR / marketing expert or an agency: she is not only an exquisite graphic designer, but also a brilliant visual artist and creative storyteller, with a talented hint of copywriter. She can provide not only an original idea for a design, but the whole concept for a campaign, which is truly a dream come true for any person working in this line of business (marketing, PR, events). I & the others from my agency became so addicted to her that we dreamt of working with her in all of our projects. Unfortunately, she said she needed to sleep and eat from time to time :)”',
 					],
-					name: 'Alexandra Bălșeanu',
-					title: 'President, GO-AHEAD Association',
+					name: 'Anca Dinu',
+					title: 'Manager, Add PR & Events',
 				},
 			},
 			{
-				title: 'Business Controller',
+				title: 'Creative direction',
 				content: [
-					'As a Business Controller, Corina is developing and maintaining legal and financial systems. Her approach involves planning, directing, and controlling legal and financial operations, while providing financial analysis.',
+					'Cristina established her own company in 2017 and since then, she has collaborated with a variety of clients from various industries such as entertainment, events, sports, real estate, and others. Her creative skills, combined with her strong design knowledge and vast experience, have made her a trusted partner for her clients, helping them realize their visions and achieve their goals in terms of design and branding.',
+					'Cristina speaks Romanian, English, French, and frequently practices Spanish.',
+				],
+			},
+		],
+	},
+	matheus: {
+		name: 'Matheus Carvalho',
+		path: 'matheus-carvalho',
+		img: '/team/matheus.png',
+		imgName: 'Matheus Carvalho',
+		imgTitle: 'Public Affairs Coordinator',
+		titles: ['Public Affairs Coordinator – Time&Place Consulting'],
+		contact: {
+			email: 'carvalho@timeandplaceconsulting.com',
+		},
+		introduction: [
+			"Matheus Carvalho is a Public Affairs expert with a track record of connecting Brazilian decision-makers to international stakeholders, whilst translating Brazil's complex political landscape into actionable insights.",
+			"Matheus' past roles include working in Danone's Global Public Affairs team in Paris, developing advocacy strategies and building public policy positions for the company, as well as serving as Head of Press and Political Affairs at the Consulate General of France for Northeast Brazil, where he represented French interests with the Brazilian government and in the media. He has also worked with corporate events at the American Chamber of Commerce for Brazil (AmCham), and at the social enterprise TIE, developing partnerships and advocacy campaigns with international NGOs.",
+			"He holds a Bachelor's degree in Political Science from the Federal University of Pernambuco (Brazil) and a Master's degree in Public & Institutional Communications from Sciences Po Strasbourg (France).",
+		],
+		paragraphs: [
+			{
+				title: 'Role at Time&Place Consulting',
+				content: [
+					'In August 2024, Matheus joined Time&Place Consulting as Public Affairs Coordinator in Brazil, where he champions advocacy initiatives and strategic communications on behalf of our clients. He brings to the table his experiences working with public institutions, grassroot organisations and multinationals to promote change and lasting impact in terms of policy and regulatory affairs. In doing so, he leverages his knowledge in fields such as e-mobility, food, health and renewable energies across different continents and cultures.',
 				],
 			},
 			{
-				title: 'Business Profiler',
+				title: 'Language and Cross-Cultural Skills',
 				content: [
-					"As a Business Profiler, Corina leverages her expertise as a forensic and psychological profiler and behavioral analyst to create detailed profiles of potential clients and collaborators. She applies her deep understanding of human behavior, motivations, and thought processes to analyze the key players within these organizations. Her analysis ensures that any collaboration aligns with the company's strategic goals and values, while also mitigating potential risks.",
+					'Having lived and worked in Brazil, Belgium, France and Senegal, Matheus transits seamlessly between different work cultures and thrives in international, multicultural scenarios. Besides his native Portuguese, he also speaks fluent English, French and Spanish, and has been trying hard to improve his Mandarin Chinese skills.',
 				],
-				endorsement: {
-					content: [
-						'“For the collaboration with me in the campaign for the release of my first feature film, Beside Me, Corina meant more than the extra mile, as both strategic and executive involvement. She worked very hard, and the effect was seen, the film was searched by tens of thousands of people. She is creative and goes deep into projects that bear her stamp.”',
-					],
-					name: 'Tedy Necula',
-					title: 'Inspirational Film & Ads Director / Producer, Necula Agency',
-				},
-			},
-			{
-				title: 'Publications & Training & Languages',
-				content: [
-					'Corina is writing monthly psychology-focused articles and has conducted training sessions for Sephora employees in Romania and Bulgaria. Additionally, she has facilitated workshops for Boots stores employees in London under the Boots Fashion Brands Workshops initiative.',
-					'Corina speaks Romanian, English, Spanish whilst improving her French.',
-				],
-				endorsement: {
-					content: [
-						'“Mrs. Corina Cătălina Gheorgheza has been collaborating with the Remember Enescu Cultural Foundation for over five years, handling the communication and promotion of our artistic events on social media platforms.',
-						'Throughout this collaboration, I have had the pleasure of witnessing her high level of professionalism, promptness, dedication, and deep involvement.',
-						'I wholeheartedly recommend Mrs. Corina Cătălina Gheorgheza for any collaboration or project.”',
-					],
-					name: 'Mihaela Tomescu',
-					title: 'President, Remember Enescu Cultural Foundation',
-				},
 			},
 		],
 	},
@@ -159,6 +152,153 @@ const team = {
 			},
 		],
 	},
+	guilherme: {
+		name: 'Guilherme Crispim Ferreira',
+		path: 'guilherme-ferreira',
+		img: '/team/guilherme.png',
+		imgName: 'Guilherme Ferreira',
+		imgTitle: 'Junior Consultant',
+		titles: ['Junior Consultant – Time&Place Consulting'],
+		contact: {
+			email: 'ferreira@timeandplaceconsulting.com',
+		},
+		introduction: [
+			'Guilherme Crispim Ferreira is a junior consultant with a rich cultural background and experiences. Having lived in several countries throughout his life, he understands the importance of communication and is able to catch on to different cultural nuances. Guilherme also has a strong educational background, holding a Bachelor’s degree in Public Administration and a Master’s in Public Policy, from Erasmus University Rotterdam.',
+		],
+		paragraphs: [
+			{
+				title: 'Previous Experiences',
+				content: [
+					'He has previously interned as a research assistant in Ethiopia. During his time in Ethiopia, he participated in a high-level meeting on resource management and wrote a concept note on the 2016-17 Horn of Africa Drought. Thus, exhibiting an understanding of the flow of high-level meetings, with experience in creating briefing notes for those involved, and drafting detailed minutes. Furthermore, Guilherme has previous experience in developing and maintaining newsletters, where he was responsible for writing articles, editing and distributing the newsletter.',
+					'During his studies he undertook several academic projects, namely, a management consultancy project in association with the City Hall of Rotterdam and a sanctions project on Chinese media censorship in association with the Dutch Ministry of Foreign Affairs.',
+				],
+			},
+			{
+				title: 'At Time&Place Group',
+				content: [
+					"Guilherme joined Time&Place Group in October 2023. Guilherme's contributions so far have come through an active role in policy monitoring and analysis of EU regulations, conceptualising position papers, drafting concise presentation for high-level meetings and stakeholder mapping. These contributions have come mainly in the field of e-mobility, where Guilherme has been able to expand his involvement on several areas such as charging infrastructure, standardisation, types of charging and smart grids; not least within the scope of CharIN e.V.",
+					'Guilherme speaks Portuguese, English and Spanish, while also holding a basic understanding of French.',
+				],
+			},
+		],
+	},
+	corina: {
+		name: 'Corina Cătălina Gheorgheza',
+		path: 'corina-gheorgheza',
+		img: '/team/corina.png',
+		imgName: 'Corina Gheorgheza',
+		imgTitle: 'CPO',
+		titles: [
+			'CPO – Time&Place Group',
+			'Programme Developer – Time&Place Institute',
+		],
+		contact: {
+			email: 'corina@groupontap.com',
+		},
+		introduction: [
+			'With a career focused on creative industries, Corina Cătălina Gheorgheza started more than 16 years ago in the beauty industry, where she worked as a Brand Manager for Romania and the Balkans, spearheading an exclusive product line at Sephora Romania. Her portfolio includes collaborations with entities such as UNTOLD Group, a company that organizes the largest music festivals in Eastern Europe and Middle East, as well as Remember Enescu Foundation, Edurights4Girls – Equal Access to Education, and in the cinematic domain as event coordinator for the movie “Beside Me” - directed by Tedy Necula.',
+			'Corina stands as a co-founder of a pioneering initiative in Behavioral Analysis and Criminal Profiling, in collaboration with the Romanian Behavioral Analysis Unit under the umbrella of the General Inspectorate of the Romanian Police.',
+			'Certified as a trainer, project manager, behavioral analyst, criminal & psychological profiler, and clinical psychologist, she offers a blend of expertise to her clients. ',
+			"Currently serving as the Chief People Officer for Time&Place Group, Corina is responsible for overseeing the organisation's human resources and talent functions, providing a bridge between the workforce and executive decision-making. She is also involved in project management, controlling, and profiling. Additionally, Corina is also Programme Developer of Time&Place Institute, where she leads the development of course curriculums and manages the growth of this key pillar within the Group.",
+		],
+		introductionEndorsement: {
+			content: [
+				'“Mrs. Corina Gheorgheza stood out through her intelligence, sustained work capacity and strong motivation in settling rigorousness, methodical approach of science applied in uncertain forensic situations, calm handling of any issues and changes occurring in legal cases.',
+				'During the scientific activities in which she participated, I noticed that her professionalism and interest have contributed to the fast settlement of forensic psychology.”',
+			],
+			name: 'Phd. Psih. Chief Comm. Dorin Dumitran',
+			title: 'General Inspectorate of Romanian Police, Criminal Investigation Directorate – Behavioral Analysis Unit ',
+		},
+		paragraphs: [
+			{
+				title: 'Chief People Officer',
+				content: [
+					'As the Chief People Officer of Time&Place Group, Corina is responsible for leading the organization’s people strategy, ensuring that the company attracts, develops, and retains top talent. She focuses on creating a supportive and inclusive workplace culture that fosters employee management and well-being. Corina works closely with leadership to align human resources initiatives with the company’s strategic objectives, managing areas such as recruitment, training and development, performance management, and employee relations.',
+				],
+				endorsement: {
+					content: [
+						"“Corina brought a wealth of expertise to the table, demonstrating a deep understanding of effective communication strategies. She skillfully crafted messages that resonated with our target audience, ensuring our project's objectives were effectively conveyed and understood.",
+						"Her proactive approach and attention to detail were invaluable assets to our team. Corina took the initiative to identify opportunities for improvement and implement innovative communication solutions, which significantly enhanced our project's visibility and impact. ",
+						'It was a pleasure having Corina in our team. She brings enthusiasm, creativity, and a collaborative spirit to every task, inspiring those around her to strive for excellence.” ',
+					],
+					name: 'Alexandra Bălșeanu',
+					title: 'President, GO-AHEAD Association',
+				},
+			},
+			{
+				title: 'Business Controller',
+				content: [
+					'As a Business Controller, Corina is developing and maintaining legal and financial systems. Her approach involves planning, directing, and controlling legal and financial operations, while providing financial analysis.',
+				],
+			},
+			{
+				title: 'Business Profiler',
+				content: [
+					"As a Business Profiler, Corina leverages her expertise as a forensic and psychological profiler and behavioral analyst to create detailed profiles of potential clients and collaborators. She applies her deep understanding of human behavior, motivations, and thought processes to analyze the key players within these organizations. Her analysis ensures that any collaboration aligns with the company's strategic goals and values, while also mitigating potential risks.",
+				],
+				endorsement: {
+					content: [
+						'“For the collaboration with me in the campaign for the release of my first feature film, Beside Me, Corina meant more than the extra mile, as both strategic and executive involvement. She worked very hard, and the effect was seen, the film was searched by tens of thousands of people. She is creative and goes deep into projects that bear her stamp.”',
+					],
+					name: 'Tedy Necula',
+					title: 'Inspirational Film & Ads Director / Producer, Necula Agency',
+				},
+			},
+			{
+				title: 'Publications & Training & Languages',
+				content: [
+					'Corina is writing monthly psychology-focused articles and has conducted training sessions for Sephora employees in Romania and Bulgaria. Additionally, she has facilitated workshops for Boots stores employees in London under the Boots Fashion Brands Workshops initiative.',
+					'Corina speaks Romanian, English, Spanish whilst improving her French.',
+				],
+				endorsement: {
+					content: [
+						'“Mrs. Corina Cătălina Gheorgheza has been collaborating with the Remember Enescu Cultural Foundation for over five years, handling the communication and promotion of our artistic events on social media platforms.',
+						'Throughout this collaboration, I have had the pleasure of witnessing her high level of professionalism, promptness, dedication, and deep involvement.',
+						'I wholeheartedly recommend Mrs. Corina Cătălina Gheorgheza for any collaboration or project.”',
+					],
+					name: 'Mihaela Tomescu',
+					title: 'President, Remember Enescu Cultural Foundation',
+				},
+			},
+		],
+	},
+	stefano: {
+		name: 'Stefano Lami',
+		path: 'stefano-lami',
+		img: '/team/stefano.png',
+		imgName: 'Stefano Lami',
+		imgTitle: 'Web Developer',
+		titles: ['Web Developer - Time&Place Group'],
+		contact: {
+			email: 'stefano@groupontap.com',
+		},
+		introduction: [
+			'Stefano Lami brings a blend of technical aptitude and creative problem-solving to his role as Web Developer. He is passionate about crafting user-friendly and visually appealing web experiences.',
+		],
+		paragraphs: [
+			{
+				title: 'Culinary Journey',
+				content: [
+					'Before diving into web development, Stefano spent 10 years working as a Cook and kitchen Chef. Following a cherished family tradition, he started honing his skills in the kitchen alongside his father in 2009. This passion led him to a prestigious cooking school in Florence, Italy, further solidifying his expertise.',
+					'He worked for several years in renowned restaurants throughout Modena, Italy, where he broadened his culinary repertoire and thrived in demanding kitchen environments. In 2015, Stefano relocated to Berlin, Germany, and continued refining his craft at two acclaimed Italian restaurants until 2019.',
+				],
+			},
+			{
+				title: 'Web Development',
+				content: [
+					"Stefano's path to web development began with a keen interest in technology, complementing his successful career as a chef. This background instilled in him valuable skills like meticulous attention to detail, project management, and the ability to meet deadlines under pressure – all crucial assets in the web development world.",
+					'In 2019, Stefano decided to pursue his passion for programming and embarked on a focused learning journey. He completed a web development program and honed his skills by building various websites and web applications as a freelancer.',
+				],
+			},
+			{
+				title: 'Time&Place Group',
+				content: [
+					'Since joining Time&Place Group in February 2023, Stefano has become an integral part of the team, contributing to the development and maintenance of our digital presence. He is a quick learner, always eager to expand his knowledge and tackle new challenges.',
+					'Stefano speaks English, Italian, German, and Romanian.',
+				],
+			},
+		],
+	},
 	kjeld: {
 		name: 'Kjeld B. Olesen',
 		path: 'kjeld-olesen',
@@ -222,146 +362,6 @@ const team = {
 					'Environment, waste management, wood processing machinery industry, textile design and production, metal processing, logistic systems, nanomaterials;',
 					'Energy (renewable energy and energy efficiency);',
 					'ICT (mobile and wireless communication, computer science, robotics, intelligent transport systems, health technology);',
-				],
-			},
-		],
-	},
-	stefano: {
-		name: 'Stefano Lami',
-		path: 'stefano-lami',
-		img: '/team/stefano.png',
-		imgName: 'Stefano Lami',
-		imgTitle: 'Web Developer',
-		titles: ['Web Developer - Time&Place Group'],
-		contact: {
-			email: 'stefano@groupontap.com',
-		},
-		introduction: [
-			'Stefano Lami brings a blend of technical aptitude and creative problem-solving to his role as Web Developer. He is passionate about crafting user-friendly and visually appealing web experiences.',
-		],
-		paragraphs: [
-			{
-				title: 'Culinary Journey',
-				content: [
-					'Before diving into web development, Stefano spent 10 years working as a Cook and kitchen Chef. Following a cherished family tradition, he started honing his skills in the kitchen alongside his father in 2009. This passion led him to a prestigious cooking school in Florence, Italy, further solidifying his expertise.',
-					'He worked for several years in renowned restaurants throughout Modena, Italy, where he broadened his culinary repertoire and thrived in demanding kitchen environments. In 2015, Stefano relocated to Berlin, Germany, and continued refining his craft at two acclaimed Italian restaurants until 2019.',
-				],
-			},
-			{
-				title: 'Web Development',
-				content: [
-					"Stefano's path to web development began with a keen interest in technology, complementing his successful career as a chef. This background instilled in him valuable skills like meticulous attention to detail, project management, and the ability to meet deadlines under pressure – all crucial assets in the web development world.",
-					'In 2019, Stefano decided to pursue his passion for programming and embarked on a focused learning journey. He completed a web development program and honed his skills by building various websites and web applications as a freelancer.',
-				],
-			},
-			{
-				title: 'Time&Place Group',
-				content: [
-					'Since joining Time&Place Group in February 2023, Stefano has become an integral part of the team, contributing to the development and maintenance of our digital presence. He is a quick learner, always eager to expand his knowledge and tackle new challenges.',
-					'Stefano speaks English, Italian, German, and Romanian.',
-				],
-			},
-		],
-	},
-	guilherme: {
-		name: 'Guilherme Crispim Ferreira',
-		path: 'guilherme-ferreira',
-		img: '/team/guilherme.png',
-		imgName: 'Guilherme Ferreira',
-		imgTitle: 'Junior Consultant',
-		titles: ['Junior Consultant – Time&Place Consulting'],
-		contact: {
-			email: 'ferreira@timeandplaceconsulting.com',
-		},
-		introduction: [
-			'Guilherme Crispim Ferreira is a junior consultant with a rich cultural background and experiences. Having lived in several countries throughout his life, he understands the importance of communication and is able to catch on to different cultural nuances. Guilherme also has a strong educational background, holding a Bachelor’s degree in Public Administration and a Master’s in Public Policy, from Erasmus University Rotterdam.',
-		],
-		paragraphs: [
-			{
-				title: 'Previous Experiences',
-				content: [
-					'He has previously interned as a research assistant in Ethiopia. During his time in Ethiopia, he participated in a high-level meeting on resource management and wrote a concept note on the 2016-17 Horn of Africa Drought. Thus, exhibiting an understanding of the flow of high-level meetings, with experience in creating briefing notes for those involved, and drafting detailed minutes. Furthermore, Guilherme has previous experience in developing and maintaining newsletters, where he was responsible for writing articles, editing and distributing the newsletter.',
-					'During his studies he undertook several academic projects, namely, a management consultancy project in association with the City Hall of Rotterdam and a sanctions project on Chinese media censorship in association with the Dutch Ministry of Foreign Affairs.',
-				],
-			},
-			{
-				title: 'At Time&Place Group',
-				content: [
-					"Guilherme joined Time&Place Group in October 2023. Guilherme's contributions so far have come through an active role in policy monitoring and analysis of EU regulations, conceptualising position papers, drafting concise presentation for high-level meetings and stakeholder mapping. These contributions have come mainly in the field of e-mobility, where Guilherme has been able to expand his involvement on several areas such as charging infrastructure, standardisation, types of charging and smart grids; not least within the scope of CharIN e.V.",
-					'Guilherme speaks Portuguese, English and Spanish, while also holding a basic understanding of French.',
-				],
-			},
-		],
-	},
-	matheus: {
-		name: 'Matheus Carvalho',
-		path: 'matheus-carvalho',
-		img: '/team/matheus.png',
-		imgName: 'Matheus Carvalho',
-		imgTitle: 'Public Affairs Coordinator',
-		titles: ['Public Affairs Coordinator – Time&Place Consulting'],
-		contact: {
-			email: 'carvalho@timeandplaceconsulting.com',
-		},
-		introduction: [
-			"Matheus Carvalho is a Public Affairs expert with a track record of connecting Brazilian decision-makers to international stakeholders, whilst translating Brazil's complex political landscape into actionable insights.",
-			"Matheus' past roles include working in Danone's Global Public Affairs team in Paris, developing advocacy strategies and building public policy positions for the company, as well as serving as Head of Press and Political Affairs at the Consulate General of France for Northeast Brazil, where he represented French interests with the Brazilian government and in the media. He has also worked with corporate events at the American Chamber of Commerce for Brazil (AmCham), and at the social enterprise TIE, developing partnerships and advocacy campaigns with international NGOs.",
-			"He holds a Bachelor's degree in Political Science from the Federal University of Pernambuco (Brazil) and a Master's degree in Public & Institutional Communications from Sciences Po Strasbourg (France).",
-		],
-		paragraphs: [
-			{
-				title: 'Role at Time&Place Consulting',
-				content: [
-					'In August 2024, Matheus joined Time&Place Consulting as Public Affairs Coordinator in Brazil, where he champions advocacy initiatives and strategic communications on behalf of our clients. He brings to the table his experiences working with public institutions, grassroot organisations and multinationals to promote change and lasting impact in terms of policy and regulatory affairs. In doing so, he leverages his knowledge in fields such as e-mobility, food, health and renewable energies across different continents and cultures.',
-				],
-			},
-			{
-				title: 'Language and Cross-Cultural Skills',
-				content: [
-					'Having lived and worked in Brazil, Belgium, France and Senegal, Matheus transits seamlessly between different work cultures and thrives in international, multicultural scenarios. Besides his native Portuguese, he also speaks fluent English, French and Spanish, and has been trying hard to improve his Mandarin Chinese skills.',
-				],
-			},
-		],
-	},
-	cristina: {
-		name: 'Cristina Andriuc',
-		path: 'cristina-andriuc',
-		img: '/team/cristina.png',
-		imgName: 'Cristina Andriuc',
-		imgTitle: 'Graphic Designer',
-		titles: ['Graphic Designer – Time&Place Group'],
-		contact: {
-			email: 'andriuc@groupontap.com ',
-		},
-		introduction: [
-			'Cristina has built a solid career in the field of design, accumulating extensive experience over 12 years. After completing her studies, she began her career in graphic design, where she worked for 2 years, exploring various aspects of this creative field and gaining a deep understanding of design elements and the creative process.',
-		],
-		introductionEndorsement: {
-			content: [
-				"“Through Cristina's eyes, the Runners Club events are just like in reality... full of life, dynamic, connected with the runners.”",
-			],
-			name: 'Horatiu Morar',
-			title: 'President, Association CS Runners Club',
-		},
-		paragraphs: [
-			{
-				title: 'Product development from prototype to series',
-				content: [
-					'Cristina specialised as well in product design within the lighting industry. For 5 years, she brought a fresh and innovative perspective, contributing to the development and launch of successful products on the market. Her experience in this field allowed her to improve her technical skills and to understand aspects such as functionality, ergonomics, and aesthetics in a deeper way.',
-				],
-				endorsement: {
-					content: [
-						'“Working with Cristina is the perfect Art Director, that perfect experience for a PR / marketing expert or an agency: she is not only an exquisite graphic designer, but also a brilliant visual artist and creative storyteller, with a talented hint of copywriter. She can provide not only an original idea for a design, but the whole concept for a campaign, which is truly a dream come true for any person working in this line of business (marketing, PR, events). I & the others from my agency became so addicted to her that we dreamt of working with her in all of our projects. Unfortunately, she said she needed to sleep and eat from time to time :)”',
-					],
-					name: 'Anca Dinu',
-					title: 'Manager, Add PR & Events',
-				},
-			},
-			{
-				title: 'Creative direction',
-				content: [
-					'Cristina established her own company in 2017 and since then, she has collaborated with a variety of clients from various industries such as entertainment, events, sports, real estate, and others. Her creative skills, combined with her strong design knowledge and vast experience, have made her a trusted partner for her clients, helping them realize their visions and achieve their goals in terms of design and branding.',
-					'Cristina speaks Romanian, English, French, and frequently practices Spanish.',
 				],
 			},
 		],
