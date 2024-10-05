@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: 'T&P Group',
 		description: 'Right TIME. Right PLACE. Your IMPACT.',
-		url: 'https://group-sage.vercel.app',
+		url: 'https://www.groupontap.com',
 		siteName: 'T&P Group',
 		images: [
 			{
