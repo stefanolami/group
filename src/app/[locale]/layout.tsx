@@ -5,7 +5,8 @@ import { Suspense } from 'react'
 import HeaderWrapper from '@/components/header/HeaderWrapper'
 import Footer from '@/components/footer/Footer'
 import Loading from '@/components/Loading'
-import Head from 'next/head'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
+import CookieBanner from '@/components/CookieBanner'
 
 // Can be imported from a shared config
 const locales = ['en']
@@ -27,74 +28,14 @@ export default function LocaleLayout({
 			lang={locale}
 			className={`${jose.variable} ${unna.variable}`}
 		>
-			{/* <Head>
-				<meta
-					property="og:title"
-					content="Time&Place Group"
-				/>
-				<meta
-					property="og:description"
-					content="The best time and place management solutions."
-				/>
-				<meta
-					property="og:image"
-					content="/android-chrome-512x512.png"
-				/>
-				<meta
-					property="og:image:width"
-					content="512"
-				/>
-				<meta
-					property="og:image:height"
-					content="512"
-				/>
-				<meta
-					property="og:url"
-					content="https://yourwebsite.com"
-				/>
-				<meta
-					property="og:type"
-					content="website"
-				/>
-				<link
-					rel="apple-touch-icon"
-					sizes="180x180"
-					href="/apple-touch-icon.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="32x32"
-					href="/favicon-32x32.png"
-				/>
-				<link
-					rel="icon"
-					type="image/png"
-					sizes="16x16"
-					href="/favicon-16x16.png"
-				/>
-				<link
-					rel="manifest"
-					href="/site.webmanifest"
-				/>
-				<link
-					rel="mask-icon"
-					href="/safari-pinned-tab.svg"
-					color="#5bbad5"
-				/>
-				<meta
-					name="msapplication-TileColor"
-					content="#da532c"
-				/>
-				<meta
-					name="theme-color"
-					content="#ffffff"
-				/>
-			</Head> */}
+			<Suspense fallback={null}>
+				<GoogleAnalytics GA_MEASUREMENT_ID={'G-MEJHPJY420'} />
+			</Suspense>
 			<body className="relative pt-16 xl:pt-24 pb-[85px] xl:pb-[200px] min-h-screen">
 				<Suspense fallback={<Loading />}>
 					<HeaderWrapper />
 					<main className="">{children}</main>
+					<CookieBanner />
 					<Footer />
 				</Suspense>
 			</body>
