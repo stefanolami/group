@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Link } from '@/navigation'
+import { Link } from '@/i18n/routing'
 import { pillars, products, projects } from '@/data/data'
 import CardSlide from '@/components/cards-flip/CardSlide'
 

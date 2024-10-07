@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { getLocalStorage, setLocalStorage } from '@/utils/storage'
-import { Link } from '@/navigation'
+import { Link } from '@/i18n/routing'
 
 export default function CookieBanner() {
 	const [cookieConsent, setCookieConsent] = useState(null)
