@@ -139,7 +139,7 @@ export const products = [
 		background: '#EAEAEA',
 		primary: '#000',
 		text: [
-			'A think tank which builds a universal understanding of the opportunities and challenges which digital and crypto currencies bring so that all relevant stakeholders including the public, law-makers, regulatory authorities, actual and potential users make the most informed decisions. We bring together industry, financial compliance experts, enforcement bodies, governmental decision-makers, and civil society organisations to provide the most complete view of what the technology does and what impact it has.',
+			'A think tank which builds a universal understanding of the opportunities and challenges which digital and crypto currencies bring so that all relevant stakeholders including the public, law-makers, regulatory authorities, actual and potential users make the most informed decisions. We bring together industry, financial compliance experts, enforcement bodies, governmental decision-makers, and civil society organizations to provide the most complete view of what the technology does and what impact it has.',
 		],
 		link: '',
 		message: 'Platform launch: Q1 2025',
@@ -151,7 +151,7 @@ export const products = [
 		background: '#FFF',
 		primary: '#000',
 		text: [
-			'A 360°-strategy development and implementation consultancy and think tank, focusing on the ongoing transition to electrification. Our building blocks are (1) electrified transport, agriculture, construction and mining; (2) energy management with a view of coordinating energy usage; (3) efficiency architecture through integrated ecosystems; (4) cost-effectiveness & efficiency based on a viable business plan.',
+			'Fund for those who have dedicated their lives to helping animals and children at a smaller-scale local level around the world. Why are we different? We focus all the money we gather and allocate on those projects and do not spend it on admin, travel costs, marketing and management. It is a pledge of our company and network to use our own resources to this end. Where do we receive the funds from? Various sources, including allocating fixed percentages from our client contracts and events. And, maybe your dedication?',
 		],
 		link: '',
 		message: 'Website launch: Q2 2025',
