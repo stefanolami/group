@@ -10,10 +10,10 @@ export default function OurTeam() {
 				OUR TEAM
 			</h1>
 			<div className="grid grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-5">
-				{teamArray.map((member, index) => (
+				{teamArray.map((member) => (
 					<Link
 						href={`/our-team/${member.path}`}
-						key={index}
+						key={member.path}
 						className="w-full aspect-[265/390] relative border-primary shadow-md hover:shadow-2xl group"
 					>
 						<Image
