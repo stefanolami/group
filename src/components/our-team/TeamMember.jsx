@@ -4,7 +4,6 @@ import Image from 'next/image'
 
 export default function TeamMember({ name }) {
 	const member = Object.values(team).find((member) => member.path === name)
-	console.log(member)
 
 	return (
 		<div className="w-[90%] xl:w-[70%] mx-auto pt-8 xl:pt-20 pb-16 xl:pb-32 ">
