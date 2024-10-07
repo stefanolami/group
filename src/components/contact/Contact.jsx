@@ -26,7 +26,7 @@ export default function Contact() {
 								</div>
 								<div>
 									<span className="block font-jose text-xs xl:text-lg font-primary xl:text-center">
-										Rue de la Loi 81 A
+										Rue de la Loi 81A
 									</span>
 									<span className="block font-jose text-xs xl:text-lg font-primary xl:text-center">
 										1040 Brussels – Belgium
@@ -44,7 +44,7 @@ export default function Contact() {
 								</div>
 								<div>
 									<span className="block font-jose text-xs xl:text-lg font-primary">
-										info@grupontap.com
+										info@groupontap.com
 									</span>
 								</div>
 							</div>

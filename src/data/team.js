@@ -1,77 +1,4 @@
 const team = {
-	cristina: {
-		name: 'Cristina Andriuc',
-		path: 'cristina-andriuc',
-		img: '/team/cristina.png',
-		imgName: 'Cristina Andriuc',
-		imgTitle: 'Graphic Designer',
-		titles: ['Graphic Designer – Time&Place Group'],
-		contact: {
-			email: 'andriuc@groupontap.com ',
-		},
-		introduction: [
-			'Cristina has built a solid career in the field of design, accumulating extensive experience over 12 years. After completing her studies, she began her career in graphic design, where she worked for 2 years, exploring various aspects of this creative field and gaining a deep understanding of design elements and the creative process.',
-		],
-		introductionEndorsement: {
-			content: [
-				"“Through Cristina's eyes, the Runners Club events are just like in reality... full of life, dynamic, connected with the runners.”",
-			],
-			name: 'Horatiu Morar',
-			title: 'President, Association CS Runners Club',
-		},
-		paragraphs: [
-			{
-				title: 'Product development from prototype to series',
-				content: [
-					'Cristina specialised as well in product design within the lighting industry. For 5 years, she brought a fresh and innovative perspective, contributing to the development and launch of successful products on the market. Her experience in this field allowed her to improve her technical skills and to understand aspects such as functionality, ergonomics, and aesthetics in a deeper way.',
-				],
-				endorsement: {
-					content: [
-						'“Working with Cristina is the perfect Art Director, that perfect experience for a PR / marketing expert or an agency: she is not only an exquisite graphic designer, but also a brilliant visual artist and creative storyteller, with a talented hint of copywriter. She can provide not only an original idea for a design, but the whole concept for a campaign, which is truly a dream come true for any person working in this line of business (marketing, PR, events). I & the others from my agency became so addicted to her that we dreamt of working with her in all of our projects. Unfortunately, she said she needed to sleep and eat from time to time :)”',
-					],
-					name: 'Anca Dinu',
-					title: 'Manager, Add PR & Events',
-				},
-			},
-			{
-				title: 'Creative direction',
-				content: [
-					'Cristina established her own company in 2017 and since then, she has collaborated with a variety of clients from various industries such as entertainment, events, sports, real estate, and others. Her creative skills, combined with her strong design knowledge and vast experience, have made her a trusted partner for her clients, helping them realize their visions and achieve their goals in terms of design and branding.',
-					'Cristina speaks Romanian, English, French, and frequently practices Spanish.',
-				],
-			},
-		],
-	},
-	matheus: {
-		name: 'Matheus Carvalho',
-		path: 'matheus-carvalho',
-		img: '/team/matheus.png',
-		imgName: 'Matheus Carvalho',
-		imgTitle: 'Public Affairs Coordinator',
-		titles: ['Public Affairs Coordinator – Time&Place Consulting'],
-		contact: {
-			email: 'carvalho@timeandplaceconsulting.com',
-		},
-		introduction: [
-			"Matheus Carvalho is a Public Affairs expert with a track record of connecting Brazilian decision-makers to international stakeholders, whilst translating Brazil's complex political landscape into actionable insights.",
-			"Matheus' past roles include working in Danone's Global Public Affairs team in Paris, developing advocacy strategies and building public policy positions for the company, as well as serving as Head of Press and Political Affairs at the Consulate General of France for Northeast Brazil, where he represented French interests with the Brazilian government and in the media. He has also worked with corporate events at the American Chamber of Commerce for Brazil (AmCham), and at the social enterprise TIE, developing partnerships and advocacy campaigns with international NGOs.",
-			"He holds a Bachelor's degree in Political Science from the Federal University of Pernambuco (Brazil) and a Master's degree in Public & Institutional Communications from Sciences Po Strasbourg (France).",
-		],
-		paragraphs: [
-			{
-				title: 'Role at Time&Place Consulting',
-				content: [
-					'In August 2024, Matheus joined Time&Place Consulting as Public Affairs Coordinator in Brazil, where he champions advocacy initiatives and strategic communications on behalf of our clients. He brings to the table his experiences working with public institutions, grassroot organisations and multinationals to promote change and lasting impact in terms of policy and regulatory affairs. In doing so, he leverages his knowledge in fields such as e-mobility, food, health and renewable energies across different continents and cultures.',
-				],
-			},
-			{
-				title: 'Language and Cross-Cultural Skills',
-				content: [
-					'Having lived and worked in Brazil, Belgium, France and Senegal, Matheus transits seamlessly between different work cultures and thrives in international, multicultural scenarios. Besides his native Portuguese, he also speaks fluent English, French and Spanish, and has been trying hard to improve his Mandarin Chinese skills.',
-				],
-			},
-		],
-	},
 	glenn: {
 		name: 'Glenn Cezanne',
 		path: 'glenn-cezanne',
@@ -148,36 +75,6 @@ const team = {
 					'Glenn is also often invited to conferences and seminars to discuss how decision-making at EU level can be influenced, whilst also providing specialised training to various stakeholders such as sports executives to this end.',
 					'He regularly writes thematic articles for online and paper press, and wrote the chapter titled ”Shaping Lobbying Impact: How Everything from Seating Arrangements to Natural Disasters Makes a Difference” in the book, Lobbying in the European Union (2019, Springer).',
 					'Glenn speaks German, Romanian, Italian, French and English, whilst constantly trying to improve his Dutch and Portuguese.',
-				],
-			},
-		],
-	},
-	guilherme: {
-		name: 'Guilherme Crispim Ferreira',
-		path: 'guilherme-ferreira',
-		img: '/team/guilherme.png',
-		imgName: 'Guilherme Ferreira',
-		imgTitle: 'Junior Consultant',
-		titles: ['Junior Consultant – Time&Place Consulting'],
-		contact: {
-			email: 'ferreira@timeandplaceconsulting.com',
-		},
-		introduction: [
-			'Guilherme Crispim Ferreira is a junior consultant with a rich cultural background and experiences. Having lived in several countries throughout his life, he understands the importance of communication and is able to catch on to different cultural nuances. Guilherme also has a strong educational background, holding a Bachelor’s degree in Public Administration and a Master’s in Public Policy, from Erasmus University Rotterdam.',
-		],
-		paragraphs: [
-			{
-				title: 'Previous Experiences',
-				content: [
-					'He has previously interned as a research assistant in Ethiopia. During his time in Ethiopia, he participated in a high-level meeting on resource management and wrote a concept note on the 2016-17 Horn of Africa Drought. Thus, exhibiting an understanding of the flow of high-level meetings, with experience in creating briefing notes for those involved, and drafting detailed minutes. Furthermore, Guilherme has previous experience in developing and maintaining newsletters, where he was responsible for writing articles, editing and distributing the newsletter.',
-					'During his studies he undertook several academic projects, namely, a management consultancy project in association with the City Hall of Rotterdam and a sanctions project on Chinese media censorship in association with the Dutch Ministry of Foreign Affairs.',
-				],
-			},
-			{
-				title: 'At Time&Place Group',
-				content: [
-					"Guilherme joined Time&Place Group in October 2023. Guilherme's contributions so far have come through an active role in policy monitoring and analysis of EU regulations, conceptualising position papers, drafting concise presentation for high-level meetings and stakeholder mapping. These contributions have come mainly in the field of e-mobility, where Guilherme has been able to expand his involvement on several areas such as charging infrastructure, standardisation, types of charging and smart grids; not least within the scope of CharIN e.V.",
-					'Guilherme speaks Portuguese, English and Spanish, while also holding a basic understanding of French.',
 				],
 			},
 		],
@@ -259,6 +156,109 @@ const team = {
 					name: 'Mihaela Tomescu',
 					title: 'President, Remember Enescu Cultural Foundation',
 				},
+			},
+		],
+	},
+	cristina: {
+		name: 'Cristina Andriuc',
+		path: 'cristina-andriuc',
+		img: '/team/cristina.png',
+		imgName: 'Cristina Andriuc',
+		imgTitle: 'Graphic Designer',
+		titles: ['Graphic Designer – Time&Place Group'],
+		contact: {
+			email: 'andriuc@groupontap.com ',
+		},
+		introduction: [
+			'Cristina has built a solid career in the field of design, accumulating extensive experience over 12 years. After completing her studies, she began her career in graphic design, where she worked for 2 years, exploring various aspects of this creative field and gaining a deep understanding of design elements and the creative process.',
+		],
+		introductionEndorsement: {
+			content: [
+				"“Through Cristina's eyes, the Runners Club events are just like in reality... full of life, dynamic, connected with the runners.”",
+			],
+			name: 'Horatiu Morar',
+			title: 'President, Association CS Runners Club',
+		},
+		paragraphs: [
+			{
+				title: 'Product development from prototype to series',
+				content: [
+					'Cristina specialised as well in product design within the lighting industry. For 5 years, she brought a fresh and innovative perspective, contributing to the development and launch of successful products on the market. Her experience in this field allowed her to improve her technical skills and to understand aspects such as functionality, ergonomics, and aesthetics in a deeper way.',
+				],
+				endorsement: {
+					content: [
+						'“Working with Cristina is the perfect Art Director, that perfect experience for a PR / marketing expert or an agency: she is not only an exquisite graphic designer, but also a brilliant visual artist and creative storyteller, with a talented hint of copywriter. She can provide not only an original idea for a design, but the whole concept for a campaign, which is truly a dream come true for any person working in this line of business (marketing, PR, events). I & the others from my agency became so addicted to her that we dreamt of working with her in all of our projects. Unfortunately, she said she needed to sleep and eat from time to time :)”',
+					],
+					name: 'Anca Dinu',
+					title: 'Manager, Add PR & Events',
+				},
+			},
+			{
+				title: 'Creative direction',
+				content: [
+					'Cristina established her own company in 2017 and since then, she has collaborated with a variety of clients from various industries such as entertainment, events, sports, real estate, and others. Her creative skills, combined with her strong design knowledge and vast experience, have made her a trusted partner for her clients, helping them realize their visions and achieve their goals in terms of design and branding.',
+					'Cristina speaks Romanian, English, French, and frequently practices Spanish.',
+				],
+			},
+		],
+	},
+	matheus: {
+		name: 'Matheus Carvalho',
+		path: 'matheus-carvalho',
+		img: '/team/matheus.png',
+		imgName: 'Matheus Carvalho',
+		imgTitle: 'Public Affairs Coordinator',
+		titles: ['Public Affairs Coordinator – Time&Place Consulting'],
+		contact: {
+			email: 'carvalho@timeandplaceconsulting.com',
+		},
+		introduction: [
+			"Matheus Carvalho is a Public Affairs expert with a track record of connecting Brazilian decision-makers to international stakeholders, whilst translating Brazil's complex political landscape into actionable insights.",
+			"Matheus' past roles include working in Danone's Global Public Affairs team in Paris, developing advocacy strategies and building public policy positions for the company, as well as serving as Head of Press and Political Affairs at the Consulate General of France for Northeast Brazil, where he represented French interests with the Brazilian government and in the media. He has also worked with corporate events at the American Chamber of Commerce for Brazil (AmCham), and at the social enterprise TIE, developing partnerships and advocacy campaigns with international NGOs.",
+			"He holds a Bachelor's degree in Political Science from the Federal University of Pernambuco (Brazil) and a Master's degree in Public & Institutional Communications from Sciences Po Strasbourg (France).",
+		],
+		paragraphs: [
+			{
+				title: 'Role at Time&Place Consulting',
+				content: [
+					'In August 2024, Matheus joined Time&Place Consulting as Public Affairs Coordinator in Brazil, where he champions advocacy initiatives and strategic communications on behalf of our clients. He brings to the table his experiences working with public institutions, grassroot organisations and multinationals to promote change and lasting impact in terms of policy and regulatory affairs. In doing so, he leverages his knowledge in fields such as e-mobility, food, health and renewable energies across different continents and cultures.',
+				],
+			},
+			{
+				title: 'Language and Cross-Cultural Skills',
+				content: [
+					'Having lived and worked in Brazil, Belgium, France and Senegal, Matheus transits seamlessly between different work cultures and thrives in international, multicultural scenarios. Besides his native Portuguese, he also speaks fluent English, French and Spanish, and has been trying hard to improve his Mandarin Chinese skills.',
+				],
+			},
+		],
+	},
+	guilherme: {
+		name: 'Guilherme Crispim Ferreira',
+		path: 'guilherme-ferreira',
+		img: '/team/guilherme.png',
+		imgName: 'Guilherme Ferreira',
+		imgTitle: 'Junior Consultant',
+		titles: ['Junior Consultant – Time&Place Consulting'],
+		contact: {
+			email: 'ferreira@timeandplaceconsulting.com',
+		},
+		introduction: [
+			'Guilherme Crispim Ferreira is a junior consultant with a rich cultural background and experiences. Having lived in several countries throughout his life, he understands the importance of communication and is able to catch on to different cultural nuances. Guilherme also has a strong educational background, holding a Bachelor’s degree in Public Administration and a Master’s in Public Policy, from Erasmus University Rotterdam.',
+		],
+		paragraphs: [
+			{
+				title: 'Previous Experiences',
+				content: [
+					'He has previously interned as a research assistant in Ethiopia. During his time in Ethiopia, he participated in a high-level meeting on resource management and wrote a concept note on the 2016-17 Horn of Africa Drought. Thus, exhibiting an understanding of the flow of high-level meetings, with experience in creating briefing notes for those involved, and drafting detailed minutes. Furthermore, Guilherme has previous experience in developing and maintaining newsletters, where he was responsible for writing articles, editing and distributing the newsletter.',
+					'During his studies he undertook several academic projects, namely, a management consultancy project in association with the City Hall of Rotterdam and a sanctions project on Chinese media censorship in association with the Dutch Ministry of Foreign Affairs.',
+				],
+			},
+			{
+				title: 'At Time&Place Group',
+				content: [
+					"Guilherme joined Time&Place Group in October 2023. Guilherme's contributions so far have come through an active role in policy monitoring and analysis of EU regulations, conceptualising position papers, drafting concise presentation for high-level meetings and stakeholder mapping. These contributions have come mainly in the field of e-mobility, where Guilherme has been able to expand his involvement on several areas such as charging infrastructure, standardisation, types of charging and smart grids; not least within the scope of CharIN e.V.",
+					'Guilherme speaks Portuguese, English and Spanish, while also holding a basic understanding of French.',
+				],
 			},
 		],
 	},
@@ -399,13 +399,6 @@ const team = {
 				content: [
 					'Currently, João is channeling his visionary mindset into an urban development project in the heart of São Paulo. Leveraging his experience and multifaceted skill set, he aims to catalyze positive transformation within the city center, blending innovation with sustainable urban planning principles to create a model for future development initiatives.',
 				],
-				endorsement: {
-					content: [
-						'“Glenn Cezanne has the people skills, language abilities and network to be an outstanding lobbyist. Indeed, he has the interpersonal skills and determination to succeed in any field.”',
-					],
-					name: 'Anne Barker',
-					title: 'Journalist, ABC (Australia)',
-				},
 			},
 			{
 				title: 'Time&Place Group',

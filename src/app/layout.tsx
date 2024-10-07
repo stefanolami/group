@@ -3,15 +3,15 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
 	title: {
-		default: 'T&P Group',
-		template: '%s - T&P Group',
+		default: 'Time&Place Group',
+		template: '%s - Time&Place Group',
 	},
 	description: 'Time&Place Group',
 	openGraph: {
-		title: 'T&P Group',
+		title: 'Time&Place Group',
 		description: 'Right TIME. Right PLACE. Your IMPACT.',
 		url: 'https://www.groupontap.com',
-		siteName: 'T&P Group',
+		siteName: 'Time&Place Group',
 		images: [
 			{
 				url: 'https://group-sage.vercel.app/android-chrome-1024x1024.png', // Must be an absolute URL
