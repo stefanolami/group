@@ -1,5 +1,7 @@
 import './globals.css'
 import { Metadata } from 'next'
+import { GoogleAnalytics } from '@next/third-parties/google'
+import { jose, unna } from '@/app/fonts'
 
 export const metadata: Metadata = {
 	title: {
@@ -42,5 +44,15 @@ export default function RootLayout({
 	children: React.ReactNode
 	params: { locale: string }
 }) {
-	return children
+	return (
+		<html
+			lang={locale}
+			className={`${jose.variable} ${unna.variable}`}
+		>
+			<GoogleAnalytics gaId={'G-MEJHPJY420'} />
+			<body className="relative pt-16 xl:pt-24 pb-[85px] xl:pb-[200px] min-h-screen">
+				{children}
+			</body>
+		</html>
+	)
 }
