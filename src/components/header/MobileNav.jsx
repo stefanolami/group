@@ -91,7 +91,7 @@ export default function MobileNav({ messages }) {
 				</motion.button>
 				<motion.div>
 					<motion.div
-						className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 backdrop-blur flex flex-col justify-around items-center"
+						className="fixed top-0 left-0 w-full h-screen bg-black bg-opacity-50 backdrop-blur flex flex-col justify-around items-center"
 						initial={false}
 						animate={active ? 'open' : 'closed'}
 						variants={{
