@@ -14,17 +14,17 @@ export const metadata: Metadata = {
 		siteName: 'Time&Place Group',
 		images: [
 			{
-				url: 'https://group-sage.vercel.app/android-chrome-1024x1024.png', // Must be an absolute URL
+				url: 'https://groupontap.com/android-chrome-1024x1024.png', // Must be an absolute URL
 				width: 1024,
 				height: 1024,
 			},
 			{
-				url: 'https://group-sage.vercel.app/android-chrome-512x512.png', // Must be an absolute URL
+				url: 'https://groupontap.com/android-chrome-512x512.png', // Must be an absolute URL
 				width: 512,
 				height: 512,
 			},
 			{
-				url: 'https://group-sage.vercel.app/android-chrome-192x192.png', // Must be an absolute URL
+				url: 'https://groupontap.com/android-chrome-192x192.png', // Must be an absolute URL
 				width: 192,
 				height: 192,
 				alt: 'My custom alt',
