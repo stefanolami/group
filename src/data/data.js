@@ -9,6 +9,8 @@ export const pillars = [
 		text: [
 			'Strategic communications and public affairs agency which brings together a global team of experts in government relations, legal affairs, business management, association management, as well as reputation and crisis management. Our goal is to create healthy market, regulatory and public perception contexts for your ideas, products and services, no matter if innovative or tradition.',
 		],
+		link: 'https://timeandplaceconsulting.com',
+		message: 'Read More',
 	},
 	{
 		id: 'funding',
@@ -21,6 +23,8 @@ export const pillars = [
 			'Home to the collective knowledge of Time&Place Group, where education, training and think tank capacities are offered.',
 			'With a cross-discipline approach we provide tailored courses, but also help decision-making have the necessary bedrock, no matter if industry, civil society or government.',
 		],
+		link: '',
+		message: 'New website launch: November 2024',
 	},
 	{
 		id: 'marketing',
@@ -32,6 +36,9 @@ export const pillars = [
 		text: [
 			'A marketing agency specializes in brand strategy, communication, and customized marketing solutions. We craft compelling brand narratives, implement targeted social media and digital campaigns, and offer comprehensive services tailored to diverse business needs. From developing a unique brand identity to creating marketing materials and building websites, we ensure your brand resonates with your audience and drives results.',
 		],
+
+		link: '',
+		message: 'Website launch: Q1 2025',
 	},
 	{
 		id: 'production',
@@ -44,6 +51,8 @@ export const pillars = [
 			'The media branch of Time&Place Group with a spectrum of audiovisual products which can be adapted to your needs, no matter if you want to create profiling videos of your association, podcasts, or even documentaries.',
 			'Be ready! We will soon be diving into the worlds of live performance and film production.',
 		],
+		link: '',
+		message: 'Website launch: Q2 2025',
 	},
 	{
 		id: 'institute',
@@ -56,6 +65,8 @@ export const pillars = [
 			'Home to the collective knowledge of Time&Place Group, where education, training and think tank capacities are offered.',
 			'With a cross-discipline approach we provide tailored courses, but also help decision-making have the necessary bedrock, no matter if industry, civil society or government.',
 		],
+		link: '',
+		message: 'Website launch: Q1 2025',
 	},
 	{
 		id: 'spaces',
@@ -67,6 +78,8 @@ export const pillars = [
 		text: [
 			'Your 360°-cradle-to-cradle event, meeting and office space management service. We provide the right spaces, and develop event concepts whilst making sure every aspect from the agenda to the take-aways reflect the messages your organization wants to promote. Our ultimate aims: A perfect fit and memorable.',
 		],
+		link: '',
+		message: 'Website launch: December 2024',
 	},
 ]
 
@@ -80,6 +93,8 @@ export const products = [
 		text: [
 			'A 360°-strategy development and implementation consultancy and think tank, focusing on the ongoing transition to electrification. Our building blocks are (1) electrified transport, agriculture, construction and mining; (2) energy management with a view of coordinating energy usage; (3) efficiency architecture through integrated ecosystems; (4) cost-effectiveness & efficiency based on a viable business plan.',
 		],
+		link: '',
+		message: 'Website launch: December 2024',
 	},
 	{
 		id: 'hubble',
@@ -90,6 +105,8 @@ export const products = [
 		text: [
 			'A permanent platform for the disability and down syndrome sports, music, culture and media communities. Our mission is to sustain and increase momentum and support of the disability and down syndrome movements in the decision-making processes at political, social and business levels. Our ideal POTEST world? Where decision-making processes understand the realities regarding the differences between those with disabilities and/or down syndrome, and those without, whilst at the same time not differentiating in creating accessibility and opportunities for either.',
 		],
+		link: '',
+		message: 'Service launch: Q2 2025',
 	},
 	{
 		id: 'poe',
@@ -100,6 +117,8 @@ export const products = [
 		text: [
 			'A permanent platform for the disability and down syndrome sports, music, culture and media communities. Our mission is to sustain and increase momentum and support of the disability and down syndrome movements in the decision-making processes at political, social and business levels. Our ideal POTEST world? Where decision-making processes understand the realities regarding the differences between those with disabilities and/or down syndrome, and those without, whilst at the same time not differentiating in creating accessibility and opportunities for either.',
 		],
+		link: '',
+		message: 'Service launch: December 2024',
 	},
 	{
 		id: 'potest',
@@ -110,6 +129,8 @@ export const products = [
 		text: [
 			'A permanent platform for the disability and down syndrome sports, music, culture and media communities. Our mission is to sustain and increase momentum and support of the disability and down syndrome movements in the decision-making processes at political, social and business levels. Our ideal POTEST world? Where decision-making processes understand the realities regarding the differences between those with disabilities and/or down syndrome, and those without, whilst at the same time not differentiating in creating accessibility and opportunities for either.',
 		],
+		link: '',
+		message: 'Platform launch: Q1 2025',
 	},
 	{
 		id: 'ckc',
@@ -120,6 +141,8 @@ export const products = [
 		text: [
 			'A think tank which builds a universal understanding of the opportunities and challenges which digital and crypto currencies bring so that all relevant stakeholders including the public, law-makers, regulatory authorities, actual and potential users make the most informed decisions. We bring together industry, financial compliance experts, enforcement bodies, governmental decision-makers, and civil society organisations to provide the most complete view of what the technology does and what impact it has.',
 		],
+		link: '',
+		message: 'Platform launch: Q1 2025',
 	},
 	{
 		id: 'teddy',
@@ -130,6 +153,8 @@ export const products = [
 		text: [
 			'A 360°-strategy development and implementation consultancy and think tank, focusing on the ongoing transition to electrification. Our building blocks are (1) electrified transport, agriculture, construction and mining; (2) energy management with a view of coordinating energy usage; (3) efficiency architecture through integrated ecosystems; (4) cost-effectiveness & efficiency based on a viable business plan.',
 		],
+		link: '',
+		message: 'Website launch: Q2 2025',
 	},
 ]
 
@@ -143,6 +168,8 @@ export const projects = [
 		text: [
 			'Waterloo International Chamber Music Festival switching between Waterloo (Belgium) to Nagakute (Japan) from year to year. ',
 		],
+		link: 'https://www.festivalmozart.org/',
+		message: 'Read More',
 	},
 	{
 		id: 'ai',
@@ -153,6 +180,8 @@ export const projects = [
 		text: [
 			'A (for now) temporary constellation that focuses on addressing the following questions: (1) What tools can we apply at Time&Place to help with our internal infrastructure and for servicing clients? (2) What can we offer clients as a service for them to integrate AI? Powered by humans, and a bit of AI. ',
 		],
+		link: '',
+		message: 'Get in touch through info@groupontap.com',
 	},
 	/* {
 		id: 'bin',

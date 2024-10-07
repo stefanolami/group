@@ -39,26 +39,13 @@ export default function Pillar({
 				>
 					{card.text}
 				</p>
-				{card.link.length > 0 ? (
-					<Link
-						style={{
-							background: card.secondary,
-							color: card.primary,
-						}}
-						href={card.link}
-						className="flex items-center justify-center pt-[2px] mt-10 w-28 xl:w-48 h-6 xl:h-8 ml-auto text-xs xl:text-lg font-jose font-bold rounded-md shadow-md hover:shadow-xl hover:brightness-90"
-						target="_blank"
-					>
-						{card.message}
-					</Link>
-				) : (
-					<p
-						style={{ color: card.tertiary }}
-						className="font-jose text-xs xl:text-xl text-right mt-10"
-					>
-						{card.message}
-					</p>
-				)}
+				<Link
+					style={{ background: card.secondary, color: card.primary }}
+					href=""
+					className="flex items-center justify-center pt-[2px] mt-10 w-28 xl:w-48 h-6 xl:h-8 ml-auto text-xs xl:text-lg font-jose font-bold rounded-md shadow-md hover:shadow-xl hover:brightness-90"
+				>
+					Read More
+				</Link>
 			</div>
 		</motion.div>
 	)

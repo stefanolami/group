@@ -50,13 +50,22 @@ export default function Product({
 						</p>
 					))}
 				</div>
-				<Link
-					style={{ background: card.primary }}
-					href=""
-					className="flex text-white items-center justify-center pt-[2px] mt-10 w-28 xl:w-48 h-6 xl:h-8 ml-auto text-xs xl:text-lg font-jose font-bold rounded-md shadow-md  hover:shadow-xl hover:brightness-90"
-				>
-					Read More
-				</Link>
+				{card.link.length > 0 ? (
+					<Link
+						href={card.link}
+						className="bg-black text-white flex items-center justify-center pt-[2px] mt-10 w-28 xl:w-48 h-6 xl:h-8 ml-auto text-xs xl:text-lg font-jose font-bold rounded-md shadow-md hover:shadow-xl hover:brightness-90"
+						target="_blank"
+					>
+						{card.message}
+					</Link>
+				) : (
+					<p
+						style={{ color: card.tertiary }}
+						className="font-jose text-xs xl:text-xl text-right mt-10"
+					>
+						{card.message}
+					</p>
+				)}
 			</div>
 		</motion.div>
 	)
