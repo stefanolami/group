@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { useTransition } from 'react'
-import { useRouter, usePathname } from '@/navigation'
+import { useRouter, usePathname } from '@/i18n/routing'
 import { useLocale } from 'next-intl'
 import { useSearchParams } from 'next/navigation'
 

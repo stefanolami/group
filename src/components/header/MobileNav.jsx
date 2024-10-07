@@ -2,7 +2,7 @@
 
 import { motion, MotionConfig } from 'framer-motion'
 import { useState, useEffect } from 'react'
-import { Link } from '../../navigation'
+import { Link } from '@/i18n/routing'
 import MobileLocaleSwitcher from './MobileLocaleSwitcher'
 
 export default function MobileNav({ messages }) {

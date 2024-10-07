@@ -4,7 +4,7 @@ import { useScroll, motion, useTransform } from 'framer-motion'
 import React, { useRef } from 'react'
 import Image from 'next/image'
 import { pillars } from '../../data/data'
-import { Link } from '@/navigation'
+import { Link } from '@/i18n/routing'
 
 export default function Pillar({
 	position,
