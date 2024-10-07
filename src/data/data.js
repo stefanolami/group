@@ -115,7 +115,7 @@ export const products = [
 		background: '#EAEAEA',
 		primary: '#000',
 		text: [
-			'A permanent platform for the disability and down syndrome sports, music, culture and media communities. Our mission is to sustain and increase momentum and support of the disability and down syndrome movements in the decision-making processes at political, social and business levels. Our ideal POTEST world? Where decision-making processes understand the realities regarding the differences between those with disabilities and/or down syndrome, and those without, whilst at the same time not differentiating in creating accessibility and opportunities for either.',
+			'Your portal to public funding, financing and tenders. Linked to the overall services provided by Time&Place Funding, we identify and assess sector-specific opportunities for your ambitions. How do we define the parameters of our service? The system is built on the expertise of those in "the business".',
 		],
 		link: '',
 		message: 'Service launch: December 2024',
