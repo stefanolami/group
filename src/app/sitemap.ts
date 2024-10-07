@@ -39,7 +39,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		}),
 		getEntry({
 			pathname: '/our-team/[name]',
-			params: { name: 'james' },
+			params: { name: 'joao-dos-santos' },
 		}),
 		getEntry('/our-projects'),
 		getEntry('/our-products'),
