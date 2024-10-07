@@ -9,7 +9,7 @@ export async function generateMetadata({ params: { locale } }) {
 	})
 
 	return {
-		title: t('title'),
+		title: 'Privacy Policy',
 	}
 }
 

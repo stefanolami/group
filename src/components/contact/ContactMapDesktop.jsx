@@ -33,10 +33,10 @@ export default function ContactMapDesktop() {
 							</span>
 							<div className="h-[1px] w-full bg-black"></div>
 							<div className="flex flex-col items-center justify-center italic">
-								{countryData.city.map((city, index) => (
+								{countryData.city.map((city) => (
 									<span
 										className="text-sm xl:text-base"
-										key={index}
+										key={city}
 									>
 										{city}
 									</span>
@@ -57,7 +57,7 @@ export default function ContactMapDesktop() {
 						fill
 						sizes="100vw"
 					/>
-					{contactCountries.map((country, index) => (
+					{contactCountries.map((country) => (
 						<Image
 							onMouseEnter={() => setSelectedCountry(country.id)}
 							style={{
@@ -72,7 +72,7 @@ export default function ContactMapDesktop() {
 							className={`${
 								selectedCountry == country.id ? 'scale-150' : ''
 							} absolute z-20 cursor-pointer`}
-							key={index}
+							key={country.id}
 						/>
 					))}
 				</div>

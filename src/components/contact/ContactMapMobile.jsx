@@ -48,7 +48,7 @@ export default function ContactMapMobile() {
 				</div>
 				<div className="mt-6 flex flex-row items-center justify-start">
 					<div className="flex flex-col justify-center gap-2 items-center w-1/3">
-						{contactCountries.map((country, index) => {
+						{contactCountries.map((country) => {
 							return (
 								<button
 									className={`${
@@ -56,7 +56,7 @@ export default function ContactMapMobile() {
 											? 'bg-primary-light shadow-xl'
 											: 'bg-primary shadow-md'
 									} block shadow-xl w-full h-6 pt-1 rounded-[3px] font-jose font-bold text-white uppercase text-xs`}
-									key={index}
+									key={country.id}
 									onClick={() =>
 										setSelectedCountry(country.id)
 									}
@@ -73,10 +73,10 @@ export default function ContactMapMobile() {
 									{countryData.label}
 								</span>
 								<div className="flex flex-col items-center justify-center italic">
-									{countryData.city.map((city, index) => (
+									{countryData.city.map((city) => (
 										<span
 											className="text-sm"
-											key={index}
+											key={city}
 										>
 											{city}
 										</span>

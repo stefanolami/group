@@ -14,6 +14,7 @@ export default function HomePage() {
 					src={'/logos/group-logo-home.png'}
 					alt="Group Logo"
 					fill
+					sizes="(max-width: 640px) 70vw, 40vw"
 				/>
 			</div>
 			<p className="mt-2 font-jose mx-auto w-4/5 xl:w-4/5 text-primary text-sm xl:text-2xl text-center">
@@ -22,11 +23,11 @@ export default function HomePage() {
 			</p>
 			<h2>OUR PILLARS</h2>
 			<div className="w-full px-[10%] py-2 xl:px-0 xl:py-0 bg-white grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-3 xl:gap-6">
-				{pillars.map((pillar, index) => {
+				{pillars.map((pillar) => {
 					return (
 						<Link
 							href={`/our-pillars?p=${pillar.id}`}
-							key={index}
+							key={pillar.id}
 							className="relative w-full aspect-[360/288]"
 						>
 							<CardSlide element={pillar} />
@@ -36,11 +37,11 @@ export default function HomePage() {
 			</div>
 			<h2>OUR PRODUCTS</h2>
 			<div className="w-full px-[10%] py-2 xl:px-0 xl:py-0 bg-white grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-3 xl:gap-6">
-				{products.map((product, index) => {
+				{products.map((product) => {
 					return (
 						<Link
 							href={`/our-products?p=${product.id}`}
-							key={index}
+							key={product.id}
 							className="relative w-full aspect-[360/288]"
 						>
 							<CardSlide element={product} />
@@ -50,11 +51,11 @@ export default function HomePage() {
 			</div>
 			<h2>OUR PROJECTS</h2>
 			<div className="w-full xl:w-2/3 px-[10%] py-2 xl:px-0 xl:py-0 bg-white mx-auto grid grid-cols-2 xl:grid-cols-2 gap-3 xl:gap-6">
-				{projects.map((project, index) => {
+				{projects.map((project) => {
 					return (
 						<Link
 							href={`/our-projects?p=${project.id}`}
-							key={index}
+							key={project.id}
 							className="relative w-full aspect-[360/288]"
 						>
 							<CardSlide element={project} />

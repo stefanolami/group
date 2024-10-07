@@ -1,9 +1,11 @@
 import './globals.css'
 import { Metadata } from 'next'
-import Head from 'next/head'
 
 export const metadata: Metadata = {
-	title: 'T&P Group',
+	title: {
+		default: 'T&P Group',
+		template: '%s - T&P Group',
+	},
 	description: 'Time&Place Group',
 	openGraph: {
 		title: 'T&P Group',

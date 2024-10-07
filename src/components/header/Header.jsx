@@ -62,7 +62,7 @@ export default function Header(messages) {
 			}
 		>
 			<Link
-				className="pl-6 md:pl-0 md:py-4 xl:py-7 w-[124px] xl:w-[231px] h-[30px] xl:h-[46px] relative xl:scale-75"
+				className="pl-6 md:pl-0 md:py-4 xl:py-7 w-[124px] xl:w-[231px] aspect-[694/186] relative xl:scale-75"
 				href="/"
 			>
 				<Image
