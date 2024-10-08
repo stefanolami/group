@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
 		to: process.env.MY_EMAIL,
 		// cc: email, (uncomment this line if you want to send a copy to the sender)
 		subject: `Group Contact Form - ${subject} - from ${name} (${email})`,
-		text: message,
+		text: `Message from ${name} (${email}) with subject - ${subject}:\n\n${message}`,
 	}
 
 	const sendMailPromise = () =>
