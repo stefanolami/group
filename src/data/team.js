@@ -202,6 +202,60 @@ const team = {
 			},
 		],
 	},
+	wilson: {
+		name: 'Wilson Caldeira',
+		path: 'wilson-caldeira',
+		img: '/team/wilson.png',
+		imgName: 'Wilson Caldeira',
+		imgTitle: 'Senior Advisor',
+		titles: ['Senior Advisor – Time&Place Group '],
+		contact: {
+			email: 'caldeira@timeandplaceconsulting.com ',
+		},
+		introduction: [
+			'Wilson Caldeira is a seasoned business consultant, educator, and entrepreneur with over 15 years of experience in innovation, entrepreneurship, marketing, and business development. With a robust academic background, including a Master’s in Innovation and Technological Entrepreneurship from the University of Porto (Portugal) and an MBA from Fundação Getúlio Vargas (Brazil), Wilson has played key roles in both corporate and startup environments. His career highlights include consulting for over 400 startups, co-founding a successful maternal health startup, and leading international programmes that connect Brazilian ventures with global innovation hubs. As an invited professor at top institutions like the University of Porto and Fundação Dom Cabral (Brazil), he teaches entrepreneurship and innovation.',
+		],
+		introductionEndorsement: {
+			content: [
+				'“I met Wilson Caldeira in 2011 when we developed a very rich work on human resources for the information technology sector in Brazil. Since then, we have been working together on both business and academic projects. He is a skilled professional who is concerned with offering a marketing vision so that entrepreneurs can develop successful businesses.”',
+			],
+			name: 'Dr. Gustavo Souki',
+			title: 'Portugal, Professor at Ismat/Lusófona, Researcher at Intrepid Lab (Lusófona - Ismat), CETRAD Research Center (UTAD) and CinTurs (UAlg)',
+		},
+		paragraphs: [
+			{
+				title: 'Early Career: IT and Marketing Leadership',
+				content: [
+					'Wilson’s professional journey began in the IT sector, where he worked as a systems analyst at GE Aviation (Brazil) and later as a project manager at the Federal University of Rio de Janeiro (Brazil). He transitioned into marketing and sales roles, holding leadership positions at technology companies, where he managed key accounts and partnerships.',
+				],
+			},
+			{
+				title: 'Transition to Consulting and Entrepreneurship',
+				content: [
+					"In 2008, Wilson co-founded Caldeira Marketing, a consulting firm specializing in innovation, entrepreneurship, and sales strategy for B2B clients, including startups, incubators, and technological parks. His expertise in Lean Startup and Design Thinking methodologies helped guide numerous companies toward growth and innovation. During this period, he also co-founded Canguru, a maternal health startup that grew to serve over 350,000 customers and secured pre-Series A investment. Wilson's role as Chief Marketing Officer helped shape the startup’s trajectory in the e-health sector.",
+				],
+			},
+			{
+				title: 'Academic Contributions and International Projects',
+				content: [
+					'Alongside his consulting work, Wilson has been an invited professor at prestigious institutions such as University of Porto (Portugal), Fundação Dom Cabral (Brazil), and PUC Minas (Brazil). His teaching focuses on entrepreneurship, innovation, and business management, where he mentors both undergraduate and postgraduate students. He has also led significant international initiatives, including the Innovation & Entrepreneurship program in collaboration with Stanford University (USA), which connected 50 Brazilian startups to Silicon Valley’s ecosystem.',
+				],
+			},
+			{
+				title: 'Recent Roles and Ongoing Impact',
+				content: [
+					'Currently based in Porto, Portugal, Wilson continues to combine his academic and consulting expertise. He serves as an invited professor at the University of Porto, where he contributes to the Project Management Laboratory, mentoring academic startups and fostering innovation. He also remains actively involved in guiding startups in the healthcare sector through personalized mentorship programs. Fluent in Portuguese and English, Wilson continues to leverage his global network and experience to inspire and empower the next generation of entrepreneurs and business leaders.',
+				],
+				endorsement: {
+					content: [
+						'“Wilson produced essential work that enabled us to reformulate our business strategy. 	Our entire commercial and marketing approach has yielded excellent results, and the 	foundations we use are based on analyses made using the techniques we learnt from 	him.”',
+					],
+					name: 'Joaquim Lopes',
+					title: 'Brazil, CEO at 4yousee',
+				},
+			},
+		],
+	},
 	matheus: {
 		name: 'Matheus Carvalho',
 		path: 'matheus-carvalho',
