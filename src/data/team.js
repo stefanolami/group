@@ -1,4 +1,7 @@
 const team = {
+	empty: {
+		name: 'empty',
+	},
 	glenn: {
 		name: 'Glenn Cezanne',
 		path: 'glenn-cezanne',
@@ -158,6 +161,9 @@ const team = {
 				},
 			},
 		],
+	},
+	empty2: {
+		name: 'empty',
 	},
 	shumaila: {
 		name: 'Shumaila Afzal',
