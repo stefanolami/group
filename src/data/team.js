@@ -159,6 +159,48 @@ const team = {
 			},
 		],
 	},
+	shumaila: {
+		name: 'Shumaila Afzal',
+		path: 'shumaila-afzal',
+		img: '/team/shumaila.png',
+		imgName: 'Shumaila Afzal',
+		imgTitle: 'Consultant',
+		titles: ['Consultant – Time&Place Group'],
+		contact: {
+			email: 'afzal@groupontap.com',
+		},
+		introduction: [
+			'At Time&Place Group, Shumaila applies her extensive experience in sustainable mobility and international project management to drive impactful solutions for clients. She focuses on creating and monitoring KPIs, ensuring compliance, and collaborating with diverse stakeholders to achieve project success. Her areas of focus include promoting low-carbon, sustainable cities, ensuring timely and successful project delivery, and building strong relationships with donors, partners, and government entities.',
+		],
+		paragraphs: [
+			{
+				title: 'Professional Background',
+				content: [
+					'With a career focused on sustainable mobility and international project management, Shumaila Afzal delivers impactful projects through strategic planning and stakeholder engagement. She holds an MBA and an MA in Development Management and is fluent in English, Urdu, and Hindi, with conversational proficiency in German. Her multilingual abilities enhance her effectiveness in international collaborations and stakeholder engagements. Proficient in advanced data analytics using Python, Tableau, and SQL, Shumaila supports urban mobility initiatives through research and knowledge management. She has experience in maintaining contract documentation and collaborating with legal teams to ensure project compliance and transparency, as well as advising on public-private partnerships and structuring mobility projects for investment within PPP portfolios.',
+				],
+				endorsement: {
+					content: [
+						'“I applaud Shumaila for her exceptional ability to drive sustainability initiatives forward, seamlessly blending technical expertise with savvy project management. Her outstanding communication skills fostered collaboration among diverse stakeholders, ensuring successful project outcomes that exceeded expectations.”',
+					],
+					name: 'Alyssa Chenault',
+					title: 'Head of Climate Action, ICLEI WS',
+				},
+			},
+			{
+				title: 'Areas of Expertise',
+				content: [
+					'In her previous role at ICLEI, Shumaila managed sustainable mobility projects across Asia, Africa, and Latin America, using her expertise in capacity building, stakeholder engagement, and project management. In her role with the Government of Sindh, she successfully implemented BRT bus projects in Karachi, addressing the ridership needs of approximately 500,000 passengers per line, per day, and created and monitored Key Performance Indicators (KPIs) to enhance system performance. Shumaila also expertly negotiated concession agreements on behalf of the Government with private partners and financial institutions, ensuring favorable outcomes for public projects. Additionally, she led the development and management of high-level events, including city-to-city dialogues, training workshops, and study tours involving diverse stakeholders such as city governments, multi-lateral development banks, private sector firms, NGOs, and civil society organizations.',
+				],
+				endorsement: {
+					content: [
+						'“Shumaila is a thorough professional and a dedicated team player. Her strong analytical skills and rich experience in transport policy and PPPs makes her quite an important team member for the mobility programs / projects. She is also adept in stakeholder management and can effectively engage with public and private entities including development banks for fruitful project outcomes. We worked on various urban mobility projects at provincial mass transit authority of Sindh (Pakistan) and I always found her a very helpful and capable colleague to work with.”',
+					],
+					name: 'Yousuf Munir',
+					title: 'Consultant World Bank Group (Pakistan), Ex-Director, Infrastructure, SMTA, GoS',
+				},
+			},
+		],
+	},
 	cristina: {
 		name: 'Cristina Andriuc',
 		path: 'cristina-andriuc',
