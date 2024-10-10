@@ -10,24 +10,33 @@ export default function OurTeam() {
 				OUR TEAM
 			</h1>
 			<div className="grid grid-cols-2 xl:grid-cols-4 gap-4 xl:gap-5">
-				{teamArray.map((member) => (
-					<Link
-						href={`/our-team/${member.path}`}
-						key={member.path}
-						className="w-full aspect-[265/390] relative border-primary shadow-md hover:shadow-2xl group"
-					>
-						<Image
-							alt={`${member.name} Picture`}
-							src={member.img}
-							fill
-							sizes="(max-width: 640px) 50vw, 20vw"
-						/>
-						<div className="w-full h-[20%] absolute bottom-0 bg-primary group-hover:bg-primary-light z-20 text-white font-jose text-xs xl:text-lg text-center flex items-center flex-col justify-center">
-							<span className="font-bold">{member.imgName}</span>
-							<span>{member.imgTitle}</span>
-						</div>
-					</Link>
-				))}
+				{teamArray.map((member, index) =>
+					member.name === 'empty' ? (
+						<div
+							key={index}
+							className="w-full h-full"
+						></div>
+					) : (
+						<Link
+							href={`/our-team/${member.path}`}
+							key={member.path}
+							className="w-full aspect-[265/390] relative border-primary shadow-md hover:shadow-2xl group"
+						>
+							<Image
+								alt={`${member.name} Picture`}
+								src={member.img}
+								fill
+								sizes="(max-width: 640px) 50vw, 20vw"
+							/>
+							<div className="w-full h-[20%] absolute bottom-0 bg-primary group-hover:bg-primary-light z-20 text-white font-jose text-xs xl:text-lg text-center flex items-center flex-col justify-center">
+								<span className="font-bold">
+									{member.imgName}
+								</span>
+								<span>{member.imgTitle}</span>
+							</div>
+						</Link>
+					)
+				)}
 			</div>
 		</div>
 	)
