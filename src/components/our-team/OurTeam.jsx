@@ -14,7 +14,7 @@ export default function OurTeam() {
 					member.name === 'empty' ? (
 						<div
 							key={index}
-							className="w-full h-full"
+							className="w-full h-full hidden xl:block"
 						></div>
 					) : (
 						<Link
