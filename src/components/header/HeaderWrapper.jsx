@@ -7,6 +7,10 @@ export default function HeaderWrapper() {
 
 	return (
 		<header className="relative header-blur">
+			<link
+				rel="icon"
+				href="/favicon.ico"
+			></link>
 			<Header
 				messages={
 					// … and provide the relevant messages
