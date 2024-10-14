@@ -10,7 +10,6 @@ export default function CardSlide({ element }) {
 
 	const handleHover = () => {
 		controls.start('slide')
-		console.log('hover')
 	}
 
 	const endHover = () => {
