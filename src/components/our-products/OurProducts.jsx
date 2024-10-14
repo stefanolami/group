@@ -2,15 +2,15 @@
 
 import { useScroll } from 'framer-motion'
 import React, { useRef, useEffect } from 'react'
-import { useSearchParams } from 'next/navigation'
 import Product from './Product'
+import { useStore } from '@/store/store'
 
 import { products } from '../../data/data'
 
 export default function OurProducts() {
+	const product = useStore((state) => state.product)
+	const setProduct = useStore((state) => state.setProduct)
 	const ref = useRef(null)
-	const searchParams = useSearchParams()
-	const p = searchParams.get('p')
 	const { scrollYProgress } = useScroll({
 		target: ref,
 		offset: ['start start', 'end start'],
@@ -19,8 +19,11 @@ export default function OurProducts() {
 	useEffect(() => {
 		//eslint-disable-next-line
 		cardHeight = window.innerHeight
-		const element = document.getElementById(p)
-		element?.scrollIntoView({ behavior: 'instant' })
+		if (product) {
+			const element = document.getElementById(product)
+			element?.scrollIntoView({ behavior: 'instant' })
+			setProduct('')
+		}
 	})
 	return (
 		<div className="pt-8 xl:pt-20 pb-16 xl:pb-32 ">
