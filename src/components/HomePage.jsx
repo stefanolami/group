@@ -1,9 +1,15 @@
+'use client'
+
 import Image from 'next/image'
 import { Link } from '@/i18n/routing'
 import { pillars, products, projects } from '@/data/data'
 import CardSlide from '@/components/cards-flip/CardSlide'
+import { useStore } from '@/store/store'
 
 export default function HomePage() {
+	const setPillar = useStore((state) => state.setPillar)
+	const setProduct = useStore((state) => state.setProduct)
+	const setProject = useStore((state) => state.setProject)
 	return (
 		<div
 			id="home"
@@ -27,9 +33,10 @@ export default function HomePage() {
 				{pillars.map((pillar) => {
 					return (
 						<Link
-							href={`/our-pillars?p=${pillar.id}`}
+							href={`/our-pillars`}
 							key={pillar.id}
 							className="relative w-full aspect-[360/288]"
+							onClick={() => setPillar(pillar.id)}
 						>
 							<CardSlide element={pillar} />
 						</Link>
@@ -42,9 +49,10 @@ export default function HomePage() {
 				{products.map((product) => {
 					return (
 						<Link
-							href={`/our-products?p=${product.id}`}
+							href={`/our-products`}
 							key={product.id}
 							className="relative w-full aspect-[360/288]"
+							onClick={() => setProduct(product.id)}
 						>
 							<CardSlide element={product} />
 						</Link>
@@ -57,9 +65,10 @@ export default function HomePage() {
 				{projects.map((project) => {
 					return (
 						<Link
-							href={`/our-projects?p=${project.id}`}
+							href={`/our-projects`}
 							key={project.id}
 							className="relative w-full aspect-[360/288]"
+							onClick={() => setProject(project.id)}
 						>
 							<CardSlide element={project} />
 						</Link>
