@@ -25,12 +25,6 @@ export const metadata: Metadata = {
 				width: 512,
 				height: 512,
 			},
-			{
-				url: 'https://groupontap.com/android-chrome-192x192.png', // Must be an absolute URL
-				width: 192,
-				height: 192,
-				alt: 'My custom alt',
-			},
 		],
 		locale: 'en_US',
 		type: 'website',
