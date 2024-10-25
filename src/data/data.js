@@ -183,7 +183,7 @@ export const projects = [
 		link: '',
 		message: 'Get in touch through info@groupontap.com',
 	},
-	/* {
+	{
 		id: 'bin',
 		icon: '/logos/projects/bin.png',
 		grid: '/logos/grid/projects/bin',
@@ -192,7 +192,9 @@ export const projects = [
 		text: [
 			'BIN@ is an informal international network of academic and industry partners engaged in supporting the creation of a sustainable forum for sharing good practices and opportunities in innovation. In 2025, Brussels with the support of Time&Place Group will host the two-day mid-term event.',
 		],
-	}, */
+		link: '',
+		message: 'Q2 2025',
+	},
 ]
 
 export const contactCountries = [
