@@ -207,7 +207,7 @@ const team = {
 			},
 		],
 	},
-	cristina: {
+	/* cristina: {
 		name: 'Cristina Andriuc',
 		path: 'cristina-andriuc',
 		img: '/team/cristina.png',
@@ -249,7 +249,7 @@ const team = {
 				],
 			},
 		],
-	},
+	}, */
 	wilson: {
 		name: 'Wilson Caldeira',
 		path: 'wilson-caldeira',
