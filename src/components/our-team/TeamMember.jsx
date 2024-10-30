@@ -1,9 +1,16 @@
 import Endorsement from './Endorsement'
-import team from '@/data/team'
+import { team, managingTeam } from '@/data/team'
 import Image from 'next/image'
 
 export default function TeamMember({ name }) {
-	const member = Object.values(team).find((member) => member.path === name)
+	let member
+	if (name == 'glenn-cezanne' || name == 'corina-gheorgheza') {
+		member = Object.values(managingTeam).find(
+			(member) => member.path === name
+		)
+	} else {
+		member = Object.values(team).find((member) => member.path === name)
+	}
 
 	return (
 		<div className="w-[90%] xl:w-[70%] mx-auto pt-8 xl:pt-20 pb-16 xl:pb-32 ">
