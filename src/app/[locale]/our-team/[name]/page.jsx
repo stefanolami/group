@@ -1,11 +1,19 @@
 import { getTranslations } from 'next-intl/server'
 import TeamMember from '@/components/our-team/TeamMember'
-import team from '@/data/team'
+import { team, managingTeam } from '@/data/team'
 
 export async function generateMetadata({ params }) {
-	const name = Object.values(team).find(
-		(member) => member.path === params.name
-	).name
+	let name
+	if (params.name == 'glenn-cezanne' || params.name == 'corina-gheorgheza') {
+		name = Object.values(managingTeam).find(
+			(member) => member.path === params.name
+		).name
+	} else {
+		name = Object.values(team).find(
+			(member) => member.path === params.name
+		).name
+	}
+
 	return {
 		title: name,
 	}

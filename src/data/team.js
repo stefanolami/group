@@ -1,7 +1,4 @@
-const team = {
-	empty: {
-		name: 'empty',
-	},
+export const managingTeam = {
 	glenn: {
 		name: 'Glenn Cezanne',
 		path: 'glenn-cezanne',
@@ -162,9 +159,9 @@ const team = {
 			},
 		],
 	},
-	empty2: {
-		name: 'empty',
-	},
+}
+
+export const team = {
 	shumaila: {
 		name: 'Shumaila Afzal',
 		path: 'shumaila-afzal',
@@ -207,49 +204,6 @@ const team = {
 			},
 		],
 	},
-	/* cristina: {
-		name: 'Cristina Andriuc',
-		path: 'cristina-andriuc',
-		img: '/team/cristina.png',
-		imgName: 'Cristina Andriuc',
-		imgTitle: 'Graphic Designer',
-		titles: ['Graphic Designer – Time&Place Group'],
-		contact: {
-			email: 'andriuc@groupontap.com ',
-		},
-		introduction: [
-			'Cristina has built a solid career in the field of design, accumulating extensive experience over 12 years. After completing her studies, she began her career in graphic design, where she worked for 2 years, exploring various aspects of this creative field and gaining a deep understanding of design elements and the creative process.',
-		],
-		introductionEndorsement: {
-			content: [
-				"“Through Cristina's eyes, the Runners Club events are just like in reality... full of life, dynamic, connected with the runners.”",
-			],
-			name: 'Horatiu Morar',
-			title: 'President, Association CS Runners Club',
-		},
-		paragraphs: [
-			{
-				title: 'Product development from prototype to series',
-				content: [
-					'Cristina specialised as well in product design within the lighting industry. For 5 years, she brought a fresh and innovative perspective, contributing to the development and launch of successful products on the market. Her experience in this field allowed her to improve her technical skills and to understand aspects such as functionality, ergonomics, and aesthetics in a deeper way.',
-				],
-				endorsement: {
-					content: [
-						'“Working with Cristina is the perfect Art Director, that perfect experience for a PR / marketing expert or an agency: she is not only an exquisite graphic designer, but also a brilliant visual artist and creative storyteller, with a talented hint of copywriter. She can provide not only an original idea for a design, but the whole concept for a campaign, which is truly a dream come true for any person working in this line of business (marketing, PR, events). I & the others from my agency became so addicted to her that we dreamt of working with her in all of our projects. Unfortunately, she said she needed to sleep and eat from time to time :)”',
-					],
-					name: 'Anca Dinu',
-					title: 'Manager, Add PR & Events',
-				},
-			},
-			{
-				title: 'Creative direction',
-				content: [
-					'Cristina established her own company in 2017 and since then, she has collaborated with a variety of clients from various industries such as entertainment, events, sports, real estate, and others. Her creative skills, combined with her strong design knowledge and vast experience, have made her a trusted partner for her clients, helping them realize their visions and achieve their goals in terms of design and branding.',
-					'Cristina speaks Romanian, English, French, and frequently practices Spanish.',
-				],
-			},
-		],
-	}, */
 	wilson: {
 		name: 'Wilson Caldeira',
 		path: 'wilson-caldeira',
@@ -304,7 +258,7 @@ const team = {
 			},
 		],
 	},
-	matheus: {
+	/* matheus: {
 		name: 'Matheus Carvalho',
 		path: 'matheus-carvalho',
 		img: '/team/matheus.png',
@@ -333,7 +287,7 @@ const team = {
 				],
 			},
 		],
-	},
+	}, */
 	guilherme: {
 		name: 'Guilherme Crispim Ferreira',
 		path: 'guilherme-ferreira',
@@ -511,5 +465,3 @@ const team = {
 		],
 	},
 }
-
-export default team
