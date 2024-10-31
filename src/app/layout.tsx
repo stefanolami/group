@@ -43,7 +43,7 @@ export default function RootLayout({
 			lang={locale}
 			className={`${jose.variable} ${unna.variable}`}
 		>
-			<GoogleAnalytics gaId={'G-MEJHPJY420'} />
+			<GoogleAnalytics gaId={'G-JYEJ15NG19'} />
 			<body className="relative pt-16 xl:pt-24 pb-[85px] xl:pb-[200px] min-h-screen">
 				{children}
 			</body>
