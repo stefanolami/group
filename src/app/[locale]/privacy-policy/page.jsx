@@ -1,22 +1,35 @@
+import { use } from "react";
 import { useTranslations } from 'next-intl'
 import { unstable_setRequestLocale } from 'next-intl/server'
 import { getTranslations } from 'next-intl/server'
 
-export async function generateMetadata({ params: { locale } }) {
-	const t = await getTranslations({
+export async function generateMetadata(props) {
+    const params = await props.params;
+
+    const {
+        locale
+    } = params;
+
+    const t = await getTranslations({
 		locale,
 		namespace: 'Index' /* replace with metadata file */,
 	})
 
-	return {
+    return {
 		title: 'Privacy Policy',
 	}
 }
 
-export default function PrivacyPolicyPage({ params: { locale } }) {
-	unstable_setRequestLocale(locale)
-	const t = useTranslations('Index')
-	return (
+export default function PrivacyPolicyPage(props) {
+    const params = use(props.params);
+
+    const {
+        locale
+    } = params;
+
+    unstable_setRequestLocale(locale)
+    const t = useTranslations('Index')
+    return (
 		<div className="w-[90%] xl:w-[70%] mx-auto pt-8 xl:pt-20 pb-16 xl:pb-32 ">
 			<h1 className="font-unna font-bold text-xl xl:text-[48px] text-center text-black mb-10 xl:mb-20">
 				PRIVACY POLICY

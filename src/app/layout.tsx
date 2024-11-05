@@ -31,14 +31,23 @@ export const metadata: Metadata = {
 	},
 }
 
-export default function RootLayout({
-	children,
-	params: { locale },
-}: {
-	children: React.ReactNode
-	params: { locale: string }
-}) {
-	return (
+export default async function RootLayout(
+    props: {
+        children: React.ReactNode
+        params: Promise<{ locale: string }>
+    }
+) {
+    const params = await props.params;
+
+    const {
+        locale
+    } = params;
+
+    const {
+        children
+    } = props;
+
+    return (
 		<html
 			lang={locale}
 			className={`${jose.variable} ${unna.variable}`}
