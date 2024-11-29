@@ -7,7 +7,7 @@ export default function OurTeam() {
 	const teamArray = Object.values(team)
 	return (
 		<div className="pt-8 xl:pt-20 pb-16 xl:pb-32 w-[90%] xl:w-[75%] max-w-[1200px] mx-auto">
-			<h1 className="font-unna font-bold text-xl xl:text-[48px] text-center text-black mb-6 xl:mb-10">
+			<h1 className="font-unna font-bold text-xl xl:text-[48px] text-center text-primary mb-6 xl:mb-10">
 				OUR TEAM
 			</h1>
 			<div className="mx-auto xl:w-1/2 grid grid-cols-2 xl:grid-cols-2 gap-4 xl:gap-5 mb-4 xl:mb-5">
