@@ -71,6 +71,7 @@ export default function Header(messages) {
 						alt="T&P Logo"
 						fill
 						sizes="(max-width: 640px) 40vw, 40vw"
+						quality={100}
 					/>
 				</Link>
 			</div>
