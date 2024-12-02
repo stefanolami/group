@@ -2,6 +2,7 @@ import './globals.css'
 import { Metadata } from 'next'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { jose, unna } from '@/app/fonts'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
 	title: {
@@ -43,9 +44,10 @@ export default function RootLayout({
 			lang={locale}
 			className={`${jose.variable} ${unna.variable}`}
 		>
-			<GoogleAnalytics gaId={'G-JYEJ15NG19'} />
+			{/* <GoogleAnalytics gaId={'G-JYEJ15NG19'} /> */}
 			<body className="relative pt-16 xl:pt-24 pb-[85px] xl:pb-[200px] min-h-screen">
 				{children}
+				<Analytics />
 			</body>
 		</html>
 	)

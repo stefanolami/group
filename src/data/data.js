@@ -46,7 +46,7 @@ export const pillars = [
 		grid: '/logos/grid/pillars/production',
 		primary: '#FFFFFF',
 		secondary: '#DF8946',
-		tertiary: '#4A2C2O',
+		tertiary: '#4A2C20',
 		text: [
 			'The media branch of Time&Place Group with a spectrum of audiovisual products which can be adapted to your needs, no matter if you want to create profiling videos of your association, podcasts, or even documentaries.',
 			'Be ready! We will soon be diving into the worlds of live performance and film production.',
