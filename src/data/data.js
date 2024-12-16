@@ -24,7 +24,7 @@ export const pillars = [
 			'With a cross-discipline approach we provide tailored courses, but also help decision-making have the necessary bedrock, no matter if industry, civil society or government.',
 		],
 		link: '',
-		message: 'New website launch: November 2024',
+		message: 'New website launch: January 2025',
 	},
 	{
 		id: 'marketing',
@@ -79,7 +79,7 @@ export const pillars = [
 			'Your 360°-cradle-to-cradle event, meeting and office space management service. We provide the right spaces, and develop event concepts whilst making sure every aspect from the agenda to the take-aways reflect the messages your organization wants to promote. Our ultimate aims: A perfect fit and memorable.',
 		],
 		link: '',
-		message: 'Website launch: December 2024',
+		message: 'Website launch: January 2025',
 	},
 ]
 
@@ -94,7 +94,7 @@ export const products = [
 			'A 360°-strategy development and implementation consultancy and think tank, focusing on the ongoing transition to electrification. Our building blocks are (1) electrified transport, agriculture, construction and mining; (2) energy management with a view of coordinating energy usage; (3) efficiency architecture through integrated ecosystems; (4) cost-effectiveness & efficiency based on a viable business plan.',
 		],
 		link: '',
-		message: 'Website launch: December 2024',
+		message: 'Website launch: Q2 2025',
 	},
 	{
 		id: 'hubble',
@@ -118,7 +118,7 @@ export const products = [
 			'Your portal to public funding, financing and tenders. Linked to the overall services provided by Time&Place Funding, we identify and assess sector-specific opportunities for your ambitions. How do we define the parameters of our service? The system is built on the expertise of those in "the business".',
 		],
 		link: '',
-		message: 'Service launch: December 2024',
+		message: 'Service launch: February 2025',
 	},
 	{
 		id: 'potest',
