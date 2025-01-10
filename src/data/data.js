@@ -20,7 +20,7 @@ export const pillars = [
 		secondary: '#00A4D5',
 		tertiary: '#1D4967',
 		text: [
-			'Home to the collective knowledge of Time&Place Group, where education, training and think tank capacities are offered.',
+			'Home to the collective knowledge of Time&Place Group, where education, training and think tank capacities are offered. ',
 			'With a cross-discipline approach we provide tailored courses, but also help decision-making have the necessary bedrock, no matter if industry, civil society or government.',
 		],
 		link: '',
@@ -48,7 +48,7 @@ export const pillars = [
 		secondary: '#DF8946',
 		tertiary: '#4A2C20',
 		text: [
-			'The media branch of Time&Place Group with a spectrum of audiovisual products which can be adapted to your needs, no matter if you want to create profiling videos of your association, podcasts, or even documentaries.',
+			'The media branch of Time&Place Group with a spectrum of audiovisual products which can be adapted to your needs, no matter if you want to create profiling videos of your association, podcasts, or even documentaries. ',
 			'Be ready! We will soon be diving into the worlds of live performance and film production.',
 		],
 		link: '',
@@ -62,7 +62,7 @@ export const pillars = [
 		secondary: '#FFFFFF',
 		tertiary: '#FFFFFF',
 		text: [
-			'Home to the collective knowledge of Time&Place Group, where education, training and think tank capacities are offered.',
+			'Home to the collective knowledge of Time&Place Group, where education, training and think tank capacities are offered. ',
 			'With a cross-discipline approach we provide tailored courses, but also help decision-making have the necessary bedrock, no matter if industry, civil society or government.',
 		],
 		link: '',
