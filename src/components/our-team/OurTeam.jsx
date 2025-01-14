@@ -30,25 +30,79 @@ export default function OurTeam() {
 					</Link>
 				))}
 			</div>
-			<div className="mx-auto xl:w-3/4 grid grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-5">
-				{teamArray.map((member, index) => (
-					<Link
-						href={`/our-team/${member.path}`}
-						key={member.path}
-						className="w-full aspect-[265/390] relative border-primary shadow-md hover:shadow-2xl group"
-					>
-						<Image
-							alt={`${member.name} Picture`}
-							src={member.img}
-							fill
-							sizes="(max-width: 640px) 50vw, 20vw"
-						/>
-						<div className="w-full h-[20%] absolute bottom-0 bg-primary group-hover:bg-primary-light z-20 text-white font-jose text-xs xl:text-lg text-center flex items-center flex-col justify-center">
-							<span className="font-bold">{member.imgName}</span>
-							<span>{member.imgTitle}</span>
-						</div>
-					</Link>
-				))}
+			<div className="hidden xl:block">
+				<div className="mx-auto xl:w-3/4 grid grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-5">
+					{teamArray.map((member, index) =>
+						index < 3 ? (
+							<Link
+								href={`/our-team/${member.path}`}
+								key={member.path}
+								className="w-full aspect-[265/390] relative border-primary shadow-md hover:shadow-2xl group"
+							>
+								<Image
+									alt={`${member.name} Picture`}
+									src={member.img}
+									fill
+									sizes="(max-width: 640px) 50vw, 20vw"
+								/>
+								<div className="w-full h-[20%] absolute bottom-0 bg-primary group-hover:bg-primary-light z-20 text-white font-jose text-xs xl:text-lg text-center flex items-center flex-col justify-center">
+									<span className="font-bold">
+										{member.imgName}
+									</span>
+									<span>{member.imgTitle}</span>
+								</div>
+							</Link>
+						) : null
+					)}
+				</div>
+				<div className="mx-auto mt-5 xl:w-1/2 grid grid-cols-2 gap-4 xl:gap-5 ">
+					{teamArray.map((member, index) =>
+						index >= 3 ? (
+							<Link
+								href={`/our-team/${member.path}`}
+								key={member.path}
+								className="w-full aspect-[265/390] relative border-primary shadow-md hover:shadow-2xl group"
+							>
+								<Image
+									alt={`${member.name} Picture`}
+									src={member.img}
+									fill
+									sizes="(max-width: 640px) 50vw, 20vw"
+								/>
+								<div className="w-full h-[20%] absolute bottom-0 bg-primary group-hover:bg-primary-light z-20 text-white font-jose text-xs xl:text-lg text-center flex items-center flex-col justify-center">
+									<span className="font-bold">
+										{member.imgName}
+									</span>
+									<span>{member.imgTitle}</span>
+								</div>
+							</Link>
+						) : null
+					)}
+				</div>
+			</div>
+			<div className="xl:hidden">
+				<div className="mx-auto xl:w-3/4 grid grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-5">
+					{teamArray.map((member, index) => (
+						<Link
+							href={`/our-team/${member.path}`}
+							key={member.path}
+							className="w-full aspect-[265/390] relative border-primary shadow-md hover:shadow-2xl group"
+						>
+							<Image
+								alt={`${member.name} Picture`}
+								src={member.img}
+								fill
+								sizes="(max-width: 640px) 50vw, 20vw"
+							/>
+							<div className="w-full h-[20%] absolute bottom-0 bg-primary group-hover:bg-primary-light z-20 text-white font-jose text-xs xl:text-lg text-center flex items-center flex-col justify-center">
+								<span className="font-bold">
+									{member.imgName}
+								</span>
+								<span>{member.imgTitle}</span>
+							</div>
+						</Link>
+					))}
+				</div>
 			</div>
 		</div>
 	)
