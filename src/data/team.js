@@ -162,7 +162,7 @@ export const managingTeam = {
 }
 
 export const team = {
-	shumaila: {
+	/* shumaila: {
 		name: 'Shumaila Afzal',
 		path: 'shumaila-afzal',
 		img: '/team/shumaila.png',
@@ -203,7 +203,7 @@ export const team = {
 				},
 			},
 		],
-	},
+	}, */
 	wilson: {
 		name: 'Wilson Caldeira',
 		path: 'wilson-caldeira',
