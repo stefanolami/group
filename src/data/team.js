@@ -14,7 +14,7 @@ export const managingTeam = {
 			'Founder – Time&Place Media Productions',
 		],
 		contact: {
-			email: 'glenn@groupontap.com',
+			email: 'cezanne@groupontap.com',
 		},
 		introduction: [
 			'With a career focused on Public Affairs, Public Relations and Association Management on the international stage, Glenn focuses on manoeuvering the political decision-making landscape with the aim of creating effective communication strategies, whether it is to have an impact on legislation, primarily in Europe and in Brazil, or to increase political attention on specific issues of interest to clients. His life as an entrepreneur started with Time&Place Consulting in 2016 and continued with the development of branches under the Time&Place Group of which he is Founder & CEO.',
@@ -212,7 +212,7 @@ export const team = {
 		imgTitle: 'Senior Advisor',
 		titles: ['Senior Advisor – Time&Place Group '],
 		contact: {
-			email: 'caldeira@timeandplaceconsulting.com ',
+			email: 'caldeira@groupontap.com',
 		},
 		introduction: [
 			'Wilson Caldeira is a seasoned business consultant, educator, and entrepreneur with over 15 years of experience in innovation, entrepreneurship, marketing, and business development. With a robust academic background, including a Master’s in Innovation and Technological Entrepreneurship from the University of Porto (Portugal) and an MBA from Fundação Getúlio Vargas (Brazil), Wilson has played key roles in both corporate and startup environments. His career highlights include consulting for over 400 startups, co-founding a successful maternal health startup, and leading international programmes that connect Brazilian ventures with global innovation hubs. As an invited professor at top institutions like the University of Porto and Fundação Dom Cabral (Brazil), he teaches entrepreneurship and innovation.',
