@@ -79,7 +79,7 @@ export const pillars = [
 			'We provide strategic meeting and event locations. Launched in March 2025, our first location is at the heart of EU decision-making in Brussels. Our focus is on providing the right spaces for your place of action; from board meeting to conferences, and expert round-tables to trainings. We also provide 360°-office support assistance and with a team of dedicated experts, the full spectrum of event management services. Our ultimate aims: A perfect fit and memorable.',
 		],
 		link: '',
-		message: 'Website launch: 3rd March 2025',
+		message: 'Website launch: 19 March 2025',
 	},
 ]
 
