@@ -318,6 +318,66 @@ export const team = {
 			},
 		],
 	},
+	flavia: {
+		name: 'Flávia Guerra',
+		path: 'flavia-guerra',
+		img: '/team/flavia.png',
+		imgName: 'Flávia Guerra',
+		imgTitle: 'Senior Manager',
+		titles: ['Senior Manager - Time&Place Group'],
+		contact: {
+			email: 'flavia.guerra@groupontap.com',
+		},
+		introduction: [
+			'Flávia Guerra is a business and innovation leader with expertise in corporate management and innovation and entrepreneurship. She holds a Bachelor’s degree in Economics from the Federal University of Minas Gerais (Brazil), along with dual executive MBAs in Tourism Management (Porto Business School, Portugal), Business Management (Fundação Dom Cabral, Brazil), and a specialization in Innovation & Entrepreneurship (Stanford, USA). Her career bridges business, technology, and eco-system development, having led entrepreneurship programmes for 50+ startups, managed soft-landing programmes in Portugal, and secured public innovation funding for IT projects. As a C-level executive, she led mergers, acquisitions, and managed a 300-employee IT company. Since 2019, she has been actively involved in Portugal’s innovation eco-system, supporting venture building and startup internationalization between Portugal and Brazil. Her passions have also let her to create Kitchen4us, a gastronomy and tourism startup in Porto, creating immersive show-cooking experiences that connect people through food, culture, and storytelling.',
+		],
+		introductionEndorsement: {
+			content: [
+				'“I had the opportunity to work with Flávia during the growth and professionalization of the startup and entrepreneurship ecosystem in Brazil.',
+				"Her dedication to the purpose of accelerating companies has enabled some of the country's best entrepreneurs to receive support and guidance in achieving their dreams.",
+				'As a professional, she navigates seamlessly across various business management topics. We had the chance to work together in areas such as Finance, Negotiation, Team Management, Budget Planning, Strategic Planning, Government Relations, and more.”',
+			],
+			name: 'Marcelo Ladeira',
+			title: 'CEO & Co-Founder at SITEWARE, Belo Horizonte, Minas Gerais, Brazil.',
+		},
+		paragraphs: [
+			{
+				title: 'Corporate Venture & Open Innovation Leadership in Portugal (2021-2024)',
+				content: [
+					'As Portugal Expansion Manager at FCJ Group, Flávia focused on building eco-system relationships for open innovation opportunities and led sales development for venture builder prospects. She curated the Business Innovation Network Congress (BIN@Minas Gerais edition) in collaboration with FEUP – Faculty of Engineering of University of Porto, enhancing her expertise in venture building, international expansion, and eco-system-driven innovation.',
+				],
+				endorsement: {
+					content: [
+						'“Flávia is a professional specialist in connecting people to achieve high-impact goals. A prime example is her active leadership in the Brazil/Stanford University entrepreneurship project, whose impact on accelerating innovative projects and its consequent contribution to job creation and income generation for society should be a source of pride and deep recognition.”',
+					],
+					name: 'Bruno Garboci',
+					title: 'Partner/VP at Empresta Soluções e Negócios, Belo Horizonte, Minas Gerais, Brazil.',
+				},
+			},
+			{
+				title: 'Strengthening Fumsoft: Leadership in Entrepreneurship, Innovation, and Global Partnerships (2013-2019)',
+				content: [
+					'As CEO of Fumsoft, the Minas Gerais Software Association for IT SME´s Companies, she led international business missions to France, India, and the USA, fostering strategic partnerships with global innovation hubs like Euratechnologies in Lille, France. She managed two customised entrepreneurship and innovation programmes in collaboration with Stanford University (USA), mentoring 100 Brazilian entrepreneurs in developing innovative business models. Under her leadership, Fumsoft supported 500+ projects through funding from SEBRAE, driving entrepreneurship and innovation in Brazil’s technology sector.',
+					'Flávia also was in charge on leading incubation and acceleration programmes, supporting 50+ tech startups, with three successful exits. She collaborated with Startup Brazil, Samsung & Anprotec, and South Korean cross-incubation initiatives, leveraging R&D tax incentives. Additionally, she developed entrepreneurial programmes for 200+ students, resulting in six profitable startups. In 2018, she managed a Softlanding programme for six Brazilian startups in Porto, connecting them with investors and the local tech ecosystem.',
+				],
+				endorsement: {
+					content: [
+						'“I had the pleasure of working with Flávia for over 10 years at MSA-Infor, where I was one of the founding partners. I also closely followed her work at Fumsoft. What stands out about Flávia is her determination at work, with a strong focus on efficiency and results. During her tenure as CEO, MSA-Infor won several awards as the most profitable company in the IT sector in Brazil.”',
+						'I was part of the group of entrepreneurs who attended the entrepreneurship training program at Stanford University in 2016, organized by Fumsoft under Flávia’s supervision. She worked tirelessly on the promotion, organization, and execution of the program. I continue to follow the group of entrepreneurs who participated in the event and other Fumsoft programs, and I can personally attest to how crucial Flávia’s role was in the success of these companies.',
+						'With all this efficiency and dedication to her work, she still manages to be an incredibly kind person with refined manners.”',
+					],
+					name: 'Antonio Augusto Da Silva',
+					title: 'Head Comercial | Data Foundation, IA, ML | ICM/SPM, Belo Horizonte, Minas Gerais, Brazil.',
+				},
+			},
+			{
+				title: 'Executive Leadership in IT & Business Transformation (1990-2010)',
+				content: [
+					'At MSA-INFOR, Flávia advanced from systems analyst to CEO, leading 300 employees and positioning the company as one of the top private IT firms in Minas Gerais. She managed three ownership transitions, gaining expertise in organizational change and corporate strategy, and played a key role in the M&A process. After the acquisition by Spread Technology, she ensured a smooth knowledge transfer and restructured the Government sales division in São Paulo, securing a major public bid for Brazil’s Ministry of Social Development (MDS).',
+				],
+			},
+		],
+	},
 	stefano: {
 		name: 'Stefano Lami',
 		path: 'stefano-lami',
