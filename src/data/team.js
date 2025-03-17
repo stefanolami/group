@@ -378,6 +378,36 @@ export const team = {
 			},
 		],
 	},
+	marie: {
+		name: 'Marie Kubasiak',
+		path: 'marie-kubasiak',
+		img: '/team/marie.png',
+		imgName: 'Marie Kubasiak',
+		imgTitle: 'Junior Consultant',
+		titles: ['Junior Consultant - Time&Place Group'],
+		contact: {
+			email: 'marie.kubasiak@groupontap.com',
+		},
+		introduction: [
+			'Marie Kubasiak is a Junior Consultant, with a rich knowledge in European governance, public policy, and strategic communication. She is currently completing a double master’s degree in European Affairs at Sciences Po Grenoble and in Politics & Public Administration at Universität Konstanz, with a focus on comparative politics and public policy.',
+		],
+		paragraphs: [
+			{
+				title: 'Previous experience',
+				content: [
+					'Her academic background has provided her with strong skills in policy analysis, research, and advocacy, with a particular emphasis on EU regulatory frameworks, stakeholder dynamics, and public policy. She has worked on topics such as tax optimization strategies of European companies, strategic challenges of the CBAM on national interests, and the impact of disruptive digital technology on the protection of data, with regards to the GDPR.',
+					'Beyond policy research, Marie has experience in strategic communication and event coordination. As Communication Manager of a large student association in France, she led social media strategies, organized large-scale events, and strengthened the association’s outreach efforts. She also has experience in content creation and digital media management, making her well-equipped to support advocacy campaigns.',
+				],
+			},
+			{
+				title: 'At Time&Place Group',
+				content: [
+					'Marie actively contributes to policy monitoring, stakeholder mapping, and the development of advocacy strategies. Her work involves analyzing EU regulations, drafting position papers, and preparing reports and presentations. She also supports the creation of engaging content for social media and client platforms, ensuring effective communication of key policy developments.',
+					'Marie speaks French, English and German.',
+				],
+			},
+		],
+	},
 	stefano: {
 		name: 'Stefano Lami',
 		path: 'stefano-lami',
