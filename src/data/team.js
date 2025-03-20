@@ -264,7 +264,7 @@ export const team = {
 		img: '/team/nell.png',
 		imgName: 'Nell Detre',
 		imgTitle: 'Junior Consultant',
-		titles: ['Junior Consultant - Time&Place Group'],
+		titles: ['Junior Consultant - Time&Place Consulting'],
 		contact: {
 			email: 'nell.detre@groupontap.com',
 		},
@@ -414,7 +414,7 @@ export const team = {
 		img: '/team/marie.png',
 		imgName: 'Marie Kubasiak',
 		imgTitle: 'Junior Consultant',
-		titles: ['Junior Consultant - Time&Place Group'],
+		titles: ['Junior Consultant - Time&Place Consulting'],
 		contact: {
 			email: 'marie.kubasiak@groupontap.com',
 		},
