@@ -542,6 +542,37 @@ export const team = {
 			},
 		],
 	},
+	edoardo: {
+		name: 'Edoardo Rivoli',
+		path: 'edoardo-rivoli',
+		img: '/team/edoardo.png',
+		imgName: 'Edoardo Rivoli',
+		imgTitle: 'Junior Consultant',
+		titles: ['Junior Consultant - Time&Place Consulting'],
+		contact: {
+			email: 'edoardo.rivoli@groupontap.com',
+		},
+		introduction: [
+			'Edoardo Rivoli is a junior consultant with a diverse cultural background and international experience. Having lived in multiple countries and worked in diverse, multicultural environments, he deeply values effective communication, collaboration, and teamwork. His ability to navigate cross-cultural settings allows him to contribute meaningfully to dynamic and globally oriented teams.',
+		],
+		paragraphs: [
+			{
+				title: 'Previous experience',
+				content: [
+					"Academically, Edoardo has built a strong foundation in international governance and policy analysis. He earned a Bachelor's degree in International Relations and Diplomatic Sciences from the University of Trieste and later pursued a Master’s in Public Administration, International, and European Governance at Leiden University. His academic journey has fueled his passion for European Union affairs, with a particular focus on EU funding mechanisms and policy discourse.",
+					'Edoardo has a strong interest in the EU’s Common Security and Defence Policy (CSDP), an area in which he conducted in-depth research. His work on CSDP included contributions from high-level representatives of EU institutions and organizations, providing him with valuable insights into the complexities of European defense policy and security governance.',
+					'Professionally, he has gained hands-on experience in EU affairs, funds and project management through his role as a Research and Policy Assistant at Moverim Consulting in Brussels. During this internship, he was actively involved in various aspects of EU-funded projects, assisting in project proposal development, drafting reports and policy analyses for clients, and supporting them throughout the entire project management cycle, from conception to implementation and final evaluation.',
+				],
+			},
+			{
+				title: 'At Time&Place Group',
+				content: [
+					'Edoardo is actively involved in EU funding and monitoring activities. With a strong interest in European project development and public policy, he supports the team in identifying funding opportunities, tracking relevant EU programmes, and contributing to the preparation and coordination of project proposals.',
+					'Edoardo is also a skilled communicator with proficiency in multiple languages, which is a valuable asset in supporting Time&Place Group’s international collaborations and cross-border project activities. His fluency in Italian and English, along with his intermediate command of French and German and basic understanding of Chinese, enhances our ability to engage effectively with diverse partners and stakeholders across Europe and beyond.',
+				],
+			},
+		],
+	},
 	joao: {
 		name: 'João Evangelista dos Santos',
 		path: 'joao-dos-santos',
