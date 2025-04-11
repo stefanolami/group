@@ -259,17 +259,17 @@ export const team = {
 		],
 	},
 	nell: {
-		name: 'Nell Detre',
+		name: 'Nell Detré',
 		path: 'nell-detre',
 		img: '/team/nell.png',
-		imgName: 'Nell Detre',
+		imgName: 'Nell Detré',
 		imgTitle: 'Junior Consultant',
 		titles: ['Junior Consultant - Time&Place Consulting'],
 		contact: {
 			email: 'nell.detre@groupontap.com',
 		},
 		introduction: [
-			'Nell Detre is a Junior Consultant from Belgium who spent the previous six years living abroad for her studies and career, gaining international experience in security, diplomacy, and advocacy.',
+			'Nell Detré is a Junior Consultant from Belgium who spent the previous six years living abroad for her studies and career, gaining international experience in security, diplomacy, and advocacy.',
 		],
 		paragraphs: [
 			{
