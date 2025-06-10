@@ -288,36 +288,6 @@ export const team = {
 			},
 		],
 	},
-	/* matheus: {
-		name: 'Matheus Carvalho',
-		path: 'matheus-carvalho',
-		img: '/team/matheus.png',
-		imgName: 'Matheus Carvalho',
-		imgTitle: 'Public Affairs Coordinator',
-		titles: ['Public Affairs Coordinator – Time&Place Consulting'],
-		contact: {
-			email: 'carvalho@timeandplaceconsulting.com',
-		},
-		introduction: [
-			"Matheus Carvalho is a Public Affairs expert with a track record of connecting Brazilian decision-makers to international stakeholders, whilst translating Brazil's complex political landscape into actionable insights.",
-			"Matheus' past roles include working in Danone's Global Public Affairs team in Paris, developing advocacy strategies and building public policy positions for the company, as well as serving as Head of Press and Political Affairs at the Consulate General of France for Northeast Brazil, where he represented French interests with the Brazilian government and in the media. He has also worked with corporate events at the American Chamber of Commerce for Brazil (AmCham), and at the social enterprise TIE, developing partnerships and advocacy campaigns with international NGOs.",
-			"He holds a Bachelor's degree in Political Science from the Federal University of Pernambuco (Brazil) and a Master's degree in Public & Institutional Communications from Sciences Po Strasbourg (France).",
-		],
-		paragraphs: [
-			{
-				title: 'Role at Time&Place Consulting',
-				content: [
-					'In August 2024, Matheus joined Time&Place Consulting as Public Affairs Coordinator in Brazil, where he champions advocacy initiatives and strategic communications on behalf of our clients. He brings to the table his experiences working with public institutions, grassroot organisations and multinationals to promote change and lasting impact in terms of policy and regulatory affairs. In doing so, he leverages his knowledge in fields such as e-mobility, food, health and renewable energies across different continents and cultures.',
-				],
-			},
-			{
-				title: 'Language and Cross-Cultural Skills',
-				content: [
-					'Having lived and worked in Brazil, Belgium, France and Senegal, Matheus transits seamlessly between different work cultures and thrives in international, multicultural scenarios. Besides his native Portuguese, he also speaks fluent English, French and Spanish, and has been trying hard to improve his Mandarin Chinese skills.',
-				],
-			},
-		],
-	}, */
 	guilherme: {
 		name: 'Guilherme Crispim Ferreira',
 		path: 'guilherme-ferreira',
@@ -344,6 +314,42 @@ export const team = {
 				content: [
 					"Guilherme joined Time&Place Group in October 2023. Guilherme's contributions so far have come through an active role in policy monitoring and analysis of EU regulations, conceptualising position papers, drafting concise presentation for high-level meetings and stakeholder mapping. These contributions have come mainly in the field of e-mobility, where Guilherme has been able to expand his involvement on several areas such as charging infrastructure, standardisation, types of charging and smart grids; not least within the scope of CharIN e.V.",
 					'Guilherme speaks Portuguese, English and Spanish, while also holding a basic understanding of French.',
+				],
+			},
+		],
+	},
+	mathias: {
+		name: 'Mathias Gerstner',
+		path: 'mathias-gerstner',
+		img: '/team/mathias.png',
+		imgName: 'Mathias Gerstner',
+		imgTitle: 'Junior Consultant',
+		titles: ['Junior Consultant - Time&Place Consulting'],
+		contact: {
+			email: 'mathias.gerstner@groupontap.com',
+		},
+		introduction: [
+			'Mathias is a Junior Consultant at Time&Place Consulting and contributes to EU regulatory monitoring, policy research, and drafting client deliverables. He also supports project execution and contributes to the team’s cross-border consultancy work, most notably with focus on LATAM and Europe; bringing the two closer together in the areas of trade and technology.',
+		],
+		paragraphs: [
+			{
+				title: 'Academic Background',
+				content: [
+					'Born and raised in Bolzano, Italy, holds a Bachelor’s degree in Political Science, with a specialisation in International Relations and Organisations, from Leiden University.',
+				],
+			},
+			{
+				title: 'Professional Experience',
+				content: [
+					'He was active in both research and diplomatic settings across Europe and South Asia. At the Embassy of Bangladesh in the Netherlands, he contributed to policy analysis, reporting, and translation efforts while supporting the country’s representation at international organisations and high-level conferences.',
+					'In Milan, Mathias interned at Istituto Bruno Leoni, a liberal economic think tank, where he worked on data analysis, editorial content, and public communication. He also supported internal coordination and administrative work at the Office of the Governor of the Autonomous Province of Bolzano, South Tyrol.',
+					'Before joining Time&Place, at the Italian Embassy and Consulate in The Hague, he assisted with consular services and diplomatic event planning.',
+				],
+			},
+			{
+				title: 'Languages',
+				content: [
+					'Mathias is a native speaker of Italian and German, fluent in English, and has an intermediate command of French, whilst trying to improve his Portuguese.',
 				],
 			},
 		],
