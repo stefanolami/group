@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 		template: '%s - Time&Place Group',
 	},
 	description: 'Time&Place Group',
-	openGraph: {
+	/* openGraph: {
 		title: 'Time&Place Group',
 		description: 'Right TIME. Right PLACE. Your IMPACT.',
 		url: 'https://www.groupontap.com',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 		],
 		locale: 'en_US',
 		type: 'website',
-	},
+	}, */
 }
 
 export default function RootLayout({
