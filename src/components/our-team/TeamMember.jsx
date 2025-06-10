@@ -25,7 +25,7 @@ export default function TeamMember({ name }) {
 						))}
 					</ul>
 				</div>
-				<div className="w-1/4 aspect-[265/390] relative">
+				<div className="w-1/4 aspect-[265/390] relative shadow-lg">
 					<Image
 						alt={`${member.name} Picture`}
 						src={member.img}
