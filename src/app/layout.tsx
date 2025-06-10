@@ -10,26 +10,21 @@ export const metadata: Metadata = {
 		template: '%s - Time&Place Group',
 	},
 	description: 'Time&Place Group',
-	/* openGraph: {
+	openGraph: {
 		title: 'Time&Place Group',
 		description: 'Right TIME. Right PLACE. Your IMPACT.',
 		url: 'https://www.groupontap.com',
 		siteName: 'Time&Place Group',
 		images: [
 			{
-				url: 'https://groupontap.com/android-chrome-1024x1024.png', // Must be an absolute URL
-				width: 1024,
-				height: 1024,
-			},
-			{
-				url: 'https://groupontap.com/android-chrome-512x512.png', // Must be an absolute URL
+				url: 'https://groupontap.com/web-app-manifest-512x512.png', // Must be an absolute URL
 				width: 512,
 				height: 512,
 			},
 		],
 		locale: 'en_US',
 		type: 'website',
-	}, */
+	},
 }
 
 export default function RootLayout({
