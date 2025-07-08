@@ -258,48 +258,18 @@ export const team = {
 			},
 		],
 	},
-	nell: {
-		name: 'Nell Detré',
-		path: 'nell-detre',
-		img: '/team/nell.png',
-		imgName: 'Nell Detré',
-		imgTitle: 'Junior Consultant',
-		titles: ['Junior Consultant - Time&Place Consulting'],
-		contact: {
-			email: 'nell.detre@groupontap.com',
-		},
-		introduction: [
-			'Nell Detré is a Junior Consultant from Belgium who spent the previous six years living abroad for her studies and career, gaining international experience in security, diplomacy, and advocacy.',
-		],
-		paragraphs: [
-			{
-				title: 'Previous experience',
-				content: [
-					'She holds an Erasmus Mundus International Master’s Degree in Security, Intelligence, and Strategic Studies, specializing in peacebuilding, with studies across the UK, Ireland, and Czech Republic. She also earned a Bachelor’s in European Studies, specializing in European Law, from the University of Amsterdam, equipping her with a strong understanding of EU law and policymaking, which is well-suited for navigating Brussels’ policy environment.',
-					'Nell has over three years of experience working in international think tanks in places such as the UK and, more recently, Dhaka. Her experience spans both leadership and research roles. While in Bangladesh, as a Research Assistant, she analyzed strategic competition in the Indian Ocean maritime space and monitored the Rohingya crisis for a local think tank. She also worked in high-level diplomatic settings in Washington, D.C., where she engaged in foreign policy analysis and public diplomacy efforts during her internship at the Belgian Embassy to the United States. Through her work with senior diplomats and policymakers in both Washington, D.C., and Dhaka, Nell has gained valuable insights into international decision-making and strategic policy development.',
-				],
-			},
-			{
-				title: 'At Time&Place Group',
-				content: [
-					'At Time&Place Group, Nell contributes her curiosity, adaptability, and passion for addressing complex policy issues to support the development of impactful, forward-looking initiatives. Drawing on her experience working and volunteering across four continents, she helps navigate international policy landscapes and foster collaboration across diverse networks. Her strong political and communication skills, shaped through extensive work with global teams, is key in advancing the Group’s mission and promoting meaningful change through inclusive and innovative project work.',
-					'Nell is a native French speaker, bilingual in English, and is currently working on bettering her Dutch skills.',
-				],
-			},
-		],
-	},
 	guilherme: {
 		name: 'Guilherme Crispim Ferreira',
 		path: 'guilherme-ferreira',
 		img: '/team/guilherme.png',
 		imgName: 'Guilherme Ferreira',
-		imgTitle: 'Junior Consultant',
-		titles: ['Junior Consultant – Time&Place Consulting'],
+		imgTitle: 'Consultant',
+		titles: ['Consultant – Time&Place Consulting'],
 		contact: {
 			email: 'ferreira@timeandplaceconsulting.com',
 		},
 		introduction: [
-			'Guilherme Crispim Ferreira is a junior consultant with a rich cultural background and experiences. Having lived in several countries throughout his life, he understands the importance of communication and is able to catch on to different cultural nuances. Guilherme also has a strong educational background, holding a Bachelor’s degree in Public Administration and a Master’s in Public Policy, from Erasmus University Rotterdam.',
+			'Guilherme Crispim Ferreira is a consultant with a rich cultural background and experiences. Having lived in several countries throughout his life, he understands the importance of communication and is able to catch on to different cultural nuances. Guilherme also has a strong educational background, holding a Bachelor’s degree in Public Administration and a Master’s in Public Policy, from Erasmus University Rotterdam.',
 		],
 		paragraphs: [
 			{
