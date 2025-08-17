@@ -518,7 +518,7 @@ export const team = {
 			},
 		],
 	},
-	edoardo: {
+	/* edoardo: {
 		name: 'Edoardo Rivoli',
 		path: 'edoardo-rivoli',
 		img: '/team/edoardo.png',
@@ -548,7 +548,7 @@ export const team = {
 				],
 			},
 		],
-	},
+	}, */
 	joao: {
 		name: 'João Evangelista dos Santos',
 		path: 'joao-dos-santos',
