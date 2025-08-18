@@ -23,10 +23,33 @@ export default function HomePage() {
 					sizes="(max-width: 640px) 70vw, 40vw"
 				/>
 			</div>
-			<p className="mt-2 font-jose mx-auto w-4/5 xl:w-4/5 text-primary text-sm xl:text-2xl text-center">
-				With international presence and local access, a holistic
-				approach to impacting decision-making and making decisions.
-			</p>
+			<div className="font-jose mx-auto w-4/5 xl:w-4/5 text-primary text-sm xl:text-2xl flex flex-col items-center justify-center gap-4">
+				<p className="mt-2 text-center">
+					With international presence and local access, Time&Place
+					Group provides integral approaches to impacting
+					decision-making.
+				</p>
+				<p className="mt-4 text-center">
+					The Group is designed to develop and implement tools with
+					two approaches in mind:
+				</p>
+				<ul className="list-disc list-inside text-center">
+					<li>
+						Nourishing your decision-making through information,
+						knowledge, strategic advice, education, training and
+						professional opportunities;
+					</li>
+					<li>
+						Building your channels of access to governments,
+						regulatory bodies, public procurement, financing and
+						funding agencies, your current and future customers,
+						your peers, and public opinion.
+					</li>
+				</ul>
+				<p className="mt-4 text-center">
+					Powered by people, and just a little bit of AI.
+				</p>
+			</div>
 			<div className="bg-primary w-4/5 mx-auto xl:w-full h-[2px] mt-10"></div>
 			<h2>OUR PILLARS</h2>
 			<div className="w-full px-[10%] py-2 xl:px-0 xl:py-0 bg-white grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-3 xl:gap-6">

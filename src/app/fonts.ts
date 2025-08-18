@@ -17,8 +17,8 @@ export const unna = Unna({
 })
 
 export const robo = Roboto_Serif({
-	weight: '700',
-	style: 'normal',
+	weight: ['400', '700'],
+	style: ['normal', 'italic'],
 	subsets: ['latin'],
 	variable: '--font-robo',
 	fallback: ['serif'],
