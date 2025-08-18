@@ -8,10 +8,11 @@ export const managingTeam = {
 		titles: [
 			'Founder & CEO – Time&Place Group',
 			'Founder & Managing Director – Time&Place Consulting',
-			'Co-Founder and Strategic Adviser – Time&Place Funding',
 			'Founder – Time&Place Institute',
+			'Co-Founder & Co-CEO - Time&Spaces',
+			/* 'Co-Founder and Strategic Adviser – Time&Place Funding',
 			'Founder – Time&Place Marketing',
-			'Founder – Time&Place Media Productions',
+			'Founder – Time&Place Media Productions', */
 		],
 		contact: {
 			email: 'cezanne@groupontap.com',

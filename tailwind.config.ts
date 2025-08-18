@@ -41,6 +41,7 @@ const config: Config = {
 			fontFamily: {
 				jose: ['var(--font-jose)'],
 				unna: ['var(--font-unna)'],
+				robo: ['var(--font-robo)'],
 			},
 		},
 	},
