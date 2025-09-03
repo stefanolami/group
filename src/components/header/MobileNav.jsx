@@ -2,11 +2,13 @@
 
 import { motion, MotionConfig } from 'framer-motion'
 import { useState, useEffect } from 'react'
-import { Link } from '@/i18n/routing'
+import { Link, usePathname } from '@/i18n/routing'
 import MobileLocaleSwitcher from './MobileLocaleSwitcher'
 
 export default function MobileNav({ messages }) {
 	const [active, setActive] = useState(false)
+
+	const path = usePathname()
 
 	useEffect(() => {
 		if (active) {
@@ -28,11 +30,15 @@ export default function MobileNav({ messages }) {
 				<motion.button
 					initial={false}
 					onClick={() => setActive((pv) => !pv)}
-					className="relative h-10 w-10 ml-3 rounded-full z-50 bg-primary-light scale-90"
+					className={`relative h-10 w-10 ml-3 rounded-full z-50 scale-90 ${
+						path !== '/' ? 'bg-white' : 'bg-transparent'
+					}`}
 					animate={active ? 'open' : 'closed'}
 				>
 					<motion.span
-						className="absolute h-1 w-6 bg-white rounded-sm"
+						className={`absolute h-1 w-6 rounded-sm ${
+							path !== '/' ? 'bg-primary-light' : 'bg-white'
+						}`}
 						style={{
 							left: '50%',
 							top: '34%',
@@ -51,7 +57,9 @@ export default function MobileNav({ messages }) {
 						}}
 					/>
 					<motion.span
-						className="absolute h-1 w-6 bg-white rounded-sm"
+						className={`absolute h-1 w-6 rounded-sm ${
+							path !== '/' ? 'bg-primary-light' : 'bg-white'
+						}`}
 						style={{
 							left: '50%',
 							top: '50%',
@@ -68,7 +76,9 @@ export default function MobileNav({ messages }) {
 						}}
 					/>
 					<motion.span
-						className="absolute h-1 w-6 bg-white rounded-sm"
+						className={`absolute h-1 w-6 rounded-sm ${
+							path !== '/' ? 'bg-primary-light' : 'bg-white'
+						}`}
 						style={{
 							left: '50%',
 							bottom: '34%',
