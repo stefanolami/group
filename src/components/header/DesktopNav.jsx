@@ -12,7 +12,7 @@ export default function DesktopNav({ messages, inverted }) {
 			<nav className="grid grid-cols-5 text-center uppercase h-full *:px-4 md:text-xs xl:text-base">
 				<Link
 					className={`relative 
-						${path == '/our-team' ? 'active-link' : ''}
+						${path.startsWith('/our-team') ? 'active-link' : ''}
 						${
 							inverted
 								? 'hover:text-white hover:bg-primary-light'
