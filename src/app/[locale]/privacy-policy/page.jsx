@@ -17,11 +17,11 @@ export default function PrivacyPolicyPage({ params: { locale } }) {
 	unstable_setRequestLocale(locale)
 	const t = useTranslations('Index')
 	return (
-		<div className="w-[90%] xl:w-[70%] mx-auto pt-8 xl:pt-20 pb-16 xl:pb-32 text-primary">
-			<h1 className="font-unna font-bold text-xl xl:text-[48px] text-center mb-10 xl:mb-20">
+		<div className="w-[90%] lg:w-[70%] mx-auto pt-8 lg:pt-20 pb-16 lg:pb-32 text-primary">
+			<h1 className="font-unna font-bold text-xl lg:text-[48px] text-center mb-10 lg:mb-20">
 				PRIVACY POLICY
 			</h1>
-			<div className="space-y-6 font-jose text-sm xl:text-base">
+			<div className="space-y-6 font-jose text-sm lg:text-base">
 				<p>
 					At Time&amp;Place Group (&quot;Company&quot; &quot;we&quot;
 					&quot;our&quot; or &quot;us&quot;), we are committed to

@@ -40,7 +40,7 @@ export default function RootLayout({
 			className={`${jose.variable} ${unna.variable} ${robo.variable}`}
 		>
 			<GoogleAnalytics gaId={'G-JYEJ15NG19'} />
-			<body className="relative pt-16 xl:pt-24 pb-[85px] xl:pb-[200px] min-h-screen">
+			<body className="relative pt-16 lg:pt-24 pb-[85px] lg:pb-[200px] min-h-screen">
 				{children}
 				{/* <Analytics /> */}
 			</body>

@@ -27,9 +27,9 @@ export default function OurPillars() {
 		}
 	})
 	return (
-		<div className="pt-8 xl:pt-20 pb-16 xl:pb-32">
-			<div className="-mt-24 xl:-mt-44  xl:pt-20 -mb-16 xl:-mb-32 bg-consulting-primary">
-				<div className="hidden xl:block w-full h-10 bg-consulting-primary" />
+		<div className="pt-8 lg:pt-20 pb-16 lg:pb-32">
+			<div className="-mt-24 lg:-mt-44  lg:pt-20 -mb-16 lg:-mb-32 bg-consulting-primary">
+				<div className="hidden lg:block w-full h-10 bg-consulting-primary" />
 				<div
 					ref={ref}
 					className="relative -mt-8 "

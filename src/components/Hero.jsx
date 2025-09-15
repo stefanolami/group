@@ -4,9 +4,9 @@ export default function Hero() {
 	return (
 		<div
 			id="hero"
-			className="bg-primary h-svh xl:h-screen -mt-16 xl:-mt-24 flex flex-col justify-end"
+			className="bg-primary h-svh lg:h-screen -mt-16 lg:-mt-24 flex flex-col justify-end"
 		>
-			<div className="w-full bg-primary h-40 xl:h-8"></div>
+			<div className="w-full bg-primary h-40 lg:h-8"></div>
 			<div className="relative w-full aspect-[5444/1583] hidden md:block">
 				<Image
 					src={'/hero/hero.png'}

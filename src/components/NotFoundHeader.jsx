@@ -5,11 +5,11 @@ export default function NotFoundHeader() {
 	return (
 		<div
 			className={
-				'fixed top-0 w-full text-white z-50 px-6 md:px-10 xl:px-[7%] flex justify-between items-center h-16 xl:h-24 bg-primary'
+				'fixed top-0 w-full text-white z-50 px-6 md:px-10 lg:px-[7%] flex justify-between items-center h-16 lg:h-24 bg-primary'
 			}
 		>
 			<Link
-				className="pl-6 md:pl-0 md:py-4 xl:py-7 w-[124px] xl:w-[231px] aspect-[694/186] relative xl:scale-75"
+				className="pl-6 md:pl-0 md:py-4 lg:py-7 w-[124px] lg:w-[231px] aspect-[694/186] relative lg:scale-75"
 				href="/"
 			>
 				<Image

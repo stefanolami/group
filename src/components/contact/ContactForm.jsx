@@ -13,14 +13,14 @@ export default function ContactForm() {
 
 	return (
 		<div className="w-full">
-			<h1 className="font-unna font-bold text-xl xl:text-[36px] text-primary mb-4 xl:mb-10">
+			<h1 className="font-unna font-bold text-xl lg:text-[36px] text-primary mb-4 lg:mb-10">
 				CONTACT
 			</h1>
 			<form
-				className="text-sm xl:text-base"
+				className="text-sm lg:text-base"
 				onSubmit={handleSubmit(onSubmit)}
 			>
-				<div className="xl:flex flex-row items-center justify-center gap-3">
+				<div className="lg:flex flex-row items-center justify-center gap-3">
 					<input
 						type="text"
 						placeholder="Name"
@@ -43,10 +43,10 @@ export default function ContactForm() {
 				<textarea
 					rows={4}
 					placeholder="How can we be of service?"
-					className="w-full xl:h-64 resize-none font-jose text-primary border-2 mb-3 border-primary-light focus:border-primary bg-grey p-2 outline-none shadow-sm focus:shadow-md"
+					className="w-full lg:h-64 resize-none font-jose text-primary border-2 mb-3 border-primary-light focus:border-primary bg-grey p-2 outline-none shadow-sm focus:shadow-md"
 					{...register('message', { required: true })}
 				></textarea>
-				<button className="ml-auto block h-6 xl:h-8 w-28 xl:w-44 bg-primary font-jose font-bold text-xs xl:text-lg text-white rounded-md shadow-md hover:shadow-xl hover:brightness-90">
+				<button className="ml-auto block h-6 lg:h-8 w-28 lg:w-44 bg-primary font-jose font-bold text-xs lg:text-lg text-white rounded-md shadow-md hover:shadow-xl hover:brightness-90">
 					Send
 				</button>
 			</form>

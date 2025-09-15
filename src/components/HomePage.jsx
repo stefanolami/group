@@ -13,9 +13,9 @@ export default function HomePage() {
 	return (
 		<div
 			id="home"
-			className="pb-16 xl:pb-32 w-full xl:w-3/4 max-w-[1250px] mx-auto"
+			className="pb-16 lg:pb-32 w-full lg:w-3/4 max-w-[1250px] mx-auto"
 		>
-			<div className="mt-6 xl:mt-16 relative mx-auto w-3/4 xl:w-[45%] aspect-[550/160]">
+			<div className="mt-6 lg:mt-16 relative mx-auto w-3/4 lg:w-[45%] aspect-[550/160]">
 				<Image
 					src={'/logos/group-logo-home.png'}
 					alt="Group Logo"
@@ -23,7 +23,7 @@ export default function HomePage() {
 					sizes="(max-width: 640px) 70vw, 40vw"
 				/>
 			</div>
-			<div className="font-jose mx-auto w-4/5 xl:w-4/5 text-primary text-sm xl:text-2xl flex flex-col items-center justify-center gap-4">
+			<div className="font-jose mx-auto w-4/5 lg:w-4/5 text-primary text-sm lg:text-2xl flex flex-col items-center justify-center gap-4">
 				<p className="mt-2 text-center">
 					With international presence and local access, Time&Place
 					Group provides integral approaches to impacting
@@ -50,9 +50,9 @@ export default function HomePage() {
 					Powered by people, and just a little bit of AI.
 				</p>
 			</div>
-			<div className="bg-primary w-4/5 mx-auto xl:w-full h-[2px] mt-10"></div>
+			<div className="bg-primary w-4/5 mx-auto lg:w-full h-[2px] mt-10"></div>
 			<h2>OUR PILLARS</h2>
-			<div className="w-full px-[10%] py-2 xl:px-0 xl:py-0 bg-white grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-3 xl:gap-6">
+			<div className="w-full px-[10%] py-2 lg:px-0 lg:py-0 bg-white grid grid-cols-2 grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 gap-3 lg:gap-6">
 				{pillars.map((pillar) => {
 					return (
 						<Link
@@ -66,9 +66,9 @@ export default function HomePage() {
 					)
 				})}
 			</div>
-			<div className="bg-primary w-4/5 mx-auto xl:w-full h-[2px] mt-10"></div>
+			<div className="bg-primary w-4/5 mx-auto lg:w-full h-[2px] mt-10"></div>
 			<h2>OUR PRODUCTS</h2>
-			<div className="w-full px-[10%] py-2 xl:px-0 xl:py-0 bg-white grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-3 xl:gap-6">
+			<div className="w-full px-[10%] py-2 lg:px-0 lg:py-0 bg-white grid grid-cols-2 grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 gap-3 lg:gap-6">
 				{products.map((product) => {
 					return (
 						<Link
@@ -82,9 +82,9 @@ export default function HomePage() {
 					)
 				})}
 			</div>
-			<div className="bg-primary w-4/5 mx-auto xl:w-full h-[2px] mt-10"></div>
+			<div className="bg-primary w-4/5 mx-auto lg:w-full h-[2px] mt-10"></div>
 			<h2>OUR PROJECTS</h2>
-			<div className="w-full px-[10%] py-2 xl:px-0 xl:py-0 bg-white mx-auto grid grid-cols-2 xl:grid-cols-3 gap-3 xl:gap-6">
+			<div className="w-full px-[10%] py-2 lg:px-0 lg:py-0 bg-white mx-auto grid grid-cols-2 lg:grid-cols-3 gap-3 lg:gap-6">
 				{projects.map((project) => {
 					return (
 						<Link

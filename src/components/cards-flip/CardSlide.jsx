@@ -24,7 +24,7 @@ export default function CardSlide({ element }) {
 		>
 			<CardFront element={element} />
 			<motion.div
-				className="hidden xl:block absolute left-0 w-full h-full z-10"
+				className="hidden lg:block absolute left-0 w-full h-full z-10"
 				variants={{
 					initial: {
 						y: '101%',

@@ -26,9 +26,9 @@ export default function OurProducts() {
 		}
 	})
 	return (
-		<div className="pt-8 xl:pt-20 pb-16 xl:pb-32 ">
-			<div className="-mt-24 xl:-mt-44  xl:pt-20 -mb-16 xl:-mb-32 bg-grey">
-				<div className="hidden xl:block w-full h-10" />
+		<div className="pt-8 lg:pt-20 pb-16 lg:pb-32 ">
+			<div className="-mt-24 lg:-mt-44  lg:pt-20 -mb-16 lg:-mb-32 bg-grey">
+				<div className="hidden lg:block w-full h-10" />
 				<div
 					ref={ref}
 					className="relative -mt-8 "

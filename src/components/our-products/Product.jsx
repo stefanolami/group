@@ -18,13 +18,13 @@ export default function Product({
 	return (
 		<motion.div
 			id={card.id}
-			className="h-screen w-full sticky top-0 flex origin-top flex-col xl:flex-row items-center justify-start xl:justify-center px-4 xl:gap-20"
+			className="h-screen w-full sticky top-0 flex origin-top flex-col lg:flex-row items-center justify-start lg:justify-center px-4 lg:gap-20"
 			style={{
 				y: position === products.length ? undefined : y,
 				background: card.background,
 			}}
 		>
-			<div className="relative mx-auto xl:mx-0 w-[65%] xl:w-1/4 aspect-[365/248] mb-10 mt-24 xl:mt-0 xl:mb-20">
+			<div className="relative mx-auto lg:mx-0 w-[65%] lg:w-1/4 aspect-[365/248] mb-10 mt-24 lg:mt-0 lg:mb-20">
 				<Image
 					src={card.icon}
 					alt={card.id}
@@ -32,10 +32,10 @@ export default function Product({
 					sizes="(max-width: 640px) 70vw, 35vw"
 				/>
 			</div>
-			<div className="mx-auto xl:mx-0 w-[90%] xl:w-2/5">
+			<div className="mx-auto lg:mx-0 w-[90%] lg:w-2/5">
 				<p
 					style={{ color: card.primary }}
-					className="xl:hidden font-jose text-xs xl:text-[18px] xl:leading-[22px] text-justify"
+					className="lg:hidden font-jose text-xs lg:text-[18px] lg:leading-[22px] text-justify"
 				>
 					{card.text}
 				</p>
@@ -44,7 +44,7 @@ export default function Product({
 						<p
 							key={index}
 							style={{ color: card.primary }}
-							className="hidden xl:block font-jose text-xs xl:text-[18px] xl:leading-[22px] text-justify mb-3"
+							className="hidden lg:block font-jose text-xs lg:text-[18px] lg:leading-[22px] text-justify mb-3"
 						>
 							{t}
 						</p>
@@ -53,7 +53,7 @@ export default function Product({
 				{card.link.length > 0 ? (
 					<Link
 						href={card.link}
-						className="bg-black text-white flex items-center justify-center pt-[2px] mt-10 w-28 xl:w-48 h-6 xl:h-8 ml-auto text-xs xl:text-lg font-jose font-bold rounded-md shadow-md hover:shadow-xl hover:brightness-90"
+						className="bg-black text-white flex items-center justify-center pt-[2px] mt-10 w-28 lg:w-48 h-6 lg:h-8 ml-auto text-xs lg:text-lg font-jose font-bold rounded-md shadow-md hover:shadow-xl hover:brightness-90"
 						target="_blank"
 					>
 						{card.message}
@@ -61,7 +61,7 @@ export default function Product({
 				) : (
 					<p
 						style={{ color: card.tertiary }}
-						className="font-jose text-xs xl:text-xl text-right mt-10"
+						className="font-jose text-xs lg:text-xl text-right mt-10"
 					>
 						{card.message}
 					</p>

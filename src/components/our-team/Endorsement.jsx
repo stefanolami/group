@@ -1,10 +1,10 @@
 export default function Endorsement({ endorsement }) {
 	return (
-		<div className="w-screen xl:w-full -ml-[5vw] xl:ml-0 bg-primary-light p-6 xl:px-16 xl:py-8 flex flex-col justify-between items-center overflow text-white">
-			<div className="font-jose text-xs italic xl:text-xl text-justify mb-4">
+		<div className="w-screen lg:w-full -ml-[5vw] lg:ml-0 bg-primary-light p-6 lg:px-16 lg:py-8 flex flex-col justify-between items-center overflow text-white">
+			<div className="font-jose text-xs italic lg:text-xl text-justify mb-4">
 				{endorsement.content.map((element, index) => (
 					<p
-						className="mb-4 xl:mb-6"
+						className="mb-4 lg:mb-6"
 						key={index}
 					>
 						{element}
@@ -12,10 +12,10 @@ export default function Endorsement({ endorsement }) {
 				))}
 			</div>
 			<div className="flex flex-col items-end w-full">
-				<span className="font-jose text-xs xl:text-xl italic font-bold text-right block">
+				<span className="font-jose text-xs lg:text-xl italic font-bold text-right block">
 					{endorsement.name}
 				</span>
-				<span className="font-jose text-xs xl:text-xl italic text-right block">
+				<span className="font-jose text-xs lg:text-xl italic text-right block">
 					{endorsement.title}
 				</span>
 			</div>

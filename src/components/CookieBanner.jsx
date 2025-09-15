@@ -32,14 +32,14 @@ export default function CookieBanner() {
 
 	return (
 		<div className="fixed bottom-0 z-40 w-full">
-			<div className="container mb-3 bg-grey p-4 rounded-md shadow-xl w-[95%] xl:w-[98%] mx-auto flex justify-between items-center font-jose text-primary text-sm xl:text-lg">
+			<div className="container mb-3 bg-grey p-4 rounded-md shadow-xl w-[95%] lg:w-[98%] mx-auto flex justify-between items-center font-jose text-primary text-sm lg:text-lg">
 				<p>
 					We use cookies to ensure you get the best experience on our
 					website. Learn more here:
-					<div className="block xl:inline">
+					<div className="block lg:inline">
 						<Link
 							href="/cookie-use"
-							className="underline xl:ml-3 mr-3"
+							className="underline lg:ml-3 mr-3"
 						>
 							Cookie Use
 						</Link>
@@ -51,15 +51,15 @@ export default function CookieBanner() {
 						</Link>
 					</div>
 				</p>
-				<div className="grid grid-rows-2 gap-2 xl:grid-cols-2 xl:grid-rows-1">
+				<div className="grid grid-rows-2 gap-2 lg:grid-cols-2 lg:grid-rows-1">
 					<button
-						className="bg-primary-light shadow-md hover:shadow-xl text-white w-20 h-8 xl:w-24 xl:h-11 rounded hover:scale-105"
+						className="bg-primary-light shadow-md hover:shadow-xl text-white w-20 h-8 lg:w-24 lg:h-11 rounded hover:scale-105"
 						onClick={() => setCookieConsent(true)}
 					>
 						Accept
 					</button>
 					<button
-						className="bg-primary shadow-md hover:shadow-xl text-white w-20 h-8 xl:w-24 xl:h-11 rounded hover:scale-105"
+						className="bg-primary shadow-md hover:shadow-xl text-white w-20 h-8 lg:w-24 lg:h-11 rounded hover:scale-105"
 						onClick={() => setCookieConsent(false)}
 					>
 						Decline
