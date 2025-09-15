@@ -17,7 +17,10 @@ export function sendEmail(data: FormData) {
 			alert(response.message)
 		})
 		.catch((err: unknown) => {
-			const errorMessage = err instanceof Error ? err.message : 'An error occurred while sending the email'
+			const errorMessage =
+				err instanceof Error
+					? err.message
+					: 'An error occurred while sending the email'
 			alert(errorMessage)
 		})
 }
