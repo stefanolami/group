@@ -38,9 +38,12 @@ export async function POST(request: NextRequest) {
 
 	try {
 		await sendMailPromise()
-		return NextResponse.json({ message: 'Message sent' })
+		return NextResponse.json({ message: 'Message sent successfully!' })
 	} catch (err) {
-		console.log(err)
-		return NextResponse.json({ error: err })
+		console.error('Email sending failed:', err)
+		return NextResponse.json(
+			{ error: 'Failed to send email. Please try again later.' },
+			{ status: 500 }
+		)
 	}
 }

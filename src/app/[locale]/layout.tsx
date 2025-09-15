@@ -1,4 +1,3 @@
-import { jose, unna } from '@/app/fonts'
 import { unstable_setRequestLocale } from 'next-intl/server'
 import { Suspense } from 'react'
 import { NextIntlClientProvider } from 'next-intl'
@@ -9,6 +8,7 @@ import Loading from '@/components/Loading'
 /* import GoogleAnalytics from '@/components/GoogleAnalytics' */
 import CookieBanner from '@/components/CookieBanner'
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { Toaster } from '@/components/ui/sonner'
 
 // Can be imported from a shared config
 const locales = ['en']
@@ -33,6 +33,7 @@ export default async function LocaleLayout({
 				<main className="">{children}</main>
 				<CookieBanner />
 				<Footer />
+				<Toaster />
 			</Suspense>
 		</NextIntlClientProvider>
 	)
