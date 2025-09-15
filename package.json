@@ -1,42 +1,43 @@
 {
-	"name": "group",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "next lint"
-	},
-	"dependencies": {
-		"@next/third-parties": "^15.5.3",
-		"@types/nodemailer": "^7.0.1",
-		"@vercel/analytics": "^1.5.0",
-		"clsx": "^2.1.1",
-		"framer-motion": "^12.23.12",
-		"lodash": "^4.17.21",
-		"next": "15.5.3",
-		"next-intl": "^4.3.9",
-		"nodemailer": "^7.0.6",
-		"react": "^19",
-		"react-dom": "^19",
-		"react-hook-form": "^7.62.0",
-		"react-icons": "^5.5.0",
-		"sharp": "^0.34.3",
-		"tailwind-merge": "^3.3.1",
-		"zustand": "^5.0.8"
-	},
-	"devDependencies": {
-		"@tailwindcss/postcss": "^4.1.13",
-		"@types/node": "^24",
-		"@types/react": "^19",
-		"@types/react-dom": "^19",
-		"@typescript-eslint/eslint-plugin": "^8.43.0",
-		"@typescript-eslint/parser": "^8.43.0",
-		"eslint": "^9",
-		"eslint-config-next": "15.5.3",
-		"postcss": "^8",
-		"tailwindcss": "^4.1.13",
-		"typescript": "^5"
-	}
+  "name": "group",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@next/third-parties": "^15.5.3",
+    "@types/nodemailer": "^7.0.1",
+    "@vercel/analytics": "^1.5.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.12",
+    "lodash": "^4.17.21",
+    "next": "15.5.3",
+    "next-intl": "^4.3.9",
+    "nodemailer": "^7.0.6",
+    "react": "^19",
+    "react-dom": "^19",
+    "react-hook-form": "^7.62.0",
+    "react-icons": "^5.5.0",
+    "sharp": "^0.34.3",
+    "tailwind-merge": "^3.3.1",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@typescript-eslint/eslint-plugin": "^8.43.0",
+    "@typescript-eslint/parser": "^8.43.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "postcss": "^8",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5"
+  }
 }
