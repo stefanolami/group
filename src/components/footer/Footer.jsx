@@ -1,5 +1,5 @@
 import { Link } from '@/i18n/routing'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 export default function Footer() {
 	const socialMediaIcons = [
@@ -20,11 +20,11 @@ export default function Footer() {
 		},
 	]
 
-	const socialMediaIconsda = [
-		'/social-media/facebook.png',
-		'/social-media/instagram.png',
-		'/social-media/linkedin.png',
-	]
+	// const socialMediaIconsda = [
+	// 	'/social-media/facebook.png',
+	// 	'/social-media/instagram.png',
+	// 	'/social-media/linkedin.png',
+	// ]
 
 	return (
 		<div className="w-full bg-primary h-[85px] xl:h-[200px] py-1 absolute bottom-0 flex flex-col items-center justify-between text-white">

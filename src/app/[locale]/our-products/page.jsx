@@ -1,20 +1,11 @@
-import { getTranslations } from 'next-intl/server'
 import OurProducts from '../../../components/our-products/OurProducts'
 
-export async function generateMetadata({ params }) {
-	const { locale } = await params
-	const t = await getTranslations({
-		locale,
-		namespace: 'Index' /* replace with metadata file */,
-	})
-
+export async function generateMetadata() {
 	return {
 		title: 'Our Products',
 	}
 }
 
-export default async function OurPillarsPage({ params }) {
-	const { locale } = await params
-	const t = await getTranslations('Index')
+export default async function OurPillarsPage() {
 	return <OurProducts />
 }

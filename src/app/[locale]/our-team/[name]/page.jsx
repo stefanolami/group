@@ -1,4 +1,3 @@
-import { getTranslations } from 'next-intl/server'
 import TeamMember from '@/components/our-team/TeamMember'
 import { team, managingTeam } from '@/data/team'
 

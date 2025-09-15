@@ -11,7 +11,7 @@ export default function OurTeam() {
 				OUR TEAM
 			</h1>
 			<div className="mx-auto lg:w-1/2 grid grid-cols-2 xl:grid-cols-2 gap-4 xl:gap-5 mb-4 xl:mb-5">
-				{managingTeamArray.map((member, index) => (
+				{managingTeamArray.map((member) => (
 					<Link
 						href={`/our-team/${member.path}`}
 						key={member.path}
@@ -82,7 +82,7 @@ export default function OurTeam() {
 			</div>
 			<div className="lg:hidden">
 				<div className="mx-auto xl:w-3/4 grid grid-cols-2 xl:grid-cols-3 gap-4 xl:gap-5">
-					{teamArray.map((member, index) => (
+					{teamArray.map((member) => (
 						<Link
 							href={`/our-team/${member.path}`}
 							key={member.path}

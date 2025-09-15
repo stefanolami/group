@@ -61,14 +61,15 @@ const LocaleElement = ({ locale, handler }) => {
 }
 
 const getFullUrl = (pathname, searchParams) => {
-	return `${pathname}?${searchParams.toString()}`
+	const qs = searchParams.toString()
+	return qs ? `${pathname}?${qs}` : pathname
 }
 
 export default function DesktopLocaleSwitcher() {
 	const [open, setOpen] = useState(false)
 	const locale = useLocale()
 	const router = useRouter()
-	const [isPending, startTransition] = useTransition()
+	const [, startTransition] = useTransition()
 	const pathname = usePathname()
 	const searchParams = useSearchParams()
 

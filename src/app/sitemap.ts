@@ -64,7 +64,7 @@ function getEntry(href: Href) {
 	}
 }
 
-function getUrl(href: Href, locale: any) {
+function getUrl(href: Href, locale: string) {
 	const pathname = getPathname({ locale, href })
 	return `${baseUrl}/${locale}${pathname === '/' ? '' : pathname}`
 }

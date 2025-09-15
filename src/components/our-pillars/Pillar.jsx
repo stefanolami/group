@@ -1,7 +1,7 @@
 'use client'
 
-import { useScroll, motion, useTransform } from 'framer-motion'
-import React, { useRef } from 'react'
+import { motion, useTransform } from 'framer-motion'
+import React from 'react'
 import Image from 'next/image'
 import { pillars } from '../../data/data'
 import { Link } from '@/i18n/routing'

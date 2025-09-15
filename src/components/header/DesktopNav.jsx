@@ -1,6 +1,6 @@
 import { Link } from '@/i18n/routing'
 import { usePathname } from '@/i18n/routing'
-import DesktopLocaleSwitcher from './DesktopLocaleSwitcher'
+// import DesktopLocaleSwitcher from './DesktopLocaleSwitcher'
 
 export default function DesktopNav({ messages, inverted }) {
 	const path = usePathname()
