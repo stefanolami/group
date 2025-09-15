@@ -1,8 +1,7 @@
-import { useTranslations } from 'next-intl'
-import { unstable_setRequestLocale } from 'next-intl/server'
 import { getTranslations } from 'next-intl/server'
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata({ params }) {
+	const { locale } = await params
 	const t = await getTranslations({
 		locale,
 		namespace: 'Index' /* replace with metadata file */,
@@ -13,9 +12,8 @@ export async function generateMetadata({ params: { locale } }) {
 	}
 }
 
-export default function CookieUsePage({ params: { locale } }) {
-	unstable_setRequestLocale(locale)
-	const t = useTranslations('Index')
+export default async function CookieUsePage({ params }) {
+	const { locale } = await params
 	return (
 		<div className="w-[90%] xl:w-[70%] mx-auto pt-8 xl:pt-20 pb-16 xl:pb-32 text-primary">
 			<h1 className="font-unna font-bold text-xl xl:text-[48px] text-center mb-10 xl:mb-20">

@@ -29,11 +29,10 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
 	children,
-	params: { locale },
 }: {
 	children: React.ReactNode
-	params: { locale: string }
 }) {
+	const locale = 'en' // Default locale for root layout
 	return (
 		<html
 			lang={locale}

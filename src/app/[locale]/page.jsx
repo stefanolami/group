@@ -1,12 +1,10 @@
-import { useTranslations } from 'next-intl'
-import { unstable_setRequestLocale } from 'next-intl/server'
 import { getTranslations } from 'next-intl/server'
 import HomePage from '@/components/HomePage'
 import Hero from '@/components/Hero'
 
-export default function Home({ params: { locale } }) {
-	unstable_setRequestLocale(locale)
-	const t = useTranslations('Index')
+export default async function Home({ params }) {
+	const { locale } = await params
+	const t = await getTranslations('Index')
 	return (
 		<>
 			<Hero />

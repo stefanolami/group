@@ -1,5 +1,4 @@
 import { jose, unna } from '@/app/fonts'
-import { unstable_setRequestLocale } from 'next-intl/server'
 import { Suspense } from 'react'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
@@ -19,13 +18,13 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({
 	children,
-	params: { locale },
+	params,
 }: {
 	children: React.ReactNode
-	params: { locale: string }
+	params: Promise<{ locale: string }>
 }) {
+	const { locale } = await params
 	const messages = await getMessages()
-	unstable_setRequestLocale(locale)
 	return (
 		<NextIntlClientProvider messages={messages}>
 			<Suspense fallback={<Loading />}>
