@@ -9,7 +9,8 @@ export default function GoogleAnalytics({ GA_MEASUREMENT_ID }) {
 	const searchParams = useSearchParams()
 
 	useEffect(() => {
-		const url = pathname + searchParams.toString()
+		const qs = searchParams.toString()
+		const url = qs ? `${pathname}?${qs}` : pathname
 		if (typeof window !== 'undefined' && window.gtag) {
 			window.gtag('config', GA_MEASUREMENT_ID, {
 				page_path: url,

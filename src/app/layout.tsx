@@ -29,14 +29,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
 	children,
-	params: { locale },
 }: {
 	children: React.ReactNode
-	params: { locale: string }
 }) {
 	return (
 		<html
-			lang={locale}
+			lang="en"
 			className={`${jose.variable} ${unna.variable} ${robo.variable}`}
 		>
 			<GoogleAnalytics gaId={'G-JYEJ15NG19'} />

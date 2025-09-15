@@ -1,12 +1,64 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-@layer utilities {
-	.text-balance {
-		text-wrap: balance;
+@theme {
+	--background-image-gradient-radial: radial-gradient(
+		var(--tw-gradient-stops)
+	);
+	--background-image-gradient-conic: conic-gradient(
+		from 180deg at 50% 50%,
+		var(--tw-gradient-stops)
+	);
+
+	--color-primary: #4f5648;
+	--color-primary-light: #86907e;
+	--color-grey: #eaeaea;
+	--color-consulting-primary: #354b83;
+	--color-consulting-secondary: #fff;
+	--color-consulting-tertiary: #fff;
+	--color-funding-primary: #fff;
+	--color-funding-secondary: #00a4d5;
+	--color-funding-tertiary: #1d4967;
+	--color-marketing-primary: #aa337f;
+	--color-marketing-secondary: #fff;
+	--color-marketing-tertiary: #fff;
+	--color-production-primary: #fff;
+	--color-production-secondary: #df8946;
+	--color-production-tertiary: #4A2C2O;
+	--color-institute-primary: #6d9544;
+	--color-institute-secondary: #fff;
+	--color-institute-tertiary: #fff;
+	--color-spaces-primary: #fff;
+	--color-spaces-secondary: #0f2cca;
+	--color-spaces-tertiary: #2a2a2a;
+
+	--font-jose: var(--font-jose);
+	--font-unna: var(--font-unna);
+	--font-robo: var(--font-robo);
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+	*,
+	::after,
+	::before,
+	::backdrop,
+	::file-selector-button {
+		border-color: var(--color-gray-200, currentcolor);
 	}
 }
+
+@utility text-balance {
+	text-wrap: balance;
+}
+
+/* removed invalid empty utility that caused Tailwind v4 error */
 
 @layer components {
 	#home h2 {
@@ -15,10 +67,6 @@
 
 	#desktop-nav a {
 		@apply hover:scale-110 hover:shadow-xl hover:z-20 flex items-center justify-center;
-	}
-
-	.not-found-text {
-		@apply;
 	}
 }
 
