@@ -1,4 +1,3 @@
-// import { jose, unna } from '@/app/fonts'
 import { Suspense } from 'react'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
@@ -7,9 +6,9 @@ import Footer from '@/components/footer/Footer'
 import Loading from '@/components/Loading'
 /* import GoogleAnalytics from '@/components/GoogleAnalytics' */
 import CookieBanner from '@/components/CookieBanner'
+import { Toaster } from '@/components/ui/sonner'
 // import { GoogleAnalytics } from '@next/third-parties/google'
 
-// Can be imported from a shared config
 const locales = ['en']
 
 export function generateStaticParams() {
@@ -29,6 +28,7 @@ export default async function LocaleLayout({
 				<main className="">{children}</main>
 				<CookieBanner />
 				<Footer />
+				<Toaster />
 			</Suspense>
 		</NextIntlClientProvider>
 	)
