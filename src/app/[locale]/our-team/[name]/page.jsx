@@ -1,16 +1,19 @@
-import { getTranslations } from 'next-intl/server'
 import TeamMember from '@/components/our-team/TeamMember'
 import { team, managingTeam } from '@/data/team'
 
 export async function generateMetadata({ params }) {
+	const awaited = await params
 	let name
-	if (params.name == 'glenn-cezanne' || params.name == 'corina-gheorgheza') {
+	if (
+		awaited.name == 'glenn-cezanne' ||
+		awaited.name == 'corina-gheorgheza'
+	) {
 		name = Object.values(managingTeam).find(
-			(member) => member.path === params.name
+			(member) => member.path === awaited.name
 		).name
 	} else {
 		name = Object.values(team).find(
-			(member) => member.path === params.name
+			(member) => member.path === awaited.name
 		).name
 	}
 
@@ -19,6 +22,7 @@ export async function generateMetadata({ params }) {
 	}
 }
 
-export default function TeamMemberPage({ params }) {
-	return <TeamMember name={params.name} />
+export default async function TeamMemberPage({ params }) {
+	const awaited = await params
+	return <TeamMember name={awaited.name} />
 }

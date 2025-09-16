@@ -1,12 +1,17 @@
-import { notFound } from 'next/navigation'
 import { getRequestConfig } from 'next-intl/server'
 import { routing } from './routing'
 
 export default getRequestConfig(async ({ locale }) => {
-	// Validate that the incoming `locale` parameter is valid
-	if (!routing.locales.includes(locale as any)) notFound()
+	const loc = String(locale)
+	const resolvedLocale = routing.locales.includes(
+		loc as (typeof routing.locales)[number]
+	)
+		? loc
+		: routing.defaultLocale
 
 	return {
-		messages: (await import(`../../messages/${locale}.json`)).default,
+		locale: resolvedLocale,
+		messages: (await import(`../../messages/${resolvedLocale}.json`))
+			.default,
 	}
 })

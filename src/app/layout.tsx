@@ -2,7 +2,7 @@ import './globals.css'
 import { Metadata } from 'next'
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { jose, unna, robo } from '@/app/fonts'
-import { Analytics } from '@vercel/analytics/react'
+/* import { Analytics } from '@vercel/analytics/react' */
 
 export const metadata: Metadata = {
 	title: {
@@ -29,14 +29,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
 	children,
-	params: { locale },
 }: {
 	children: React.ReactNode
-	params: { locale: string }
 }) {
 	return (
 		<html
-			lang={locale}
+			lang="en"
 			className={`${jose.variable} ${unna.variable} ${robo.variable}`}
 		>
 			<GoogleAnalytics gaId={'G-JYEJ15NG19'} />

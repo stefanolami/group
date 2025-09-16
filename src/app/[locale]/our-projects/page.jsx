@@ -1,21 +1,11 @@
-import { useTranslations } from 'next-intl'
-import { unstable_setRequestLocale } from 'next-intl/server'
-import { getTranslations } from 'next-intl/server'
 import OurProjects from '../../../components/our-projects/OurProjects'
 
-export async function generateMetadata({ params: { locale } }) {
-	const t = await getTranslations({
-		locale,
-		namespace: 'Index' /* replace with metadata file */,
-	})
-
+export async function generateMetadata() {
 	return {
 		title: 'Our Projects',
 	}
 }
 
-export default function OurProjectsPage({ params: { locale } }) {
-	unstable_setRequestLocale(locale)
-	const t = useTranslations('Index')
+export default async function OurProjectsPage() {
 	return <OurProjects />
 }

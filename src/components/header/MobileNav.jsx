@@ -3,7 +3,7 @@
 import { motion, MotionConfig } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { Link, usePathname } from '@/i18n/routing'
-import MobileLocaleSwitcher from './MobileLocaleSwitcher'
+// import MobileLocaleSwitcher from './MobileLocaleSwitcher'
 
 export default function MobileNav({ messages }) {
 	const [active, setActive] = useState(false)

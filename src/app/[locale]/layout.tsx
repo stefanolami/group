@@ -1,5 +1,3 @@
-import { jose, unna } from '@/app/fonts'
-import { unstable_setRequestLocale } from 'next-intl/server'
 import { Suspense } from 'react'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
@@ -8,9 +6,9 @@ import Footer from '@/components/footer/Footer'
 import Loading from '@/components/Loading'
 /* import GoogleAnalytics from '@/components/GoogleAnalytics' */
 import CookieBanner from '@/components/CookieBanner'
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { Toaster } from '@/components/ui/sonner'
+// import { GoogleAnalytics } from '@next/third-parties/google'
 
-// Can be imported from a shared config
 const locales = ['en']
 
 export function generateStaticParams() {
@@ -19,13 +17,10 @@ export function generateStaticParams() {
 
 export default async function LocaleLayout({
 	children,
-	params: { locale },
 }: {
 	children: React.ReactNode
-	params: { locale: string }
 }) {
 	const messages = await getMessages()
-	unstable_setRequestLocale(locale)
 	return (
 		<NextIntlClientProvider messages={messages}>
 			<Suspense fallback={<Loading />}>
@@ -33,6 +28,7 @@ export default async function LocaleLayout({
 				<main className="">{children}</main>
 				<CookieBanner />
 				<Footer />
+				<Toaster />
 			</Suspense>
 		</NextIntlClientProvider>
 	)

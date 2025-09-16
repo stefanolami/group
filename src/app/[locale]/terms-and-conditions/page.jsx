@@ -1,22 +1,10 @@
-import { useTranslations } from 'next-intl'
-import { unstable_setRequestLocale } from 'next-intl/server'
-import { getTranslations } from 'next-intl/server'
-import OurProjects from '../../../components/our-projects/OurProjects'
-
-export async function generateMetadata({ params: { locale } }) {
-	const t = await getTranslations({
-		locale,
-		namespace: 'Index' /* replace with metadata file */,
-	})
-
+export async function generateMetadata() {
 	return {
 		title: 'Terms and Conditions',
 	}
 }
 
-export default function TermsPage({ params: { locale } }) {
-	unstable_setRequestLocale(locale)
-	const t = useTranslations('Index')
+export default async function TermsPage() {
 	return (
 		<div className="w-[90%] xl:w-[70%] mx-auto pt-8 xl:pt-20 pb-16 xl:pb-32 text-primary">
 			<h1 className="font-unna font-bold text-xl xl:text-[48px] text-center mb-10 xl:mb-20">

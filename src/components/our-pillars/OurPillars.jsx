@@ -2,7 +2,6 @@
 
 import { useScroll } from 'framer-motion'
 import React, { useRef, useEffect } from 'react'
-import { useSearchParams } from 'next/navigation'
 import Pillar from './Pillar'
 import { useStore } from '@/store/store'
 

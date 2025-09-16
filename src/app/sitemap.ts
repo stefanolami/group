@@ -11,35 +11,35 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		getEntry('/our-team'),
 		getEntry({
 			pathname: '/our-team/[name]',
-			params: { name: 'glenn-cezanne' },
+			query: { name: 'glenn-cezanne' },
 		}),
 		getEntry({
 			pathname: '/our-team/[name]',
-			params: { name: 'corina-gheorgheza' },
+			query: { name: 'corina-gheorgheza' },
 		}),
 		getEntry({
 			pathname: '/our-team/[name]',
-			params: { name: 'cristina-andriuc' },
+			query: { name: 'cristina-andriuc' },
 		}),
 		getEntry({
 			pathname: '/our-team/[name]',
-			params: { name: 'matheus-carvalho' },
+			query: { name: 'matheus-carvalho' },
 		}),
 		getEntry({
 			pathname: '/our-team/[name]',
-			params: { name: 'guilherme-ferreira' },
+			query: { name: 'guilherme-ferreira' },
 		}),
 		getEntry({
 			pathname: '/our-team/[name]',
-			params: { name: 'stefano-lami' },
+			query: { name: 'stefano-lami' },
 		}),
 		getEntry({
 			pathname: '/our-team/[name]',
-			params: { name: 'kjeld-olesen' },
+			query: { name: 'kjeld-olesen' },
 		}),
 		getEntry({
 			pathname: '/our-team/[name]',
-			params: { name: 'joao-dos-santos' },
+			query: { name: 'joao-dos-santos' },
 		}),
 		getEntry('/our-projects'),
 		getEntry('/our-products'),
@@ -64,7 +64,7 @@ function getEntry(href: Href) {
 	}
 }
 
-function getUrl(href: Href, locale: any) {
+function getUrl(href: Href, locale: string) {
 	const pathname = getPathname({ locale, href })
 	return `${baseUrl}/${locale}${pathname === '/' ? '' : pathname}`
 }
