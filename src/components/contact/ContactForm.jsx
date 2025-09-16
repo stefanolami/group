@@ -6,12 +6,7 @@ import { useState } from 'react'
 import { sendEmail } from '@/utils/send-email'
 
 export default function ContactForm() {
-	const {
-		register,
-		handleSubmit,
-		reset,
-		formState: { isSubmitting },
-	} = useForm()
+	const { register, handleSubmit, reset } = useForm()
 	const [isLoading, setIsLoading] = useState(false)
 
 	const onSubmit = async (data) => {
@@ -31,6 +26,7 @@ export default function ContactForm() {
 				})
 			}
 		} catch (error) {
+			console.error('Error sending email:', error)
 			toast.error('Something went wrong', {
 				description: 'Please check your connection and try again.',
 			})
