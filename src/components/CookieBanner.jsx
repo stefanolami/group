@@ -33,7 +33,7 @@ export default function CookieBanner() {
 	return (
 		<div className="fixed bottom-0 z-40 w-full">
 			<div className="container mb-3 bg-grey p-4 rounded-md shadow-xl w-[95%] xl:w-[98%] mx-auto flex justify-between items-center font-jose text-primary text-sm xl:text-lg">
-				<p>
+				<div>
 					We use cookies to ensure you get the best experience on our
 					website. Learn more here:
 					<div className="block xl:inline">
@@ -50,7 +50,7 @@ export default function CookieBanner() {
 							Privacy Policy
 						</Link>
 					</div>
-				</p>
+				</div>
 				<div className="grid grid-rows-2 gap-2 xl:grid-cols-2 xl:grid-rows-1">
 					<button
 						className="bg-primary-light shadow-md hover:shadow-xl text-white w-20 h-8 xl:w-24 xl:h-11 rounded hover:scale-105"

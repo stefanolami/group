@@ -13,10 +13,10 @@ export default function TeamMember({ name }) {
 	}
 
 	return (
-		<div className="w-[90%] xl:w-[70%] max-w-[1000px] mx-auto pt-8 xl:pt-20 pb-16 xl:pb-32 text-primary font-robo">
+		<div className="w-[90%] xl:w-[70%] max-w-[1100px] mx-auto pt-8 xl:pt-20 pb-16 xl:pb-32 text-primary">
 			<div className="w-full flex flex-row items-start justify-between mb-8">
 				<div className=" xl:mt-8">
-					<h2 className="font-robo font-bold text-xl xl:text-[40px] mb-4 xl:mb-8 uppercase">
+					<h2 className="font-unna font-bold text-xl xl:text-[40px] mb-4 xl:mb-8 uppercase">
 						{member.name}
 					</h2>
 					<ul className="font-jose text-[10px] xl:text-lg italic">
@@ -56,7 +56,7 @@ export default function TeamMember({ name }) {
 					key={index}
 					className=" mt-8 xl:mt-16"
 				>
-					<h3 className="font-robo font-bold text-xl xl:text-3xl mb-4 xl:mb-6">
+					<h3 className="font-unna font-bold text-xl xl:text-3xl mb-4 xl:mb-6">
 						{paragraph.title}
 					</h3>
 					<div className="font-jose text-xs xl:text-lg mb-2 xl:mb-4 text-justify">
@@ -89,7 +89,7 @@ export default function TeamMember({ name }) {
 				</p>
 			)}
 			<div className="mt-10">
-				<h3 className="font-robo font-bold text-xl xl:text-3xl xl:mb-2">
+				<h3 className="font-unna font-bold text-xl xl:text-3xl xl:mb-2">
 					Contact
 				</h3>
 				<span className="w-full h-[2px] bg-black block"></span>
